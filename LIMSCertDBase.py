@@ -180,7 +180,21 @@ class AppCertificateDatabase:
     def certificate_number_search(self):
         self.__init__()
 
-        if "20DWY00" in certificate_number_val.get():
+        if "22DWY00" in certificate_number_val.get():
+            try:
+                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2022\\", certificate_number_val.get() + ".*"))[0]
+                os.startfile(f)
+            except IndexError:
+                self.invalid_entry_message()
+
+        elif "21DWY00" in certificate_number_val.get():
+            try:
+                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2021\\", certificate_number_val.get() + ".*"))[0]
+                os.startfile(f)
+            except IndexError:
+                self.invalid_entry_message()
+
+        elif "20DWY00" in certificate_number_val.get():
             try:
                 f = glob.glob(os.path.join(r"\\BDC5\certdbase\2020\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
@@ -345,7 +359,7 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2020\2020 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
@@ -374,7 +388,7 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2020\2020 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
         # Initialize Location of Serial Number String and Serial Number Values
@@ -444,7 +458,7 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2020\2020 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
         for i in range(1, 3000):
@@ -465,7 +479,7 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2020\2020 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
         for i in range(1, 3000):
@@ -488,7 +502,7 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2020\2020 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
@@ -518,7 +532,7 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2020\2020 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
