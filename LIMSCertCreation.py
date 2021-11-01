@@ -818,7 +818,7 @@ order, and then press the 'Search AS400' button again to initiate the export pro
         LIMSVarConfig.calibration_due_date_helper = dut_calibration_due_date.get()
 
         try:
-            excel_database = open("\\\\BDC5\\certdbase\\2020\\2020 Certificates of calibration.xls", "a")
+            excel_database = open("\\\\BDC5\\certdbase\\2022\\2022 Certificates of calibration.xls", "a")
             if excel_database.closed is False:
                 excel_database.close()
                 dut_instrument_identification_number = ttk.Entry(device_information_frame,
@@ -863,7 +863,7 @@ moment and try again.")
         LIMSVarConfig.calibration_due_date_helper = dut_calibration_due_date.get()
 
         try:
-            excel_database = open("\\\\BDC5\\certdbase\\2020\\2020 Certificates of calibration.xls", "a")
+            excel_database = open("\\\\BDC5\\certdbase\\2022\\2022 Certificates of calibration.xls", "a")
             if excel_database.closed is False:
                 excel_database.close()
                 dut_instrument_identification_number.destroy()
@@ -4921,7 +4921,7 @@ moment and try again.")
                     ws.Range('I9').Value = LIMSVarConfig.certificate_of_calibration_number + 'F'
                     ws.Range('I14').Value = "-"
 
-                    f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
+                    f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
                     wb.SaveAs(f)
 
                     from LIMSCertDBase import AppCertificateDatabase
@@ -4929,14 +4929,14 @@ moment and try again.")
                     acd.certificate_failure()
 
                 elif 'Fail' not in pass_fail_condition_list:
-                    f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
+                    f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
                     wb.SaveAs(f)
             else:
                 if "Fail" in LIMSVarConfig.imported_pass_fail_list:
                     ws.Range('I9').Value = LIMSVarConfig.certificate_of_calibration_number + 'F'
                     ws.Range('I14').Value = "-"
 
-                    f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
+                    f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
                     wb.SaveAs(f)
 
                     from LIMSCertDBase import AppCertificateDatabase
@@ -4944,7 +4944,7 @@ moment and try again.")
                     acd.certificate_failure()
 
                 elif 'Fail' not in LIMSVarConfig.imported_pass_fail_list:
-                    f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
+                    f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
                     wb.SaveAs(f)
 
         elif device_under_test_output_type == "Dual":
@@ -4952,7 +4952,7 @@ moment and try again.")
                 ws.Range('I9').Value = LIMSVarConfig.certificate_of_calibration_number + 'F'
                 ws.Range('I14').Value = "-"
 
-                f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
+                f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
                 wb.SaveAs(f)
 
                 from LIMSCertDBase import AppCertificateDatabase
@@ -4960,7 +4960,7 @@ moment and try again.")
                 acd.certificate_failure()
 
             elif 'Fail' not in dual_pass_fail_condition_list:
-                f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
+                f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
                 wb.SaveAs(f)
 
         elif device_under_test_output_type == "Transmitter":
@@ -4968,7 +4968,7 @@ moment and try again.")
                 ws.Range('I9').Value = LIMSVarConfig.certificate_of_calibration_number + 'F'
                 ws.Range('I14').Value = "-"
 
-                f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
+                f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + 'F' + '.xlsx'
                 wb.SaveAs(f)
 
                 from LIMSCertDBase import AppCertificateDatabase
@@ -4976,7 +4976,7 @@ moment and try again.")
                 acd.certificate_failure()
 
             elif 'Fail' not in transmitter_pass_fail_condition_list:
-                f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
+                f = '\\\\BDC5\\certdbase\\2022\\' + LIMSVarConfig.certificate_of_calibration_number + '.xlsx'
                 wb.SaveAs(f)
         wb.Close(True)
 
@@ -5194,7 +5194,7 @@ you want to exit? ")
         LIMSVarConfig.calibration_due_date_helper = due_date_2.get()
 
         try:
-            excel_database = open("\\\\BDC5\\certdbase\\2020\\2020 Certificates of calibration.xls", "a")
+            excel_database = open("\\\\BDC5\\certdbase\\2022\\2022 Certificates of calibration.xls", "a")
             if excel_database.closed is False:
                 excel_database.close()
                 new_additional_serial_number = ttk.Entry(additional_dut_details_frame,
@@ -5240,7 +5240,7 @@ moment and try again.")
         LIMSVarConfig.calibration_due_date_helper = due_date_2.get()
 
         try:
-            excel_database = open("\\\\BDC5\\certdbase\\2020\\2020 Certificates of calibration.xls", "a")
+            excel_database = open("\\\\BDC5\\certdbase\\2022\\2022 Certificates of calibration.xls", "a")
             if excel_database.closed is False:
                 excel_database.close()
                 from LIMSCertDBase import AppCertificateDatabase
