@@ -1,0 +1,176 @@
+  7/29/20 13:31:39           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S438060          R    12           S    0/00/00   7/21/20  PO200081            
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 45407500  45407500  E    Y   0/00/00          DHL COLLECT INTL                 
+ E-Mail: smadar@controtec-ltd.com            3rd Party Billing#: 969798570      
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  101608-00             5       5        0        0   0/00/00   0     123
+   02 F  102359-00            65      65        0        0   0/00/00   0     359
+   03 F  100626-00             1       1        0        0   0/00/00   0       1
+   04 F  102048-06             1       1        0        0   0/00/00   0       3
+   05 F  116261-30             3       3        0        0   0/00/00   0      87
+   06 F  116446-00             2       2        0        0   0/00/00   0      38
+   07 F  101629-56             2       2        0        0   0/00/00   0     181
+   08 F  100626-67             2       2        0        0   0/00/00   0      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  7/29/20 13:31:54          Order Display                               (DWOE10)
+                                                                                
+ Order #: S438060       Customer #:   45407500  CONTROTEC LTD                   
+ P.O.#:   PO200081                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 101608-00       MS-131                               5      48.25      241.25  
+ 102359-00       2-5000-50MM                         65      30.09     1955.85  
+ 100626-00       473B-1                               1     336.96      336.96  
+ 102048-06       DPG-207                              1     258.96      258.96  
+ 116261-30       RMA-11-SSV                           3      38.22      114.66  
+ 116446-00       MMA-22                               2      31.20       62.40  
+ 101629-56       MS2-W102-LCD                         2      65.75      131.50  
+ 100626-67       MAFS-150MM                           2      28.10       56.20  
+ 101606-61       MS-221                               2      53.00      106.00  
+ ISDP  S43806010 ISDP-015-NIST                        2     596.86     1193.72  
+ 100543-00       A-295                                2      53.20      106.4 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             4662.96  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                4662.96  
+
+  7/29/20 13:32:19           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  45407500                               
+      Name: CONTROTEC LTD                                                       
+   Address: 4 ETGAR ST                                                          
+                                                                                
+                                                                                
+      City: TIRAT CARMEL                                                        
+     State:      Country: ISRAEL           Zip Code: 3903215                    
+ Exp Cn Cd:        Phone: 7248724558                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ LEVI SMADAR                     T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  45407500                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       ML       N      F        060     E    
+ E-Mail Address: smadar@controtec-ltd.com                                       
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/29/20 13:32:33           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S438060            R    12            0/00/00    7/21/20  PO200081            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  45407500  45407500  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  7/29/20 13:32:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S438060            R    12            0/00/00    7/21/20  PO200081            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  45407500  45407500  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/29/20 13:33:04           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S438060            R    12            0/00/00    7/21/20  PO200081            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  45407500  45407500  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/29/20 13:33:19           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S438060            R    12            0/00/00    7/21/20  PO200081            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  45407500  45407500  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 MS-131 MAGNESENSE TRANS-                                     Y Y Y Y Y Y 
+   200 MITTER, RANGE 0-10" WC                                       Y Y Y Y Y Y 
+   300 (0-2 KPA), 4-20MA OUTPUT,                                    Y Y Y Y Y Y 
+   400 WALL MOUNT                                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

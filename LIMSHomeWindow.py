@@ -8,6 +8,7 @@ Copyright(c) 2018, Robert Adam Maldonado.
 """
 
 import smtplib
+import sys
 
 import LIMSVarConfig
 from tkinter import *

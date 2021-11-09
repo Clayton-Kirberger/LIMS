@@ -1,0 +1,176 @@
+  9/08/20 11:35:38           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S446149          R     1           S    0/00/00   8/06/20  20026BCT            
+    Partial Shipments Allowed  FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 48648100  48648100  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: bct@ua449.com                       3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  101932-00             1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/08/20 11:35:52          Order Display                               (DWOE10)
+                                                                                
+ Order #: S446149       Customer #:   48648100  STEAMFITTERS TECHNOLOGY CNTR    
+ P.O.#:   20026BCT                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 101932-00       TABKIT-NIST                          1    3250.00     3250.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3250.00  
+                                                  Shipping/Handling     105.09  
+                                                  Tax                   201.30  
+                                                                    ----------  
+ F12=Previous                                     Total                3556.39  
+
+  9/08/20 11:36:18           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  48648100                               
+      Name: STEAMFITTERS TECHNOLOGY CNTR                                        
+   Address: 230 WISE RD                                                         
+                                                                                
+                                                                                
+      City: HARMONY                                                             
+     State: PA   Country:                  Zip Code: 160379201                  
+ Exp Cn Cd:        Phone: 4124810333                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ BRAD TISDALE                    T04  ADVANCE PAYMENT                   6       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  48648100                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: bct@ua449.com                                                  
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/08/20 11:36:32           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S446149            R     1            0/00/00    8/06/20  20026BCT            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48648100  48648100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/08/20 11:36:47           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S446149            R     1            0/00/00    8/06/20  20026BCT            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48648100  48648100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/08/20 11:37:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S446149            R     1            0/00/00    8/06/20  20026BCT            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48648100  48648100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/08/20 11:37:18           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S446149            R     1            0/00/00    8/06/20  20026BCT            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48648100  48648100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 TABKIT-NIST, COMPLETE NIST                                   Y Y Y Y Y Y 
+   200 CALIBRATED TEST, ADJUST AND                                  Y Y Y Y Y Y 
+   300 BALANCE KIT WITH A HARD                                      Y Y Y Y Y Y 
+   400 CARRYING CASE.                                               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

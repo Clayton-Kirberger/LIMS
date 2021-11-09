@@ -1,0 +1,176 @@
+  7/16/20 15:02:29           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 252141    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S434272          R     5           S    0/00/00   7/14/20  CREDIT CARD S434272 
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 31192100  31192100  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: eblyth@lexmarglobal.com             3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  2-5000S43427201       1       1        0        0   0/00/00   0       0
+   02 F  RMA   S43427202       1       1        0        0   0/00/00   0       0
+   03 F  124860-03             1       1        0        0   0/00/00   0      21
+   04 F  NISTCAL-PG1           1       1        0        0   0/00/00   0       0
+   05 F  VFC   S43427205       1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  7/16/20 15:02:44          Order Display                               (DWOE10)
+                                                                                
+ Order #: S434272       Customer #:   31192100  LEXMAR GLOBAL INC               
+ P.O.#:   CREDIT CARD S434272                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 2-5000S43427201 2-5005-NIST-NPT                      1     143.25      143.25  
+ RMA   S43427202 RMA-10-NIST-SSV                      1     264.00      264.00  
+ 124860-03       SG1-B10521N                          1      16.00       16.00  
+ NISTCAL-PG1     NIST CAL PR GAGES OVER 1%            1      99.00       99.00  
+ VFC   S43427205 VFC-121-NIST                         1     300.00      300.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              822.25  
+                                                  Shipping/Handling             
+                                                  Tax                    51.39  
+                                                                    ----------  
+ F12=Previous                                     Total                 873.64  
+
+  7/16/20 15:03:09           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  31192100                               
+      Name: LEXMAR GLOBAL INC                                                   
+   Address: 22 PARKRIDGE RD                                                     
+                                                                                
+                                                                                
+      City: HAVERHILL                                                           
+     State: MA   Country:                  Zip Code: 018356904                  
+ Exp Cn Cd:        Phone: 9785569555                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ EILEEN BLYTH                    T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  31192100            8000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N      F        045     M    
+ E-Mail Address: jason.robblee@progression-systems.com                          
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/16/20 15:03:23           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S434272            R     5            0/00/00    7/14/20  CREDIT CARD S434272 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31192100  31192100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  7/16/20 15:03:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S434272            R     5            0/00/00    7/14/20  CREDIT CARD S434272 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31192100  31192100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/16/20 15:03:54           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S434272            R     5            0/00/00    7/14/20  CREDIT CARD S434272 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31192100  31192100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/16/20 15:04:09           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S434272            R     5            0/00/00    7/14/20  CREDIT CARD S434272 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31192100  31192100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 2-5005-NIST-NPT                                              Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

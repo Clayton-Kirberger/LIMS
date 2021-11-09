@@ -1,0 +1,176 @@
+  1/19/21 13:53:35           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 265683    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S518828          R     3           S    0/00/00   1/12/21  NIELSEN TEST BENCH  
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 46023400  46023400  E    Y   0/00/00          FEDERAL EXP ECO-2-DAY COL        
+ E-Mail: adrian@stratotechvalve.com          3rd Party Billing#: 23W5Y7         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  2000  S51882801       1       1        0        0   0/00/00   0        
+   02 F  116272-10             1       1        0        0   0/00/00   0        
+   03 F  RMC   S51882803       1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  1/19/21 13:53:50          Order Display                               (DWOE10)
+                                                                                
+ Order #: S518828       Customer #:   46023400  STRATOTECH LLC                  
+ P.O.#:   NIELSEN TEST BENCH                                                    
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 2000  S51882801 2203-NIST                            1     167.20      167.20  
+ 116272-10       RMA-151                              1      57.00       57.00  
+ RMC   S51882803 RMC-121-NIST                         1     328.00      328.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              552.20  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 552.20  
+
+  1/19/21 13:54:15           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  46023400                               
+      Name: STRATOTECH LLC                                                      
+   Address: 940 SE M ST                                                         
+                                                                                
+                                                                                
+      City: GRANTS PASS                                                         
+     State: OR   Country:                  Zip Code: 975263248                  
+ Exp Cn Cd:        Phone: 5416837925                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ADRIAN TAYNE                    T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  46023400            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: adrian@stratotechvalve.com                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/19/21 13:54:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S518828            R     3            0/00/00    1/12/21  NIELSEN TEST BENCH  
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46023400  46023400  E                 FEDERAL EXP ECO-2-DAY COL               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  1/19/21 13:54:45           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S518828            R     3            0/00/00    1/12/21  NIELSEN TEST BENCH  
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46023400  46023400  E                 FEDERAL EXP ECO-2-DAY COL               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/19/21 13:55:01           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S518828            R     3            0/00/00    1/12/21  NIELSEN TEST BENCH  
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46023400  46023400  E                 FEDERAL EXP ECO-2-DAY COL               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/19/21 13:55:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S518828            R     3            0/00/00    1/12/21  NIELSEN TEST BENCH  
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46023400  46023400  E                 FEDERAL EXP ECO-2-DAY COL               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 2203-NIST                                                    Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

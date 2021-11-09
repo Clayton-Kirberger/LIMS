@@ -1,0 +1,176 @@
+  1/28/19 11:47:01           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S163561          R     2           S    0/00/00   1/22/19  29771-00            
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 26095500  26095500  E    Y   0/00/00          UPS CANADA GROUND COLLECT        
+ E-Mail: expediting@itm.com                  3rd Party Billing#: AR7446         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  43P501                2       2        0        0   0/00/00   0        
+   02 F  UV    S16356102       1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  1/28/19 11:47:09          Order Display                               (DWOE10)
+                                                                                
+ Order #: S163561       Customer #:   26095500  ITM INSTRUMENTS INC             
+ P.O.#:   29771-00                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 43P501          43P501 PACKING                       2       5.28       10.56  
+ UV    S16356102 UV-0112-NIST                         1     341.64      341.64  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              352.20  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 352.20  
+
+  1/28/19 11:47:20           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  26095500                               
+      Name: ITM INSTRUMENTS INC                                                 
+   Address: 20800 BOUL INDUSTRIEL                                               
+                                                                                
+                                                                                
+      City: STE-ANNE-DE-BELLEVUE                                                
+     State: QC   Country: CANADA           Zip Code: H9X 0A1                    
+ Exp Cn Cd:        Phone: 5144577280                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DAVID REED                      T02  NET 60 DAYS                       6IW     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  26095500                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: expediting@itm.com                                             
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/28/19 11:47:29           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S163561            R     2            0/00/00    1/22/19  29771-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  1/28/19 11:47:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S163561            R     2            0/00/00    1/22/19  29771-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/28/19 11:47:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S163561            R     2            0/00/00    1/22/19  29771-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/28/19 11:47:58           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S163561            R     2            0/00/00    1/22/19  29771-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 43P501 PACKING                                               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

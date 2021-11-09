@@ -1,0 +1,176 @@
+ 11/11/20 13:52:23           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S490512          R     2           S    0/00/00  11/05/20  BRADLEY 05112020    
+  * No Partial Shipments *     FOB:FOB DESTINATIO                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  8131099   8131099  N    -   0/00/00          UPS WW EXP SAVER                 
+ E-Mail: sales@dwyer-inst.co.uk              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 R  100556-01             3       3        0        0   0/00/00   0       3
+   02 R  MISC                  1       1        0        0   0/00/00   0     296
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 11/11/20 13:52:38          Order Display                               (DWOE10)
+                                                                                
+ Order #: S490512       Customer #:    8131099  DWYER INSTRUMENTS LTD (UK)      
+ P.O.#:   BRADLEY 05112020                                                      
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100556-01       WHT-311                              3                         
+ MISC            MISC 7500                            1                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal                      
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                         
+
+ 11/11/20 13:53:03           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   8131099                               
+      Name: DWYER INSTRUMENTS LTD (UK)                                          
+   Address: UNIT 16                                                             
+            THE WYE ESTATE                                                      
+            LONDON RD                                                           
+      City: HIGH WYCOMBE BUCKS                                                  
+     State:      Country: UNITED KINGDOM   Zip Code: HP11 1LH                   
+ Exp Cn Cd:        Phone: 1494461707                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DEMIAN LINDSAY                  T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   8131099                                A                       44            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: sales@dwyer-inst.co.uk                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 13:53:17           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S490512            R     2            0/00/00   11/05/20  BRADLEY 05112020    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  N                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 13:53:32           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S490512            R     2            0/00/00   11/05/20  BRADLEY 05112020    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  N                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+   100 ***                                                          Y Y Y Y Y Y 
+   200 VALUE FOR CUSTOMS $125.00                                    Y Y Y Y Y Y 
+   300 ***                                                          Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 13:53:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S490512            R     2            0/00/00   11/05/20  BRADLEY 05112020    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  N                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 13:54:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S490512            R     2            0/00/00   11/05/20  BRADLEY 05112020    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  N                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 WHT-311 WATER-RESISTANT                                      Y Y Y Y Y Y 
+   200 HUMIDITY/TEMPERATURE TRANS-                                  Y Y Y Y Y Y 
+   300 MITTER WITH SINTERED FILTER                                  Y Y Y Y Y Y 
+   400 3% ACCURACY,4-20MA HUMIDITY                                  Y Y Y Y Y Y 
+   500 AND TEMPERATURE OUTPUT                                       Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  9/17/19 09:28:47           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S283318          R    38           S    0/00/00   9/05/19  DY19-017            
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 44812200  44812200  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: Nthidarat@windowslive.com           3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  102294-00             1       1        0        0   0/00/00   0     128
+   02 F  116215-30             6       6        0        0   0/00/00   0      51
+   03 F  102010-02            25      25        0        0   0/00/00   0      89
+   04 F  102010-00           100     100        0        0   0/00/00   0     588
+   05 F  124090-06             1       1        0        0   0/00/00   0       0
+   06 F  124090-39             1       1        0        0   0/00/00   0       5
+   07 F  102415-00            12      12        0        0   0/00/00   0     377
+   08 F  102930-00             2       2        0        0   0/00/00   0      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/17/19 09:29:02          Order Display                               (DWOE10)
+                                                                                
+ Order #: S283318       Customer #:   44812200  M I INTER CO LTD                
+ P.O.#:   DY19-017                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 102294-00       605-10                               1     213.72      213.72  
+ 116215-30       RMA-42-SSV                           6      37.05      222.30  
+ 102010-02       2010D                               25      46.21     1155.25  
+ 102010-00       2010                               100      40.01     4001.00  
+ 124090-06       VA1243                               1     234.00      234.00  
+ 124090-39       VA12420                              1     234.00      234.00  
+ 102415-00       2300-120PA                          12      54.02      648.24  
+ 102930-00       3000MR-500PA                         2     255.84      511.68  
+ 102296-70       605-60PA                             2     245.70      491.40  
+ RHP   S28331810 RHP-2S1A                             1      67.13       67.13  
+ 130000-00       RHRS                                 2      20.63       41.2 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            16361.66  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               16361.66  
+
+  9/17/19 09:29:22           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  44812200                               
+      Name: M I INTER CO LTD                                                    
+   Address: 144 PANYA-INDRA RD,BANGCHAN                                         
+            KLONGSAMWA                                                          
+                                                                                
+      City: BANGKOK  10510                                                      
+     State:      Country: THAILAND         Zip Code:                            
+ Exp Cn Cd:        Phone: 6629565979                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ N THIDARAT                      T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  44812200                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       ML       N      F        060     E    
+ E-Mail Address: Nthidarat@windowslive.com                                      
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/17/19 09:29:36           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S283318            R    38            0/00/00    9/05/19  DY19-017            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  44812200  44812200  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/17/19 09:29:52           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S283318            R    38            0/00/00    9/05/19  DY19-017            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  44812200  44812200  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/17/19 09:30:08           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S283318            R    38            0/00/00    9/05/19  DY19-017            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  44812200  44812200  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/17/19 09:30:23           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S283318            R    38            0/00/00    9/05/19  DY19-017            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  44812200  44812200  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 605-10 MAGNEHELIC                                            Y Y N N N Y 
+    20 INDICATING TRANSMITTER,                                      Y Y N N N Y 
+    30 RANGE 0-10" WC                                               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

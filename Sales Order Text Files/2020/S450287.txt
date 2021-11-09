@@ -1,0 +1,176 @@
+  8/18/20 15:49:59           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S450287          R     8           S    0/00/00   8/14/20  24333               
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit   Credit                                   
+ Number    Number   Cd   Ovr  Action  Hld Date    Ship Via                      
+ 31052100  31052100  E    N   0/00/00  0/00/00 TRUCK COLLECT                    
+ E-Mail: compras6@erco.com.mx                3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124806-03             4       4        0        0   0/00/00   0     237
+   02 F  116240-30             3       3        0        0   0/00/00   0      13
+   03 F  116223-20             4       4        0        0   0/00/00   0       0
+   04 F  124531-01             1       1        0        0   0/00/00   0       8
+   05 F  NISTCAL-FL1           1       1        0        0   0/00/00   0       0
+   06 F  100767-14             3       3        0        0   0/00/00   0      37
+   07 F  124806-05             2       2        0        0   0/00/00   0     132
+   08 F  124816-08             2       2        0        0   0/00/00   0    1   
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  8/18/20 15:50:14          Order Display                               (DWOE10)
+                                                                                
+ Order #: S450287       Customer #:   31052100  EQUIPOS REFACCIONES Y CONTROLE  
+ P.O.#:   24333                                                                 
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124806-03       CCT50-102                            4      29.06      116.24  
+ 116240-30       RMC-106-SSV                          3     117.78      353.34  
+ 116223-20       RMB-54-BV                            4      46.80      187.20  
+ 124531-01       LFMC-08-A2                           1      52.65       52.65  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    1     260.00      260.00  
+ 100767-14       RHP-2D22                             3     110.57      331.71  
+ 124806-05       CCT50-203                            2      19.31       38.62  
+ 124816-08       CFS2-DNBPN-20                        2      21.65       43.30  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1383.06  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1383.06  
+
+  8/18/20 15:50:39           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  31052100                               
+      Name: EQUIPOS REFACCIONES Y CONTROLE                                      
+   Address: DE OCCIDENTE SA DE CV                                               
+            DOMICILIO CALLE ZENZONTLE                                           
+            823 FRACC 8 DE JULIO                                                
+      City: CP 44910 GUADALAJARA JAL                                            
+     State:      Country: MEXICO           Zip Code:                            
+ Exp Cn Cd:        Phone: 3338110202                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ALEJANDRA                       T03  NET 75 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  31052100                                A                       52            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: compras6@erco.com.mx                                           
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/18/20 15:50:53           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S450287            R     8            0/00/00    8/14/20  24333               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31052100  31052100  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  8/18/20 15:51:08           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S450287            R     8            0/00/00    8/14/20  24333               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31052100  31052100  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/18/20 15:51:25           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S450287            R     8            0/00/00    8/14/20  24333               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31052100  31052100  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/18/20 15:51:40           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S450287            R     8            0/00/00    8/14/20  24333               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31052100  31052100  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 CCT50-102, SPLIT CORE                                        Y Y Y Y Y Y 
+   200 CURRENT TRANSDUCER WITH                                      Y Y Y Y Y Y 
+   300 JUMPER SELECTABLE INPUT                                      Y Y Y Y Y Y 
+   400 RANGE OF 0-100/150/200A,                                     Y Y Y Y Y Y 
+   500 0-5V OUTPUT.                                                 Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  2/11/19 13:28:38           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S172657          R     8           S    0/00/00   2/07/19  PO-439725           
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 34583300  34583300  E    Y   0/00/00          UPS CANADA GROUND COLLECT        
+ E-Mail: cdotten@ccii.com                    3rd Party Billing#: 19R3V7         
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  116212-30             3       3        0        0   0/00/00   0      77
+   02 F  2000  S17265702       3       3        0        0   0/00/00   0       0
+   03 F  2000  S17265703       3       3        0        0   0/00/00   0       0
+   04 F  2000  S17265704       3       3        0        0   0/00/00   0       0
+   05 F  124771-00             9       9        0        0   0/00/00   0     567
+   06 F  100547-21             3       3        0        0   0/00/00   0       0
+   07 F  DM    S17265707       2       2        0        0   0/00/00   0       0
+   08 F  420803-10             2       2        0        0   0/00/00   0    1   
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  2/11/19 13:28:47          Order Display                               (DWOE10)
+                                                                                
+ Order #: S172657       Customer #:   34583300  COASTAL CONTROLS & INSTR        
+ P.O.#:   PO-439725                                                             
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 116212-30       RMA-34-SSV                           3      37.05      111.15  
+ 2000  S17265702 2002-CB-FC                           3      92.04      276.12  
+ 2000  S17265703 2008-CB-FC                           3      92.04      276.12  
+ 2000  S17265704 2010-CB-FC                           3      92.04      276.12  
+ 124771-00       A-286                                9       8.00       72.00  
+ 100547-21       HHT-IT-LCD                           3     577.20     1731.60  
+ DM    S17265707 DM-2002-LCD-NIST                     2     193.83      387.66  
+ 420803-10       A-299                                2      24.57       49.14  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3179.91  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                3179.91  
+
+  2/11/19 13:28:58           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  34583300                               
+      Name: COASTAL CONTROLS & INSTR                                            
+   Address: 20 DUKE ST STE 107                                                  
+                                                                                
+                                                                                
+      City: BEDFORD                                                             
+     State: NS   Country: CANADA           Zip Code: B4A 2Z5                    
+ Exp Cn Cd:        Phone: 9028359337                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ CAROL DOTTEN                    T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  34583300                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       EM       N      F        060     E    
+ E-Mail Address: cdotten@ccii.com                                               
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/11/19 13:29:06           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S172657            R     8            0/00/00    2/07/19  PO-439725           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34583300  34583300  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  2/11/19 13:29:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S172657            R     8            0/00/00    2/07/19  PO-439725           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34583300  34583300  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+   100 PLEASE INCLUDE CERT OF                                       Y Y Y Y Y Y 
+   200 CONFORMANCE!                                                 Y Y Y Y Y Y 
+   300 ***************************                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/11/19 13:29:25           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S172657            R     8            0/00/00    2/07/19  PO-439725           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34583300  34583300  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/11/19 13:29:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S172657            R     8            0/00/00    2/07/19  PO-439725           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34583300  34583300  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 RMA-34-SSV FLOWMETER,                                        Y Y N N N Y 
+    20 RANGE 20-300 CC/MIN WATER                                    Y Y N N N Y 
+    30 WITH STAINLESS STEEL VALVE                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

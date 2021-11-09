@@ -1,0 +1,176 @@
+  6/14/21 09:23:09           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S588230          R     2           S    0/00/00   6/07/21  100556              
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 47423100  47423100  E    -   0/00/00          UPS PREPAID                      
+ E-Mail: spanse@rivian.com                   3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124069-02             1       1        0        0   0/00/00   0       1
+   02 F  124069-04             1       1        0        0   0/00/00   0       1
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  6/14/21 09:23:24          Order Display                               (DWOE10)
+                                                                                
+ Order #: S588230       Customer #:   47423100  RIVIAN AUTOMOTIVE LLC           
+ P.O.#:   100556                                                                
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124069-02       645-2                                1     521.00      521.00  
+ AV              CERT OF CALIB - 6 POINTS             1     144.00      144.00  
+ 124069-04       645-4                                1     521.00      521.00  
+ AV              CERT OF CALIB - 6 POINTS             1     144.00      144.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1330.00  
+                                                  Shipping/Handling             
+                                                  Tax                   103.08  
+                                                                    ----------  
+ F12=Previous                                     Total                1433.08  
+
+  6/14/21 09:23:49           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  47423100                               
+      Name: RIVIAN AUTOMOTIVE LLC                                               
+   Address: 13250 N HAGGERTY RD                                                 
+                                                                                
+                                                                                
+      City: PLYMOUTH                                                            
+     State: MI   Country:                  Zip Code: 481704206                  
+ Exp Cn Cd:        Phone: 7342451870                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ SANSKAR PANSE                   T01  NET 30 DAYS                       4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  47423100            753801   002007001  A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        045     E    
+ E-Mail Address: nneralkar@rivian.com                                           
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/14/21 09:24:04           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S588230            R     2            0/00/00    6/07/21  100556              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47423100  47423100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 NIST CALIBRATION ON BOTH                                     Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  6/14/21 09:24:19           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S588230            R     2            0/00/00    6/07/21  100556              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47423100  47423100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/14/21 09:24:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S588230            R     2            0/00/00    6/07/21  100556              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47423100  47423100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/14/21 09:24:50           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S588230            R     2            0/00/00    6/07/21  100556              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47423100  47423100  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 645-2 WET/WET DIFFERNTIAL                                    Y Y Y Y Y Y 
+   200 PRESSURE TRANSMITTER, RANGE                                  Y Y Y Y Y Y 
+   300 0-5 PSID                                                     Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

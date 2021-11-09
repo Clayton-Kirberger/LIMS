@@ -1,0 +1,176 @@
+ 12/21/20 11:31:34           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S509022          R     5           S    0/00/00  12/16/20  WQO:213/20          
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 39216900  39216900  E    -   0/00/00          TRUCK COLLECT INT'L              
+ E-Mail: priyank@waareeqatar.qa              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  120004-13             2       2        0        0   0/00/00   0       0
+   02 F  100772-01             1       1        0        0   0/00/00   0      54
+   03 F  VFC   S50902203       1       1        0        0   0/00/00   0       0
+   04 F  VFC   S50902204       1       1        0        0   0/00/00   0       0
+   05 F  VFC   S50902205       1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 12/21/20 11:31:49          Order Display                               (DWOE10)
+                                                                                
+ Order #: S509022       Customer #:   39216900  WAAREE QATAR WLL                
+ P.O.#:   WQO:213/20                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 120004-13       SFI-300SS-1/2                        2     146.64      293.28  
+ 100772-01       SBLT2-10-40                          1     229.32      229.32  
+ VFC   S50902203 VFC-131-NIST                         1     282.86      282.86  
+ VFC   S50902204 VFC-132-NIST                         1     282.86      282.86  
+ VFC   S50902205 VFC-133-NIST                         1     282.86      282.86  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1371.18  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1371.18  
+
+ 12/21/20 11:32:14           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  39216900                               
+      Name: WAAREE QATAR WLL                                                    
+   Address: PO BOX 17481                                                        
+                                                                                
+                                                                                
+      City: DOHA                                                                
+     State:      Country: QATAR            Zip Code:                            
+ Exp Cn Cd:        Phone: 7444680814                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ MONESH SHXOFF                   T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  39216900                                A                      974            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: priyank@waareeqatar.qa                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 12/21/20 11:32:28           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509022            R     5            0/00/00   12/16/20  WQO:213/20          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39216900  39216900  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 CERTIFICATE OF CONFORMANCE                                   Y Y Y Y Y Y 
+   200 CERTIFICATE OF CALIBRATION                                   Y Y Y Y Y Y 
+   300 CERTIFICATE OF ORIGIN                                        Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 12/21/20 11:32:43           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509022            R     5            0/00/00   12/16/20  WQO:213/20          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39216900  39216900  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 12/21/20 11:33:00           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509022            R     5            0/00/00   12/16/20  WQO:213/20          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39216900  39216900  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 12/21/20 11:33:15           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509022            R     5            0/00/00   12/16/20  WQO:213/20          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39216900  39216900  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 MODEL 300SS SFI 1/2" NPT                                     Y Y N N N Y 
+    20 316SS BODY, TEMPERED GLASS                                   Y Y N N N Y 
+    30 FEMALE CONNECTIONS                                           Y Y N N N Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

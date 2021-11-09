@@ -1,0 +1,176 @@
+  3/02/20 15:40:13           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S370321          R     2     1     S    0/00/00   2/25/20  6759929             
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  1834201   1834201  E    -   0/00/00          UPS COLLECT                      
+ E-Mail: lety.mendietta@rawsonlp.com         3rd Party Billing#: 760682         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  RMA   S37032101       2       2        0        0   0/00/00   0        
+   02 C  RMA   S37032102       2       0        0        2   3/02/20   1        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  3/02/20 15:40:28          Order Display                               (DWOE10)
+                                                                                
+ Order #: S370321       Customer #:    1834201  RAWSON INC                      
+ P.O.#:   6759929                                                               
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RMA   S37032101 RMA-34-SSV-AT-NIST                   2     265.60      531.20  
+ RMA   S37032102 RMA-5-SSV-AT-NIST                    2     265.60      531.20  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1062.40  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1062.40  
+
+  3/02/20 15:40:48           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   1834201                               
+      Name: RAWSON INC                                                          
+   Address: PO BOX 924288                                                       
+            ACCTS PAYABLE  VN#244300                                            
+                                                                                
+      City: HOUSTON                                                             
+     State: TX   Country:                  Zip Code: 772924288                  
+ Exp Cn Cd:        Phone: 7136841439                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ LETY MENDIETTA                  T01  NET 30 DAYS                       6       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   1834201            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          ML       N      F        045     E    
+ E-Mail Address: lety.mendietta@rawsonlp.com                                    
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/02/20 15:41:02           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S370321            R     2      1     0/00/00    2/25/20  6759929             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   1834201   1834201  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  3/02/20 15:41:17           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S370321            R     2      1     0/00/00    2/25/20  6759929             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   1834201   1834201  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/02/20 15:41:33           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S370321            R     2      1     0/00/00    2/25/20  6759929             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   1834201   1834201  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/02/20 15:41:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S370321            R     2      1     0/00/00    2/25/20  6759929             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   1834201   1834201  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RMA-34-SSV-AT-NIST                                           Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,151 @@
+  8/02/19 11:14:24    P A C S   A/S   M a i n   M e n u   1          (PACSASA)  
+                                                                                
+    100 Prd Engineer          500 Materials Mgt              900 Receiving      
+    150 PE Inquiry                                                              
+    180 Global Trade Compl                                                      
+    190 Configurator Maint    550 MM Inquiry                                    
+                                                                                
+    200 Mfg Eng               600 Order Entry               1000 Stockroom      
+    250 ME Inquiry            625 Advertising                                   
+                                                                                
+                                                                                
+    300 Purchasing            700 Marketing                 1100 Inspection /   
+                              750 Sales Inquiry             Quality Assurance   
+                                                                                
+                                                                                
+    400 Accounting            800 Shipping                  1200 Shop Floor     
+                                                                 Control        
+                                                                                
+                             2500 Work with Printers                            
+                                                                                
+ Key Option Or Command                                                          
+ F03 = Exit        F04 = Prompt              F06 = Display Messages      More...
+ F12 = Previous    F18 = Work with Output                                       
+                                                                                
+
+  8/02/19 11:14:24    P A C S   A/S   M a i n   M e n u   1          (PACSASA)  
+                                                                                
+    100 Prd Engineer          500 Materials Mgt              900 Receiving      
+    150 PE Inquiry                                                              
+    180 Global Trade Compl                                                      
+    190 Configurator Maint    550 MM Inquiry                                    
+                                                                                
+    200 Mfg Eng               600 Order Entry               1000 Stockroom      
+    250 ME Inquiry            625 Advertising                                   
+                                                                                
+                                                                                
+    300 Purchasing            700 Marketing                 1100 Inspection /   
+                              750 Sales Inquiry             Quality Assurance   
+                                                                                
+                                                                                
+    400 Accounting            800 Shipping                  1200 Shop Floor     
+                                                                 Control        
+                                                                                
+                             2500 Work with Printers                            
+                                                                                
+ Key Option Or Command X                                                        
+ F03 = Exit        F04 = Prompt              F06 = Display Messages      More...
+ F12 = Previous    F18 = Work with Output                                       
+                                                                                
+
+  8/02/19 11:14:24    P A C S   A/S   M a i n   M e n u   1          (PACSASA)  
+                                                                                
+    100 Prd Engineer          500 Materials Mgt              900 Receiving      
+    150 PE Inquiry                                                              
+    180 Global Trade Compl                                                      
+    190 Configurator Maint    550 MM Inquiry                                    
+                                                                                
+    200 Mfg Eng               600 Order Entry               1000 Stockroom      
+    250 ME Inquiry            625 Advertising                                   
+                                                                                
+                                                                                
+    300 Purchasing            700 Marketing                 1100 Inspection /   
+                              750 Sales Inquiry             Quality Assurance   
+                                                                                
+                                                                                
+    400 Accounting            800 Shipping                  1200 Shop Floor     
+                                                                 Control        
+                                                                                
+                             2500 Work with Printers                            
+                                                                                
+ Key Option Or Command X                                                        
+ F03 = Exit        F04 = Prompt              F06 = Display Messages      More...
+ F12 = Previous    F18 = Work with Output                                       
+                                                                                
+
+  8/02/19 11:14:24    P A C S   A/S   M a i n   M e n u   1          (PACSASA)  
+                                                                                
+    100 Prd Engineer          500 Materials Mgt              900 Receiving      
+    150 PE Inquiry                                                              
+    180 Global Trade Compl                                                      
+    190 Configurator Maint    550 MM Inquiry                                    
+                                                                                
+    200 Mfg Eng               600 Order Entry               1000 Stockroom      
+    250 ME Inquiry            625 Advertising                                   
+                                                                                
+                                                                                
+    300 Purchasing            700 Marketing                 1100 Inspection /   
+                              750 Sales Inquiry             Quality Assurance   
+                                                                                
+                                                                                
+    400 Accounting            800 Shipping                  1200 Shop Floor     
+                                                                 Control        
+                                                                                
+                             2500 Work with Printers                            
+                                                                                
+ Key Option Or Command X                                                        
+ F03 = Exit        F04 = Prompt              F06 = Display Messages      More...
+ F12 = Previous    F18 = Work with Output                                       
+                                                                                
+
+  8/02/19 11:14:24    P A C S   A/S   M a i n   M e n u   1          (PACSASA)  
+                                                                                
+    100 Prd Engineer          500 Materials Mgt              900 Receiving      
+    150 PE Inquiry                                                              
+    180 Global Trade Compl                                                      
+    190 Configurator Maint    550 MM Inquiry                                    
+                                                                                
+    200 Mfg Eng               600 Order Entry               1000 Stockroom      
+    250 ME Inquiry            625 Advertising                                   
+                                                                                
+                                                                                
+    300 Purchasing            700 Marketing                 1100 Inspection /   
+                              750 Sales Inquiry             Quality Assurance   
+                                                                                
+                                                                                
+    400 Accounting            800 Shipping                  1200 Shop Floor     
+                                                                 Control        
+                                                                                
+                             2500 Work with Printers                            
+                                                                                
+ Key Option Or Command X                                                        
+ F03 = Exit        F04 = Prompt              F06 = Display Messages      More...
+ F12 = Previous    F18 = Work with Output                                       
+                                                                                
+
+                          Work with All Spooled Files                           
+                                                                                
+ Type options, press Enter.                                                     
+   1=Send   2=Change   3=Hold   4=Delete   5=Display   6=Release   7=Messages   
+   8=Attributes        9=Work with printing status                              
+                                                                                
+                                                                                
+                              Device or                     Total     Cur       
+ Opt  File        User        Queue       User Data   Sts   Pages    Page  Copy 
+      QSYSPRT     RMASSNER    QPRINT                  RDY       5             1 
+      QSYSPRT     RMASSNER    QPRINT                  RDY       5             1 
+      QPPGMDMP    RMASSNER    QEZDEBUG                RDY       2             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   RMASSNER    RDY       8             1 
+      QPPGMDMP    RMASSNER    QEZDEBUG                RDY       2             1 
+      QPPGMDMP    RMASSNER    QEZDEBUG                RDY       1             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   RMASSNER    RDY       1             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   RMASSNER    RDY       7             1 
+      QPPGMDMP    RMASSNER    QEZDEBUG                RDY       2             1 
+                                                                        More... 
+ Parameters for options 1, 2, 3 or command                                      
+ ===>                                                                           
+ F3=Exit   F10=View 4   F11=View 2   F12=Cancel   F22=Printers   F24=More keys  
+                                                                                
+                                                                                
+
+

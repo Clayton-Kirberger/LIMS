@@ -1,0 +1,176 @@
+  6/17/21 09:26:48           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S592623          R     7           S    0/00/00   6/15/21  28195               
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+   906000    906000  E    Y   0/00/00          TRUCK COLLECT INT'L              
+ E-Mail: mmartin@furneco.com                 3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  101926-32             1       1        0        0   0/00/00   0      35
+   02 F  124521-00             2       2        0        0   0/00/00   0      16
+   03 F  102049-05             1       1        0        0   0/00/00   0       6
+   04 F  100556-23             4       4        0        0   0/00/00   0       4
+   05 F  102297-10             1       1        0        0   0/00/00   0      15
+   06 F  124858-04             2       2        0        0   0/00/00   0     261
+   07 F  NISTCAL-PG1           2       2        0        0   0/00/00   0       0
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  6/17/21 09:27:03          Order Display                               (DWOE10)
+                                                                                
+ Order #: S592623       Customer #:     906000  FURNECO INTERNATIONAL INC       
+ P.O.#:   28195                                                                 
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 101926-32       628-09-GH-P1-E1-S1                   1      66.15       66.15  
+ 124521-00       862E                                 2     269.60      539.20  
+ 102049-05       DPG-006                              1     163.02      163.02  
+ 100556-23       WHT-333                              4      97.31      389.24  
+ 102297-10       605-250PA                            1     243.36      243.36  
+ 124858-04       SGZ-D10622N                          2      22.41       44.82  
+ NISTCAL-PG1     NIST CAL PR GAGES OVER 1%            2     102.00      204.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1649.79  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1649.79  
+
+  6/17/21 09:27:28           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust    906000                               
+      Name: FURNECO INTERNATIONAL INC                                           
+   Address: 926 RUE AUBRY                                                       
+                                                                                
+                                                                                
+      City: ST-JEAN-SUR-RICHELIEU                                               
+     State: QC   Country: CANADA           Zip Code: J3B 2H9                    
+ Exp Cn Cd:        Phone: 4503472111                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ MICHAEL MARTIN                  T02  NET 60 DAYS                       6IP     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+    906000                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: mmartin@furneco.com                                            
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/17/21 09:27:43           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S592623            R     7            0/00/00    6/15/21  28195               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+    906000    906000  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  6/17/21 09:27:58           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S592623            R     7            0/00/00    6/15/21  28195               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+    906000    906000  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/17/21 09:28:14           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S592623            R     7            0/00/00    6/15/21  28195               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+    906000    906000  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/17/21 09:28:29           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S592623            R     7            0/00/00    6/15/21  28195               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+    906000    906000  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 628-09-GH-P1-E1-S1 PRESSURE                                  Y Y Y Y Y Y 
+   200 TRANSMITTER, RANGE 0-50 PSI                                  Y Y Y Y Y Y 
+   300 1/4" NPT MALE CONNECTION,                                    Y Y Y Y Y Y 
+   400 CABLE GLAND WITH 3 FEET OF                                   Y Y Y Y Y Y 
+   500 PREWIRED CABLE, 4-20MA                                       Y Y Y Y Y Y 
+   600 OUTPUT                                                       Y Y Y Y Y Y 
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

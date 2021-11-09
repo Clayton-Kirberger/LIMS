@@ -1,0 +1,176 @@
+ 11/19/20 10:35:44           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: RMA         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S494698          R     2           S    0/00/00  11/13/20  WEB ORDER 261181-CC 
+    Partial Shipments Allowed  FOB:FOB DESTINATIO                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 49745400  49745400  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: jjensen@valormech.com               3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  R*P09 S49469801       1       1        0        0   0/00/00   0        
+   02 F  R*P09 S49469802       1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 11/19/20 10:35:59          Order Display                               (DWOE10)
+                                                                                
+ Order #: S494698       Customer #:   49745400  VALOR MECHANICAL                
+ P.O.#:   WEB ORDER 261181-CC                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ R*P09 S49469801 R*P09 473B-1                         1     247.00      247.00  
+ R*P09 S49469802 R*P09 AP1                            1     215.00      215.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              462.00  
+                                                  Shipping/Handling             
+                                                  Tax                    37.54  
+                                                                    ----------  
+ F12=Previous                                     Total                 499.54  
+
+ 11/19/20 10:36:24           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  49745400                               
+      Name: VALOR MECHANICAL                                                    
+   Address: 416 BROADWAY AVE S                                                  
+                                                                                
+                                                                                
+      City: ROCHESTER                                                           
+     State: MN   Country:                  Zip Code: 559046403                  
+ Exp Cn Cd:        Phone: 5072188400                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ JERRY JENSEN                    T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  49745400            1000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: jjensen@valormech.com                                          
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/19/20 10:36:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S494698            R     2            0/00/00   11/13/20  WEB ORDER 261181-CC 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49745400  49745400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 RMA 3825                                                     Y Y Y Y Y Y 
+   200 NIST CALIBRATION                                             Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 11/19/20 10:36:54           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S494698            R     2            0/00/00   11/13/20  WEB ORDER 261181-CC 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49745400  49745400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/19/20 10:37:10           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S494698            R     2            0/00/00   11/13/20  WEB ORDER 261181-CC 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49745400  49745400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/19/20 10:37:25           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S494698            R     2            0/00/00   11/13/20  WEB ORDER 261181-CC 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49745400  49745400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 R*P09 473B-1                                                 Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+ 10/22/19 09:19:45           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S304031          R     8     7     S    0/00/00  10/14/19  11497               
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 30068700  30068700  E    -   0/00/00          UPS PREPAID                      
+ E-Mail: brad.rowland@okstate.edu            3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  100626-12             1       0        0        1  10/14/19   1        
+   02 C  100626-14             1       0        0        1  10/15/19   1        
+   03 C  100626-16             1       0        0        1  10/14/19   1        
+   04 C  100626-24             1       0        0        1  10/14/19   1        
+   05 C  200158-00             4       0        0        4  10/14/19   1        
+   06 C  130003-00             2       0        0        2  10/14/19   1        
+   07 C  616KD S30403107       3       0        0        3  10/21/19   1        
+   08 R  RHP   S30403108       2       2        0        0   0/00/00   0        
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/22/19 09:20:00          Order Display                               (DWOE10)
+                                                                                
+ Order #: S304031       Customer #:   30068700  PAUL KING COMPANY               
+ P.O.#:   11497                                                                 
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100626-12       MAFS-12                              1      56.80       56.80  
+ 100626-14       MAFS-14                              1      61.60       61.60  
+ 100626-16       MAFS-16                              1      66.40       66.40  
+ 100626-24       MAFS-24                              1      85.60       85.60  
+ 200158-00       A-158                                4      11.00       44.00  
+ 130003-00       A-302F-A                             2       7.36       14.72  
+ 616KD S30403107 616KD-B-04-NIST                      3     204.20      612.60  
+ RHP   S30403108 RHP-2M11-LCD-NIST                    2     270.80      541.60  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1483.32  
+                                                  Shipping/Handling      42.14  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1525.46  
+
+ 10/22/19 09:20:20           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  30068700                               
+      Name: PAUL KING COMPANY                                                   
+   Address: PO BOX 580817                                                       
+                                                                                
+                                                                                
+      City: TULSA                                                               
+     State: OK   Country:                  Zip Code: 741580817                  
+ Exp Cn Cd:        Phone: 9185925464                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ BRAD ROWLAND                    T01  NET 30 DAYS                       6       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  30068700            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          ML       N      F        045     M    
+ E-Mail Address: larrywagner@paulkingco.com                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/22/19 09:20:34           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S304031            R     8      7     0/00/00   10/14/19  11497               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30068700  30068700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/22/19 09:20:49           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S304031            R     8      7     0/00/00   10/14/19  11497               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30068700  30068700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/22/19 09:21:05           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S304031            R     8      7     0/00/00   10/14/19  11497               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30068700  30068700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/22/19 09:21:20           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S304031            R     8      7     0/00/00   10/14/19  11497               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30068700  30068700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 MAFS-12, 12" AVERAGING                                       Y Y Y Y Y Y 
+   200 AIR FLOW SENSOR                                              Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

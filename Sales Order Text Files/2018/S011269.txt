@@ -1,0 +1,176 @@
+  4/24/18 11:33:06           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S011269          R     8     6     S    0/00/00   4/16/18  0000057321          
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 43120800  43120800  E    Y   0/00/00          UPS CANADA GROUND COLLECT        
+ E-Mail: tprobst@yorkland.net                3rd Party Billing#: 65326X         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 R  RHP   S01126901       1       1        0        0   0/00/00   0        
+   02 F  124557-08             1       1        0        0   0/00/00   0        
+   03 C  124244-17             1       0        0        1   4/16/18   1        
+   04 C  124718-08            12       0        0       12   4/16/18   1        
+   05 C  124572-00             1       0        0        1   4/16/18   1        
+   06 C  124360-47            12       0        0       12   4/16/18   1        
+   07 C  100550-76             2       0        0        2   4/16/18   1        
+   08 C  100568-00             5       0        0        5   4/16/18   1        
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/24/18 11:33:15          Order Display                               (DWOE10)
+                                                                                
+ Order #: S011269       Customer #:   43120800  YORKLAND CONTROLS LIMITED       
+ P.O.#:   0000057321                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RHP   S01126901 RHP-2M11-LCD-NIST                    1     152.63      152.63  
+ 124557-08       TID-1420                             1      30.03       30.03  
+ 124244-17       TS-6                                 1       7.00        7.00  
+ 124718-08       TSX3-520122                         12      51.10      613.20  
+ 124572-00       CSG                                  1     151.32      151.32  
+ 124360-47       TS-2                                12       9.00      108.00  
+ 100550-76       RHP-2O1A                             2      63.13      126.26  
+ 100568-00       A-417A                               5       4.63       23.15  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1211.59  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1211.59    
+
+4/24/18 11:33:21           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  43120800                               
+      Name: YORKLAND CONTROLS LIMITED                                           
+   Address: 2693 STEELES AVE WEST                                               
+                                                                                
+                                                                                
+      City: DOWNSVIEW                                                           
+     State: ON   Country: CANADA           Zip Code: M3J 2Z8                    
+ Exp Cn Cd:        Phone: 4166613306                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ THERESA PROBST                  T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  43120800                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       EM       N      F        060     E    
+ E-Mail Address: tprobst@yorkland.net                                           
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:33:25           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S011269            R     8      6     0/00/00    4/16/18  0000057321          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  43120800  43120800  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:33:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S011269            R     8      6     0/00/00    4/16/18  0000057321          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  43120800  43120800  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:33:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S011269            R     8      6     0/00/00    4/16/18  0000057321          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  43120800  43120800  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:33:41           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S011269            R     8      6     0/00/00    4/16/18  0000057321          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  43120800  43120800  E                 UPS CANADA GROUND COLLECT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RHP-2M11-LCD-NIST                                            Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

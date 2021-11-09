@@ -1,0 +1,176 @@
+  4/26/21 12:00:21           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:    273756                   Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S565230          R     3     1     S    0/00/00   4/16/21  02-060P-DWYER-41621 
+    Partial Shipments Allowed  FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 47888500  47888500  E    -   0/00/00          UPS PREPAID                      
+ E-Mail: dsmart@sullivanprocess.com          3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  C-RMC S56523001       1       0        0        1   4/23/21   1        
+   02 R  C-RMC S56523002       1       1        0        0   0/00/00   0        
+   03 R  C-RMC S56523003       1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/26/21 12:00:36          Order Display                               (DWOE10)
+                                                                                
+ Order #: S565230       Customer #:   47888500  SULLIVAN PROCESS CONTROLS       
+ P.O.#:   02-060P-DWYER-41621                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ C-RMC S56523001 C-RMC-NIST-SC                        1     247.00      247.00  
+ C-RMC S56523002 C-RMC-NIST-SC                        1     247.00      247.00  
+ C-RMC S56523003 C-RMC-NIST-SC                        1     247.00      247.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              741.00  
+                                                  Shipping/Handling             
+                                                  Tax                    71.88  
+                                                                    ----------  
+ F12=Previous                                     Total                 812.88  
+
+  4/26/21 12:01:02           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  47888500                               
+      Name: SULLIVAN PROCESS CONTROLS                                           
+   Address: 450 COVINGTON RD                                                    
+                                                                                
+                                                                                
+      City: HAUGHTON                                                            
+     State: LA   Country:                  Zip Code: 710376302                  
+ Exp Cn Cd:        Phone: 3189491591                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DAVID SMART                     T01  NET 30 DAYS                       4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  47888500                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          ML       N      F        045     M    
+ E-Mail Address: dsmart@sullivanprocess.com                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/26/21 12:01:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S565230            R     3      1     0/00/00    4/16/21  02-060P-DWYER-41621 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47888500  47888500  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+     1                               WEB ORDER 273756               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/26/21 12:01:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S565230            R     3      1     0/00/00    4/16/21  02-060P-DWYER-41621 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47888500  47888500  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/26/21 12:01:47           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S565230            R     3      1     0/00/00    4/16/21  02-060P-DWYER-41621 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47888500  47888500  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/26/21 12:02:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S565230            R     3      1     0/00/00    4/16/21  02-060P-DWYER-41621 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47888500  47888500  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 C-RMC-NIST-SC                                                Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

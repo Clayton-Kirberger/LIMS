@@ -1,0 +1,176 @@
+  8/28/19 08:57:31           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 226170    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S272444          R     3     2     S    0/00/00   8/14/19  CREDIT CARD S272444 
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 48564700  48564700  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: wes@tomahawkengineering.com         3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  100731-99             1       1        0        0   0/00/00   0        
+   02 C  100589-00             1       0        0        1   8/15/19   1        
+   03 C  100589-02             1       0        0        1   8/15/19   1        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  8/28/19 08:57:46          Order Display                               (DWOE10)
+                                                                                
+ Order #: S272444       Customer #:   48564700  TOMAHAWK ENGINEERING & CONSULT  
+ P.O.#:   CREDIT CARD S272444                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100731-99       AQTIAP-WDPM-005-PKIT                 1    3085.00     3085.00  
+ 100589-00       WDPM-002                             1      85.00       85.00  
+ 100589-02       WDPM-010                             1      85.00       85.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3255.00  
+                                                  Shipping/Handling      10.36  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                3265.36  
+
+  8/28/19 08:58:06           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  48564700                               
+      Name: TOMAHAWK ENGINEERING & CONSULT                                      
+   Address: 1940 BUFORD BLVD                                                    
+                                                                                
+                                                                                
+      City: TALLAHASSEE                                                         
+     State: FL   Country:                  Zip Code: 323084443                  
+ Exp Cn Cd:        Phone: 8504023040                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ WESLEY THIGPEN                  T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  48564700            1000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: wes@tomahawkengineering.com                                    
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/28/19 08:58:20           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S272444            R     3      2     0/00/00    8/14/19  CREDIT CARD S272444 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48564700  48564700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  8/28/19 08:58:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S272444            R     3      2     0/00/00    8/14/19  CREDIT CARD S272444 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48564700  48564700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/28/19 08:58:52           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S272444            R     3      2     0/00/00    8/14/19  CREDIT CARD S272444 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48564700  48564700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/28/19 08:59:07           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S272444            R     3      2     0/00/00    8/14/19  CREDIT CARD S272444 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48564700  48564700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 AQTIAP-WDPM-005-PKIT, AIR                                    Y Y Y Y Y Y 
+   200 QUALITY TEST INSTRUMENT KIT                                  Y Y Y Y Y Y 
+   300 WITH UHH2 BASE UNIT, AP2,                                    Y Y Y Y Y Y 
+   400 RP2, VP2, WDPM, 5" WC MANO-                                  Y Y Y Y Y Y 
+   500 METER, UHH-BTG WIRELESS                                      Y Y Y Y Y Y 
+   600 MOBILE GATEWAY IN HARD                                       Y Y Y Y Y Y 
+                                                                        More... 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

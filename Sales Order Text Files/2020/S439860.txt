@@ -1,0 +1,176 @@
+  7/31/20 15:03:13           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S439860          R     6     5     S    0/00/00   7/24/20  U05531              
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  3559701   3559701  E    Y   0/00/00          UPS COLLECT                      
+ E-Mail: sfuller@transcat.com                3rd Party Billing#: RA0312         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  124801-00             2       0        0        2   7/24/20   1        
+   02 C  101655-00             1       0        0        1   7/24/20   1        
+   03 F  VFC   S43986003       3       3        0        0   0/00/00   0        
+   04 C  119019-07             2       0        0        2   7/24/20   1        
+   05 C  124939-27             1       0        0        1   7/24/20   1        
+   06 C  101926-14             1       0        0        1   7/24/20   1        
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  7/31/20 15:03:28          Order Display                               (DWOE10)
+                                                                                
+ Order #: S439860       Customer #:    3559701  TRANSCAT - 35                   
+ P.O.#:   U05531                                                                
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124801-00       CCS-121050                           2      11.80       23.60  
+ 101655-00       DXW-11-153-1                         1      55.60       55.60  
+ VFC   S43986003 VFC-123-NIST                         3     283.00      849.00  
+ 119019-07       V6EPS-S-S-5-S                        2     375.60      751.20  
+ 124939-27       WMT2-A-C-07-10                       1     272.80      272.80  
+ 101926-14       626-10-GH-P1-E1-S1                   1     105.60      105.60  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             2057.80  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                2057.80  
+
+  7/31/20 15:03:53           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   3559701                               
+      Name: TRANSCAT - 35                                                       
+   Address: 35 VANTAGE POINT DR                                                 
+                                                                                
+                                                                                
+      City: ROCHESTER                                                           
+     State: NY   Country:                  Zip Code: 146241142                  
+ Exp Cn Cd:        Phone: 5853529460                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ SIERRA FULLER                   T01  NET 30 DAYS                       6C      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   3559701            5000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        045     E    
+ E-Mail Address: david.dewberry@transcat.com                                    
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/31/20 15:04:07           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439860            R     6      5     0/00/00    7/24/20  U05531              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3559701   3559701  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  7/31/20 15:04:22           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439860            R     6      5     0/00/00    7/24/20  U05531              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3559701   3559701  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/31/20 15:04:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439860            R     6      5     0/00/00    7/24/20  U05531              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3559701   3559701  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/31/20 15:04:53           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439860            R     6      5     0/00/00    7/24/20  U05531              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3559701   3559701  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 CCS-121050, SOLID CORE                                       Y Y Y Y Y Y 
+   200 CURRENT SW WITH FIXED SET                                    Y Y Y Y Y Y 
+   300 PNT AT 0.5A, NORMALLY OPEN                                   Y Y Y Y Y Y 
+   400 OUTPUT.                                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

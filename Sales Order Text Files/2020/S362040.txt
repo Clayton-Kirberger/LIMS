@@ -1,0 +1,176 @@
+  2/17/20 08:41:06           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S362040          R     4           S    0/00/00   2/10/20  8948                
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 28524800  28524800  E    Y   0/00/00          UPS COLLECT                      
+ E-Mail: avargas@csi-instruments.com         3rd Party Billing#: 7AX639         
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  RMC   S36204001       1       1        0        0   0/00/00   0       0
+   02 F  RMC   S36204002       1       1        0        0   0/00/00   0       0
+   03 F  124088-89             1       1        0        0   0/00/00   0       0
+   04 F  NISTCAL-FL1           1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  2/17/20 08:41:21          Order Display                               (DWOE10)
+                                                                                
+ Order #: S362040       Customer #:   28524800  CUSTOM SCIENTIFIC INSTRUMENTS   
+ P.O.#:   8948                                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RMC   S36204001 RMC-106-NIST-SSV                     1     366.00      366.00  
+ RMC   S36204002 RMC-102-NIST-SSV                     1     366.00      366.00  
+ 124088-89       VA23437                              1     187.00      187.00  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    1     215.00      215.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1134.00  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1134.00  
+
+  2/17/20 08:41:41           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  28524800                               
+      Name: CUSTOM SCIENTIFIC INSTRUMENTS                                       
+   Address: FORKS INDUSTRIAL PK                                                 
+            1125 CONROY PL                                                      
+                                                                                
+      City: EASTON                                                              
+     State: PA   Country:                  Zip Code: 180406656                  
+ Exp Cn Cd:        Phone: 6109236500                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ AVARGAS                         T01  NET 30 DAYS                       4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  28524800            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       ML       N      F        045     M    
+ E-Mail Address: svargas@csi-instruments.com                                    
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/17/20 08:41:55           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S362040            R     4            0/00/00    2/10/20  8948                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  28524800  28524800  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  2/17/20 08:42:11           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S362040            R     4            0/00/00    2/10/20  8948                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  28524800  28524800  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/17/20 08:42:27           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S362040            R     4            0/00/00    2/10/20  8948                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  28524800  28524800  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/17/20 08:42:42           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S362040            R     4            0/00/00    2/10/20  8948                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  28524800  28524800  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RMC-106-NIST-SSV                                             Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

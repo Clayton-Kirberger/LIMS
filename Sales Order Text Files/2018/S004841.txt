@@ -1,0 +1,176 @@
+  4/24/18 11:36:45           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S004841          R    26    25     S    0/00/00   4/04/18  12872               
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  8131099   8131099  E    -   0/00/00          TRUCK PREPAID                    
+ E-Mail: sales@dwyer-inst.co.uk              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  119152-00            25       0        0       25   4/04/18   1        
+   02 C  108020-00             5       0        0        5   4/04/18   1        
+   03 C  108022-00             5       0        0        5   4/04/18   1        
+   04 C  108024-00             5       0        0        5   4/04/18   1        
+   05 C  108026-00             5       0        0        5   4/04/18   1        
+   06 C  108004-00             2       0        0        2   4/04/18   1        
+   07 C  628   S00484107       1       0        0        1   4/12/18   1        
+   08 C  628   S00484108      20       0        0       20   4/12/18   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/24/18 11:36:54          Order Display                               (DWOE10)
+                                                                                
+ Order #: S004841       Customer #:    8131099  DWYER INSTRUMENTS LTD (UK)      
+ P.O.#:   12872                                                                 
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 119152-00       V8                                  25      42.84     1071.00  
+ 108020-00       166-6                                5      52.29      261.45  
+ 108022-00       166-12                               5      53.55      267.75  
+ 108024-00       167-6                                5      52.29      261.45  
+ 108026-00       167-12                               5      53.55      267.75  
+ 108004-00       160-18                               2      51.35      102.70  
+ 628   S00484107 628-10-GH-P3-E4-S1                   1      69.81       69.81  
+ 628   S00484108 628-67-GH-P3-E1-S1                  20      61.69     1233.80  
+ 100731-98       AQTIAP-WDPM-002-PKIT                 1    1886.85     1886.85  
+ 100234-01       A-306-A                             25      26.75      668.75  
+ 1008-01616000   16160                                1     462.54      462.5 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            17635.05  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               17635.05    
+
+4/24/18 11:36:59           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   8131099                               
+      Name: DWYER INSTRUMENTS LTD (UK)                                          
+   Address: UNIT 16                                                             
+            THE WYE ESTATE                                                      
+            LONDON RD                                                           
+      City: HIGH WYCOMBE BUCKS                                                  
+     State:      Country: UNITED KINGDOM   Zip Code: HP11 1LH                   
+ Exp Cn Cd:        Phone: 1494461707                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DEMIAN LINDSAY                  T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   8131099                                A                       44            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: sales@dwyer-inst.co.uk                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:37:04           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S004841            R    26     25     0/00/00    4/04/18  12872               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:37:09           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S004841            R    26     25     0/00/00    4/04/18  12872               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:37:14           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S004841            R    26     25     0/00/00    4/04/18  12872               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:37:19           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S004841            R    26     25     0/00/00    4/04/18  12872               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8131099   8131099  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 V8 FLOTECT FLOW SWITCH,                                      Y Y Y Y Y Y 
+    20 SPDT, TRIMMABLE VANE                                         Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

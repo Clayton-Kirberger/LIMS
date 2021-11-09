@@ -1,0 +1,176 @@
+  1/06/20 12:25:14           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S340744          R     1           S    0/00/00  12/26/19  9396                
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  8112599   8112599  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: sales@raco.com.sg                   3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  VFC   S34074401       1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  1/06/20 12:25:28          Order Display                               (DWOE10)
+                                                                                
+ Order #: S340744       Customer #:    8112599  RACO INSTRUMENTS PTE LIMITED    
+ P.O.#:   9396                                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ VFC   S34074401 VFC-131-NIST                         1     281.30      281.30  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              281.30  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 281.30  
+
+  1/06/20 12:25:49           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   8112599                               
+      Name: RACO INSTRUMENTS PTE LIMITED                                        
+   Address: P O BOX 0737                                                        
+            SERANGOON CENTRAL POST OFFICE                                       
+                                                                                
+      City: SINGAPORE                                                           
+     State:      Country: SINGAPORE        Zip Code: 915508                     
+ Exp Cn Cd:        Phone: 0652810377                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ALVIN LIM                       T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   8112599                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       ML       N      F        060     E    
+ E-Mail Address: sales@raco.com.sg                                              
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/06/20 12:26:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S340744            R     1            0/00/00   12/26/19  9396                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8112599   8112599  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 THE NIST CERTIFICATE IS                                      Y Y Y Y Y Y 
+   200 CALIBRATE ON THE COMPANY                                     Y Y Y Y Y Y 
+   300 NAME AS FOLLOWS:                                             Y Y Y Y Y Y 
+   400 LIEBHERR  SINGAPORE PTE LT                                  Y Y Y Y Y Y 
+   500 8 PANDAN AVENUE                                              Y Y Y Y Y Y 
+   600 SINGAPORE 609384                                             Y Y Y Y Y Y 
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  1/06/20 12:26:18           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S340744            R     1            0/00/00   12/26/19  9396                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8112599   8112599  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+   100 THE NIST CERTIFICATE IS                                      Y Y Y Y Y Y 
+   200 CALIBRATE ON THE COMPANY                                     Y Y Y Y Y Y 
+   300 NAME AS FOLLOWS:                                             Y Y Y Y Y Y 
+   400 LIEBHERR  SINGAPORE PTE LT                                  Y Y Y Y Y Y 
+   500 8 PANDAN AVENUE                                              Y Y Y Y Y Y 
+   600 SINGAPORE 609384                                             Y Y Y Y Y Y 
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/06/20 12:26:34           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S340744            R     1            0/00/00   12/26/19  9396                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8112599   8112599  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/06/20 12:26:49           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S340744            R     1            0/00/00   12/26/19  9396                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8112599   8112599  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 VFC-131-NIST                                                 Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  9/23/19 16:34:54           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Mail        
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S289235          R     6           S    0/00/00   9/17/19  19014MISP-09        
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 42203300  42203300  E    Y   0/00/00          FEDEX GROUND PREPAID             
+ E-Mail: DARREN@MATRIXENGINEER.COM           3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124220-04             1       1        0        0   0/00/00   0       3
+   02 F  124862-13             1       1        0        0   0/00/00   0      91
+   03 F  124207-07             1       1        0        0   0/00/00   0       0
+   04 F  124802-08             3       3        0        0   0/00/00   0       0
+   05 F  NISTCAL-PT1           3       3        0        0   0/00/00   0       0
+   06 F  124802-75             3       3        0        0   0/00/00   0       9
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/23/19 16:35:09          Order Display                               (DWOE10)
+                                                                                
+ Order #: S289235       Customer #:   42203300  MATRIX INDUSTRIAL               
+ P.O.#:   19014MISP-09                                                          
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124220-04       MPR1-4                               1      33.00       33.00  
+ 124862-13       SG3-B10541N                          1      21.68       21.68  
+ 124207-07       679-7                                1     300.80      300.80  
+ 124802-08       DPT-A08                              3     504.80     1514.40  
+ NISTCAL-PT1     NIST CAL PR XMTR                     3     139.00      417.00  
+ 124802-75       A-195                                3      33.20       99.60  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             2386.48  
+                                                  Shipping/Handling             
+                                                  Tax                   143.19  
+                                                                    ----------  
+ F12=Previous                                     Total                2529.67  
+
+  9/23/19 16:35:29           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  42203300                               
+      Name: MATRIX INDUSTRIAL                                                   
+   Address: PO BOX 97                                                           
+                                                                                
+                                                                                
+      City: PADUCAH                                                             
+     State: KY   Country:                  Zip Code: 420020097                  
+ Exp Cn Cd:        Phone: 2704425600                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DARREN                          T01  NET 30 DAYS                       7       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  42203300                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       ML       N      F        045     M    
+ E-Mail Address: mgreenwood@matrixengineer.com                                  
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/23/19 16:35:43           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S289235            R     6            0/00/00    9/17/19  19014MISP-09        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  42203300  42203300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/23/19 16:35:59           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S289235            R     6            0/00/00    9/17/19  19014MISP-09        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  42203300  42203300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/23/19 16:36:15           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S289235            R     6            0/00/00    9/17/19  19014MISP-09        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  42203300  42203300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/23/19 16:36:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S289235            R     6            0/00/00    9/17/19  19014MISP-09        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  42203300  42203300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 MPR1-4 AIR PRESS REG 100PSI                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

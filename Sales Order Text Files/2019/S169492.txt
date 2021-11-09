@@ -1,0 +1,176 @@
+  3/01/19 08:17:01           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S169492          R    16    11     S    0/00/00   2/01/19  P19/8027            
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 38370500  38370500  E    -   0/00/00          TRUCK COLLECT INT'L              
+ E-Mail: jactech@singnet.com.sg              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  102097-01            18       0        0       18   2/15/19   1        
+   02 C  RHPEN S16949202       6       0        0        6   2/21/19   1        
+   03 F  616LR S16949203     120     120        0        0   0/00/00   0        
+   04 C  616KD S16949204       2       0        0        2   2/15/19   1        
+   05 C  628   S16949205       9       0        0        9   2/15/19   1        
+   06 C  100674-04             8       0        0        8   2/15/19   1        
+   07 F  MS    S16949207       4       4        0        0   0/00/00   0        
+   08 C  102322-33            12       0        0       12   2/15/19   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  3/01/19 08:17:09          Order Display                               (DWOE10)
+                                                                                
+ Order #: S169492       Customer #:   38370500  BUILDING AUTOMATION COMPONENTS  
+ P.O.#:   P19/8027                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 102097-01       2000-500PA-ASF                      18      53.84      969.12  
+ RHPEN S16949202 RHP-3N4F-LCD                         6      75.63      453.78  
+ 616LR S16949203 616KD-LR-B72-BD1-TC                120      44.50     5340.00  
+ 616KD S16949204 616KD-A-10-TC                        2      65.00      130.00  
+ 628   S16949205 628-75-GH-P1-E1-S1                   9      50.70      456.30  
+ 100674-04       RHP-3N44                             8      53.13      425.04  
+ MS    S16949207 MS-131-FC                            4      61.75      247.00  
+ 102322-33       628-10-GH-P1-E1-S1                  12      50.70      608.40  
+ 101679-40       616KD-A-12                          12      64.50      774.00  
+ 410620-90       A-618                               12        .50        6.00  
+ 616KD S16949211 616KD-A-10-TC-NIST                   1     134.50      134.5 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            13817.27  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               13817.27  
+
+  3/01/19 08:17:20           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  38370500                               
+      Name: BUILDING AUTOMATION COMPONENTS                                      
+   Address: BLK 531                                                             
+            UPPER CROSS STREET 04-56                                            
+                                                                                
+      City: SINGAPORE                                                           
+     State:      Country: SINGAPORE        Zip Code: 050531                     
+ Exp Cn Cd:        Phone: 6565360994                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ VERONICA CHIN                   T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  38370500                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: jactech@singnet.com.sg                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/01/19 08:17:29           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S169492            R    16     11     0/00/00    2/01/19  P19/8027            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38370500  38370500  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 PLEASE NOTE NEW SHIP       DATE                              Y Y Y Y Y Y 
+   200 ***************************                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  3/01/19 08:17:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S169492            R    16     11     0/00/00    2/01/19  P19/8027            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38370500  38370500  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/01/19 08:17:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S169492            R    16     11     0/00/00    2/01/19  P19/8027            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38370500  38370500  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/01/19 08:17:57           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S169492            R    16     11     0/00/00    2/01/19  P19/8027            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38370500  38370500  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 2000-500PA-ASF MAGNEHELIC                                    Y Y Y Y Y Y 
+   200 GAGE, RANGE 0-500PA WITH                                     Y Y Y Y Y Y 
+   300 ADJUSTABLE SIGNAL FLAG                                       Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

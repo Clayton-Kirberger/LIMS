@@ -1,0 +1,176 @@
+  1/15/19 08:24:33           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S145954          R    11    10     S    0/00/00  12/13/18  A999994737          
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  4997900   4997900  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: dameasejr@htlyons.com               3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  MISC                  4       0        0        4   1/04/19   1        
+   02 C  100765-07             4       0        0        4   1/04/19   1        
+   03 C  100765-18             5       0        0        5   1/04/19   1        
+   04 C  100765-03             5       0        0        5   1/08/19   2        
+   05 C  100765-04             5       0        0        5   1/04/19   1        
+   06 R  100731-98             2       2        0        0   0/00/00   0        
+   07 C  100589-00             3       0        0        3   1/04/19   1        
+   08 C  100589-50             3       0        0        3   1/04/19   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  1/15/19 08:24:42          Order Display                               (DWOE10)
+                                                                                
+ Order #: S145954       Customer #:    4997900  HT LYONS INC                    
+ P.O.#:   A999994737                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ MISC            MISC 7500                            4    2244.00     8976.00  
+ 100765-07       A-SAH-12P                            4      51.00      204.00  
+ 100765-18       A-SAH-BK                             5     467.50     2337.50  
+ 100765-03       A-SAH-14S                            5     127.50      637.50  
+ 100765-04       A-SAH-24S                            5     127.50      637.50  
+ 100731-98       AQTIAP-WDPM-002-PKIT                 2    2545.75     5091.50  
+ 100589-00       WDPM-002                             3      72.25      216.75  
+ 100589-50       UHH-BTG                              3     106.25      318.75  
+ 100609-00       160G                                 3     169.15      507.45  
+ 100776-07       490W-6-HKIT-NIST                     1    2638.40     2638.40  
+ MISC            MISC 7500                            2     590.75     1181.5   
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            22746.85  
+                                                  Shipping/Handling     259.57  
+                                                  Tax                  1380.39  
+                                                                    ----------  
+ F12=Previous                                     Total               24386.81  
+
+  1/15/19 08:24:49           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   4997900                               
+      Name: HT LYONS INC                                                        
+   Address: 7165 AMBASSADOR DR                                                  
+                                                                                
+                                                                                
+      City: ALLENTOWN                                                           
+     State: PA   Country:                  Zip Code: 181069255                  
+ Exp Cn Cd:        Phone: 6105302600                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DAVID MEASE                     T01  NET 30 DAYS                       5B      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   4997900            5000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       ML       N      F        045     M    
+ E-Mail Address: jpodwats@pplweb.com                                            
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/15/19 08:24:55           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S145954            R    11     10     0/00/00   12/13/18  A999994737          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  1/15/19 08:25:02           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S145954            R    11     10     0/00/00   12/13/18  A999994737          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+   100 SAH HOOD 12 FT POLE AND                                      Y Y Y Y Y Y 
+   200 CARRYING CASE ONLY                                           Y Y Y Y Y Y 
+   300 SAH LESS HANDHELD                                            Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/15/19 08:25:09           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S145954            R    11     10     0/00/00   12/13/18  A999994737          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/15/19 08:25:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S145954            R    11     10     0/00/00   12/13/18  A999994737          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 MISCELLANEOUS ITEM                                           Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

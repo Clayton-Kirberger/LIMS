@@ -1,0 +1,176 @@
+  2/26/21 14:01:00           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:    269216                   Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S539516          R     3           S    0/00/00   2/24/21  P578358             
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 13979900  13979900  E    -   0/00/00          UPS PREPAID                      
+ E-Mail: rbrumberg@richardsind.com           3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  116199-30             2       2        0        0   0/00/00   0      19
+   02 F  124090-21             1       1        0        0   0/00/00   0       3
+   03 F  NISTCAL-FL1           1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  2/26/21 14:01:15          Order Display                               (DWOE10)
+                                                                                
+ Order #: S539516       Customer #:   13979900  RICHARDS INDUSTRIALS            
+ P.O.#:   P578358                                                               
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 116199-30       RMA-1-SSV                            2      50.00      100.00  
+ 124090-21       VA10412                              1     114.00      114.00  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    1     268.00      268.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              482.00  
+                                                  Shipping/Handling             
+                                                  Tax                    37.60  
+                                                                    ----------  
+ F12=Previous                                     Total                 519.60  
+
+  2/26/21 14:01:40           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  13979900                               
+      Name: RICHARDS INDUSTRIALS                                                
+   Address: 3170 WASSON RD                                                      
+                                                                                
+                                                                                
+      City: CINCINNATI                                                          
+     State: OH   Country:                  Zip Code: 452092329                  
+ Exp Cn Cd:        Phone: 5135337327                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ROBERT BRUMBERG                 T01  NET 30 DAYS                       4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  13979900            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        045     E    
+ E-Mail Address: alyons@richardsind.com                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/26/21 14:01:54           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S539516            R     3            0/00/00    2/24/21  P578358             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13979900  13979900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  2/26/21 14:02:09           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S539516            R     3            0/00/00    2/24/21  P578358             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13979900  13979900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/26/21 14:02:26           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S539516            R     3            0/00/00    2/24/21  P578358             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13979900  13979900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/26/21 14:02:41           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S539516            R     3            0/00/00    2/24/21  P578358             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13979900  13979900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 RMA-1-SSV FLOWMETER,                                         Y Y N N N Y 
+    20 RANGE .05-.4 SCFH AIR                                        Y Y N N N Y 
+    30 WITH STAINLESS STEEL VALVE                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

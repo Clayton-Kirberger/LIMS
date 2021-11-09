@@ -1,0 +1,176 @@
+  4/17/20 10:51:47           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 245346    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S394197          R     3           S    0/00/00   4/14/20  CREDIT CARD S394197 
+  * No Partial Shipments *     FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 49201400  49201400  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: eyargicoglu@eilllc.com              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124858-30             1       1        0        0   0/00/00   0      35
+   02 F  NISTCAL-PG1           1       1        0        0   0/00/00   0       0
+   03 F  124859-52             1       1        0        0   0/00/00   0     344
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/17/20 10:52:01          Order Display                               (DWOE10)
+                                                                                
+ Order #: S394197       Customer #:   49201400  EIL LLC                         
+ P.O.#:   CREDIT CARD S394197                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124858-30       SGZ-D10142N-GF                       1      41.04       41.04  
+ NISTCAL-PG1     NIST CAL PR GAGES OVER 1%            1      99.00       99.00  
+ 124859-52       A-445D                               1       2.94        2.94  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              142.98  
+                                                  Shipping/Handling             
+                                                  Tax                     8.94  
+                                                                    ----------  
+ F12=Previous                                     Total                 151.92  
+
+  4/17/20 10:52:27           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  49201400                               
+      Name: EIL LLC                                                             
+   Address: 601 COUNT FLEET CT                                                  
+                                                                                
+                                                                                
+      City: NAPERVILLE                                                          
+     State: IL   Country:                  Zip Code: 605406805                  
+ Exp Cn Cd:        Phone: 6306050564                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ERIN YARGICOGLU                 T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  49201400                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: eyargicoglu@eilllc.com                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/17/20 10:52:41           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S394197            R     3            0/00/00    4/14/20  CREDIT CARD S394197 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49201400  49201400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/17/20 10:52:56           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S394197            R     3            0/00/00    4/14/20  CREDIT CARD S394197 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49201400  49201400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/17/20 10:53:12           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S394197            R     3            0/00/00    4/14/20  CREDIT CARD S394197 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49201400  49201400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/17/20 10:53:27           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S394197            R     3            0/00/00    4/14/20  CREDIT CARD S394197 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49201400  49201400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 SGZ-D10142N-GF 2.5" SS GAGE                                  Y Y Y Y Y Y 
+   200 316L SS INTERNALS, 1/4" NPT                                  Y Y Y Y Y Y 
+   300 BACK CONNECTION, 30" HG,                                     Y Y Y Y Y Y 
+   400 BAR, 100 X KPA SCALE                                         Y Y Y Y Y Y 
+   500 GLYCERIN FILLED                                              Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

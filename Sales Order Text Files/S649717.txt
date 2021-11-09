@@ -1,0 +1,176 @@
+ 10/29/21 14:14:49           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: Phone       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S649717          R     2           S    0/00/00  10/26/21  SCOTT VERBAL        
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 50448100  50448100  E    Y   0/00/00          FEDEX P1 COLL                    
+ E-Mail: scott.claudon@abbott.com            3rd Party Billing#: 513606168      
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124088-35             3       3        0        0   0/00/00   0       2
+   02 F  NISTCAL-FL1           3       3        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/29/21 14:15:04          Order Display                               (DWOE10)
+                                                                                
+ Order #: S649717       Customer #:   50448100  ABBOTT ATLANTA                  
+ P.O.#:   SCOTT VERBAL                                                          
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124088-35       VA22440                              3     360.00     1080.00  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    3     268.00      804.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1884.00  
+                                                  Shipping/Handling             
+                                                  Tax                   167.68  
+                                                                    ----------  
+ F12=Previous                                     Total                2051.68  
+
+ 10/29/21 14:15:30           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  50448100                               
+      Name: ABBOTT ATLANTA                                                      
+   Address: 387 TECHNOLOGY CIR NW STE 500                                       
+                                                                                
+                                                                                
+      City: ATLANTA                                                             
+     State: GA   Country:                  Zip Code: 303132424                  
+ Exp Cn Cd:        Phone: 4703124516                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ SCOTT CLAUDON                   T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  50448100                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: scott.claudon@abbott.com                                       
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/29/21 14:15:44           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S649717            R     2            0/00/00   10/26/21  SCOTT VERBAL        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  50448100  50448100  E                 FEDEX P1 COLL                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+     2 CERTIFICATE OF ORIGIN                                        Y Y Y Y Y Y 
+     3 CERTIFICATE OF CONFORMANCE                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/29/21 14:15:59           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S649717            R     2            0/00/00   10/26/21  SCOTT VERBAL        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  50448100  50448100  E                 FEDEX P1 COLL                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/29/21 14:16:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S649717            R     2            0/00/00   10/26/21  SCOTT VERBAL        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  50448100  50448100  E                 FEDEX P1 COLL                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/29/21 14:16:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S649717            R     2            0/00/00   10/26/21  SCOTT VERBAL        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  50448100  50448100  E                 FEDEX P1 COLL                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 VA22440 VARIABLE AREA GLASS                                  Y Y Y Y Y Y 
+   200 FLOWMETER,150MM, 93.93 SCFH                                  Y Y Y Y Y Y 
+   300 AIR, ALUMINUM FRAME, STAIN-                                  Y Y Y Y Y Y 
+   400 LESS STEEL FLOAT & FITTINGS                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

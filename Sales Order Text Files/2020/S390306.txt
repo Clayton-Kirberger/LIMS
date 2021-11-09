@@ -1,0 +1,176 @@
+  4/08/20 13:42:47           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Phone       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S390306          R     4           S    0/00/00   4/06/20  123871S-2           
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  3557200   3557200  E    Y   0/00/00          UPS COLLECT                      
+ E-Mail: sbailey@coylesupply.com             3rd Party Billing#: 674539         
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124542-22             1       1        0        0   0/00/00   0      44
+   02 F  NISTCAL-PG1           1       1        0        0   0/00/00   0       0
+   03 F  124542-16             1       1        0        0   0/00/00   0      57
+   04 F  NISTCAL-PG1           1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/08/20 13:43:02          Order Display                               (DWOE10)
+                                                                                
+ Order #: S390306       Customer #:    3557200  COYLE SUPPLY INC                
+ P.O.#:   123871S-2                                                             
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124542-22       LPG4-D9322N                          1      28.20       28.20  
+ NISTCAL-PG1     NIST CAL PR GAGES OVER 1%            1      99.00       99.00  
+ 124542-16       LPG4-D8722N                          1      28.20       28.20  
+ NISTCAL-PG1     NIST CAL PR GAGES OVER 1%            1      99.00       99.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              254.40  
+                                                  Shipping/Handling             
+                                                  Tax                    17.43  
+                                                                    ----------  
+ F12=Previous                                     Total                 271.83  
+
+  4/08/20 13:43:27           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   3557200                               
+      Name: COYLE SUPPLY INC                                                    
+   Address: 3721 HIGHWAY 162                                                    
+                                                                                
+                                                                                
+      City: GRANITE CITY                                                        
+     State: IL   Country:                  Zip Code: 620406628                  
+ Exp Cn Cd:        Phone: 6187871760                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ SCOTT                           T01  NET 30 DAYS                       6       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   3557200            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       FX       N      F        045     M    
+ E-Mail Address: sbailey@coylesupply.com                                        
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/08/20 13:43:41           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S390306            R     4            0/00/00    4/06/20  123871S-2           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3557200   3557200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/08/20 13:43:56           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S390306            R     4            0/00/00    4/06/20  123871S-2           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3557200   3557200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/08/20 13:44:12           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S390306            R     4            0/00/00    4/06/20  123871S-2           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3557200   3557200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/08/20 13:44:27           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S390306            R     4            0/00/00    4/06/20  123871S-2           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3557200   3557200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 LPG4-D9322N LOW PRESSURE                                     Y Y Y Y Y Y 
+   200 GAGE, DUAL RANGE -24-0-40"                                   Y Y Y Y Y Y 
+   300 WC & -6-0-10 KPA WITH 1/4"                                   Y Y Y Y Y Y 
+   400 NPT MALE BOTTOM CONNECTION                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

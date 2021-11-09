@@ -1,0 +1,176 @@
+ 10/18/19 13:40:27           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S300675          R     3           S    0/00/00  10/08/19  OCA/19/034          
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  8173799   8173799  E    Y   0/00/00          DHL COLLECT INTL                 
+ E-Mail: metco@metco.com.sa                  3rd Party Billing#: 961221452      
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  114028-05            17      17        0        0   0/00/00   0     277
+   02 F  1900  S30067502       5       5        0        0   0/00/00   0       5
+   04 F  RHPW  S30067504       1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/18/19 13:40:42          Order Display                               (DWOE10)
+                                                                                
+ Order #: S300675       Customer #:    8173799  MIDDLE EAST TRADING CO          
+ P.O.#:   OCA/19/034                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 114028-05       1900-5-MR                           17      53.11      902.87  
+ 1900  S30067502 1900-1-MR                            5      56.75      283.75  
+ RHPW  S30067504 RHP-3W11-LCD-NIST                    1     240.93      240.93  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1427.55  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1427.55  
+
+ 10/18/19 13:41:02           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   8173799                               
+      Name: MIDDLE EAST TRADING CO                                              
+   Address: MARCO BLDG 2-FLOOR EXIT 2                                           
+            (NHAKIL-AREA) PO BOX 3577                                           
+            NEAR PRINCE TURKEY PALACE                                           
+      City: RIYADH                                                              
+     State:      Country: SAUDI ARABIA     Zip Code: 11481                      
+ Exp Cn Cd:        Phone: 6114000561                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ JAEHO NOH                       T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   8173799                                A                       96            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          ML       N      F        060     E    
+ E-Mail Address: metco@metco.com.sa                                             
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/18/19 13:41:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S300675            R     3            0/00/00   10/08/19  OCA/19/034          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8173799   8173799  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/18/19 13:41:32           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S300675            R     3            0/00/00   10/08/19  OCA/19/034          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8173799   8173799  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/18/19 13:41:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S300675            R     3            0/00/00   10/08/19  OCA/19/034          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8173799   8173799  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/18/19 13:42:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S300675            R     3            0/00/00   10/08/19  OCA/19/034          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8173799   8173799  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 1900-5-MR MANUAL RESET                                       Y Y N N N Y 
+    20 SWITCH, RANGE 1.4-5.5" WC                                    Y Y N N N Y 
+    30                                                              Y Y Y Y Y Y 
+    40                                                              Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

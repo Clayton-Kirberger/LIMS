@@ -1,0 +1,176 @@
+  1/11/21 13:32:56           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S512346          R     3     2     S    0/00/00  12/28/20  1207                
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 14016300  14016300  E    Y   0/00/00          FEDEX GROUND PREPAID             
+ E-Mail: jaime@cmwtrade.com                  3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 R  RHP   S51234601       2       2        0        0   0/00/00   0        
+   02 C  100398-00             2       0        0        2  12/28/20   1        
+   03 C  100398-01             2       0        0        2  12/28/20   1        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  1/11/21 13:33:11          Order Display                               (DWOE10)
+                                                                                
+ Order #: S512346       Customer #:   14016300  AMERICAN TECHNOLOGY & CONTROLS  
+ P.O.#:   1207                                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RHP   S51234601 RHP-2S11-NIST                        2     253.98      507.96  
+ 100398-00       A-RHP-FC                             2       5.25       10.50  
+ 100398-01       A-RHP-RT                             2      20.50       41.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              559.46  
+                                                  Shipping/Handling      11.87  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 571.33  
+
+  1/11/21 13:33:36           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  14016300                               
+      Name: AMERICAN TECHNOLOGY & CONTROLS                                      
+   Address: CMW TRADING INC                                                     
+            11702 RIVERMIST CT                                                  
+                                                                                
+      City: TOMBALL                                                             
+     State: TX   Country:                  Zip Code: 773778160                  
+ Exp Cn Cd:        Phone: 2815371012                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ JAIME OVIEDO                    T04  ADVANCE PAYMENT                   5       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  14016300            5000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N      F        045     M    
+ E-Mail Address: jaime@cmwtrade.com                                             
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/11/21 13:33:50           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S512346            R     3      2     0/00/00   12/28/20  1207                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  14016300  14016300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  1/11/21 13:34:05           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S512346            R     3      2     0/00/00   12/28/20  1207                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  14016300  14016300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/11/21 13:34:21           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S512346            R     3      2     0/00/00   12/28/20  1207                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  14016300  14016300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/11/21 13:34:36           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S512346            R     3      2     0/00/00   12/28/20  1207                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  14016300  14016300  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RHP-2S11-NIST                                                Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

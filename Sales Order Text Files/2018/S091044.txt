@@ -1,0 +1,176 @@
+  9/12/18 14:47:31           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S091044          R     5           S    0/00/00   9/05/18  DAP-2018-63         
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit   Credit                                   
+ Number    Number   Cd   Ovr  Action  Hld Date    Ship Via                      
+ 34704500  34704500  E    N   0/00/00  0/00/00 TRUCK COLLECT INTL               
+ E-Mail: dapamarhmn@prodigy.net.mx           3rd Party Billing#: 67E7Y6         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   02 F  102032-00            10      10        0        0   0/00/00   0        
+   03 F  124515-04             1       1        0        0   0/00/00   0        
+   04 F  102333-00             2       2        0        0   0/00/00   0        
+   05 F  100559-07             3       3        0        0   0/00/00   0        
+   06 F  RHP   S09104406       4       4        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/12/18 14:47:37          Order Display                               (DWOE10)
+                                                                                
+ Order #: S091044       Customer #:   34704500  HERNAN L MARTINEZ NAVARRO       
+ P.O.#:   DAP-2018-63                                                           
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 102032-00       2300-0                              10      54.02      540.20  
+ 124515-04       TRI-60-25E                           1      36.00       36.00  
+ 102333-00       2-5003                               2      34.32       68.64  
+ 100559-07       RHP-3W11-LCD                         3     117.98      353.94  
+ RHP   S09104406 RHP-2D11-NIST                        4     198.71      794.84  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1793.62  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1793.62    
+
+9/12/18 14:47:43           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  34704500                               
+      Name: HERNAN L MARTINEZ NAVARRO                                           
+   Address: CERRO DEL QUETZAL 285                                               
+            COL CAMPESTRE CHURUBUSCO                                            
+            COYOACAN                                                            
+      City: MEXICO DF 04200                                                     
+     State:      Country: MEXICO           Zip Code:                            
+ Exp Cn Cd:        Phone: 5556083825                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ HERNAN L MARTINEZ               T02  NET 60 DAYS                       6IW     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  34704500                                A                       52            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: dapamarhmn@prodigy.net.mx                                      
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:47:47           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S091044            R     5            0/00/00    9/05/18  DAP-2018-63         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34704500  34704500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:47:53           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S091044            R     5            0/00/00    9/05/18  DAP-2018-63         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34704500  34704500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:47:58           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S091044            R     5            0/00/00    9/05/18  DAP-2018-63         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34704500  34704500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:48:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S091044            R     5            0/00/00    9/05/18  DAP-2018-63         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  34704500  34704500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 2300-0 MAGNEHELIC GAGE,                                      Y Y N N N Y 
+    20 RANGE .25-0-.25 IN W.C.                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

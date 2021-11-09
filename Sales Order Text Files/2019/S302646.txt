@@ -1,0 +1,176 @@
+ 10/15/19 15:59:10           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S302646          R    44    31     S    0/00/00  10/10/19  34836-00            
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 26095500  26095500  E    Y   0/00/00          TRUCK COLLECT INTL               
+ E-Mail: expediting@itm.com                  3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  115010-00            10       0        0       10  10/11/19   1        
+   02 C  108019-00             3       0        0        3  10/11/19   1        
+   03 F  108024-00            10      10        0        0   0/00/00   0        
+   04 C  114034-10             4       0        0        4  10/11/19   1        
+   05 C  102010-00             5       0        0        5  10/11/19   1        
+   06 C  100390-00             3       0        0        3  10/11/19   1        
+   07 C  102103-70             2       0        0        2  10/11/19   1        
+   08 C  100509-01             2       0        0        2  10/11/19   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/15/19 15:59:25          Order Display                               (DWOE10)
+                                                                                
+ Order #: S302646       Customer #:   26095500  ITM INSTRUMENTS INC             
+ P.O.#:   34836-00                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 115010-00       1212                                10      60.17      601.70  
+ 108019-00       160-8                                3      48.20      144.60  
+ 108024-00       167-6                               10      53.87      538.70  
+ 114034-10       1910-20                              4      37.25      149.00  
+ 102010-00       2010                                 5      49.53      247.65  
+ 100390-00       476A-0                               3      60.17      180.51  
+ 102103-70       A3003                                2     257.40      514.80  
+ 100509-01       DCP100A                              2     123.60      247.20  
+ 100506-02       DCT1006                              2     134.40      268.80  
+ 102987-03       DM-1104                              2      92.82      185.64  
+ 124574-03       F6-MHS                              10      30.30      303.0 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             9306.56  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                9306.56  
+
+ 10/15/19 15:59:45           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  26095500                               
+      Name: ITM INSTRUMENTS INC                                                 
+   Address: 20800 BOUL INDUSTRIEL                                               
+                                                                                
+                                                                                
+      City: STE-ANNE-DE-BELLEVUE                                                
+     State: QC   Country: CANADA           Zip Code: H9X 0A1                    
+ Exp Cn Cd:        Phone: 5144577280                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DAVID REED                      T02  NET 60 DAYS                       6IW     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  26095500                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: expediting@itm.com                                             
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/15/19 15:59:59           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S302646            R    44     31     0/00/00   10/10/19  34836-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/15/19 16:00:15           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S302646            R    44     31     0/00/00   10/10/19  34836-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/15/19 16:00:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S302646            R    44     31     0/00/00   10/10/19  34836-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/15/19 16:00:46           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S302646            R    44     31     0/00/00   10/10/19  34836-00            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26095500  26095500  E                 TRUCK COLLECT INTL                      
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 1212 GAS PRESSURE KIT                                        Y Y N N N Y 
+    20 WITH NO. 1211-16 SLACK-TUBE                                  Y Y N N N Y 
+    30 MANOMETER, & CARRYING CASE                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

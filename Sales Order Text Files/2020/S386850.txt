@@ -1,0 +1,176 @@
+  4/07/20 14:11:33           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S386850          R     9     6     S    0/00/00   3/27/20  LOC032520LR         
+    Partial Shipments Allowed  FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 49190700  49190700  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: laura.rodriguez@vantage-cg.com      3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  RHP   S38685001       5       5        0        0   0/00/00   0        
+   02 C  WE08  S38685002       8       0        0        8   4/07/20   1        
+   03 C  WE08  S38685003       2       0        0        2   4/06/20   1        
+   04 F  629HLPS38685004       4       4        0        0   0/00/00   0        
+   05 F  FLST  S38685005       4       4        0        0   0/00/00   0        
+   06 C  628   S38685006       1       0        0        1   4/02/20   1        
+   07 C  628   S38685007       1       0        0        1   4/02/20   1        
+   08 C  628   S38685008       1       0        0        1   4/02/20   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/07/20 14:11:47          Order Display                               (DWOE10)
+                                                                                
+ Order #: S386850       Customer #:   49190700  VANTAGE CONSULTING GROUP        
+ P.O.#:   LOC032520LR                                                           
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RHP   S38685001 RHP-2D11-LCD-NIST                    5     314.75     1573.75  
+ WE08  S38685002 WE08-DMD01-A                         8     678.00     5424.00  
+ WE08  S38685003 WE08-EMD01-A                         2     714.00     1428.00  
+ 629HLPS38685004 629HLP-01-P2-S1-NIST                 4     404.00     1616.00  
+ FLST  S38685005 FLST-R12X24-IM                       4     588.00     2352.00  
+ 628   S38685006 628-18-GH-P1-E6-S1-AT-NIST           1     281.25      281.25  
+ 628   S38685007 628-18-GH-P1-E6-S1-AT-NIST           1     281.25      281.25  
+ 628   S38685008 628-18-GH-P1-E6-S1-AT-NIST           1     281.25      281.25  
+ 100562-23       TE-RND-D                             1      80.00       80.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            13317.50  
+                                                  Shipping/Handling     379.58  
+                                                  Tax                  1027.28  
+                                                                    ----------  
+ F12=Previous                                     Total               14724.36  
+
+  4/07/20 14:12:13           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  49190700                               
+      Name: VANTAGE CONSULTING GROUP                                            
+   Address: 601 US HIGHWAY 206 STE 26-700                                       
+                                                                                
+                                                                                
+      City: HILLSBOROUGH                                                        
+     State: NJ   Country:                  Zip Code: 088441521                  
+ Exp Cn Cd:        Phone: 6102029908                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ LAURA RODRIGUEZ                 T01  NET 30 DAYS                       4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  49190700                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       ML       N      F        045     M    
+ E-Mail Address: laura.rodriguez@vantage-cg.com                                 
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/07/20 14:12:27           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S386850            R     9      6     0/00/00    3/27/20  LOC032520LR         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49190700  49190700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+     1                               WEB ORDER 244137               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/07/20 14:12:42           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S386850            R     9      6     0/00/00    3/27/20  LOC032520LR         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49190700  49190700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/07/20 14:12:58           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S386850            R     9      6     0/00/00    3/27/20  LOC032520LR         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49190700  49190700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/07/20 14:13:14           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S386850            R     9      6     0/00/00    3/27/20  LOC032520LR         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  49190700  49190700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RHP-2D11-LCD-NIST                                            Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

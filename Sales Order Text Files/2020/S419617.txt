@@ -1,0 +1,176 @@
+  6/23/20 08:10:54           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S419617          R    10     9     S    0/00/00   6/10/20  A743/20             
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 22876000  22876000  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: riccardo@comhas.com                 3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  102345-00             2       0        0        2   6/11/20   1        
+   02 C  616KD S41961702      20       0        0       20   6/16/20   1        
+   03 C  100712-10            15       0        0       15   6/11/20   1        
+   04 C  100712-23             5       0        0        5   6/11/20   1        
+   05 C  RHP   S41961705       2       0        0        2   6/17/20   1        
+   06 C  100767-44             2       0        0        2   6/11/20   1        
+   07 F  RHP   S41961707       1       1        0        0   0/00/00   0        
+   08 C  114037-08             2       0        0        2   6/11/20   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  6/23/20 08:11:09          Order Display                               (DWOE10)
+                                                                                
+ Order #: S419617       Customer #:   22876000  COMHAS SRL                      
+ P.O.#:   A743/20                                                               
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 102345-00       2-5000-3KPA                          2      34.52       69.04  
+ 616KD S41961702 616KD-A-13-TC                       20      67.05     1341.00  
+ 100712-10       BTT-D12-2                           15      26.75      401.25  
+ 100712-23       BTT-O25-2                            5      34.75      173.75  
+ RHP   S41961705 RHP-2M20                             2      60.63      121.26  
+ 100767-44       RHP-2M22                             2      70.88      141.76  
+ RHP   S41961707 RHP-2D10-NIST                        1     181.63      181.63  
+ 114037-08       1950-02-2S                           2     205.73      411.46  
+ 116011-01       VFA-22-SSV                          10      40.15      401.50  
+ 111070-00       1221-M300-W/M                       25      23.80      595.00  
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3837.65  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                3837.65  
+
+  6/23/20 08:11:34           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  22876000                               
+      Name: COMHAS SRL                                                          
+   Address: VIA MATTEOTTI 66                                                    
+            CINISELLO BALSAMO                                                   
+                                                                                
+      City: MILANO                                                              
+     State:      Country: ITALY            Zip Code: 20092                      
+ Exp Cn Cd:        Phone: 0261298551                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ RICARDO HASSAN                  T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  22876000                                A                       39            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: riccardo@comhas.com                                            
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/23/20 08:11:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S419617            R    10      9     0/00/00    6/10/20  A743/20             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22876000  22876000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  6/23/20 08:12:03           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S419617            R    10      9     0/00/00    6/10/20  A743/20             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22876000  22876000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/23/20 08:12:19           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S419617            R    10      9     0/00/00    6/10/20  A743/20             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22876000  22876000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/23/20 08:12:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S419617            R    10      9     0/00/00    6/10/20  A743/20             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22876000  22876000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 2-5000-3KPA MINIHELIC II                                     Y Y N N N Y 
+    20 GAGE, RANGE 0-3 KPA WITH                                     Y Y N N N Y 
+    30 BARBED CONNECTIONS                                           Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  9/06/19 11:21:18           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:    227633                   Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S282279          R     3     2     S    0/00/00   9/04/19  21671               
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 35856600  35856600  E    -   0/00/00          UPS 2ND DAY AIR                  
+ E-Mail: a.champion@syserco.com              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  201239-00             3       0        0        3   9/04/19   1        
+   02 C  101629-81             1       0        0        1   9/04/19   1        
+   03 F  DM    S28227903       3       3        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/06/19 11:21:33          Order Display                               (DWOE10)
+                                                                                
+ Order #: S282279       Customer #:   35856600  SYSERCO                         
+ P.O.#:   21671                                                                 
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 201239-00       A-300                                3      21.80       65.40  
+ 101629-81       MS2-D102                             1      66.90       66.90  
+ DM    S28227903 DM-2119-LCD-NIST                     3     232.20      696.60  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              828.90  
+                                                  Shipping/Handling      89.35  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 918.25  
+
+  9/06/19 11:21:53           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  35856600                               
+      Name: SYSERCO                                                             
+   Address: 215 FOURIER AVE                                                     
+                                                                                
+                                                                                
+      City: FREMONT                                                             
+     State: CA   Country:                  Zip Code: 945397828                  
+ Exp Cn Cd:        Phone: 5103769498                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ AMANDA CHAMPION                 T01  NET 30 DAYS                       7B      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  35856600            1000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        045     E    
+ E-Mail Address: orders@syserco.com                                             
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/06/19 11:22:07           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S282279            R     3      2     0/00/00    9/04/19  21671               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35856600  35856600  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/06/19 11:22:22           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S282279            R     3      2     0/00/00    9/04/19  21671               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35856600  35856600  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/06/19 11:22:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S282279            R     3      2     0/00/00    9/04/19  21671               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35856600  35856600  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/06/19 11:22:53           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S282279            R     3      2     0/00/00    9/04/19  21671               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35856600  35856600  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 A-300 FLUSH MOUNTING FLAT                                    Y Y Y Y Y Y 
+   200 BRACKET FOR MAGNEHELIC GAGE                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

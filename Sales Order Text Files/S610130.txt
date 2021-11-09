@@ -1,0 +1,176 @@
+ 10/13/21 09:02:41           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S610130          R    17           S    0/00/00   7/25/21  FCL/FPO/2021/026    
+  * No Partial Shipments *     FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 48997300  48997300  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: mk.ahmed@felixbd.com                3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  RHP   S61013001      54      54        0        0   0/00/00   0       0
+   02 F  AVUL  S61013002      52      52        0        0   0/00/00   0       0
+   03 F  MS    S61013003     111     111        0        0   0/00/00   0     111
+   04 F  124606-43           111     111        0        0   0/00/00   0    1941
+   05 F  128078-01           108     108        0        0   0/00/00   0       9
+   06 F  RHP   S61013006     118     118        0        0   0/00/00   0       0
+   07 F  MS    S61013007     126     126        0        0   0/00/00   0     126
+   08 F  124606-43           126     126        0        0   0/00/00   0    1 + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/13/21 09:02:56          Order Display                               (DWOE10)
+                                                                                
+ Order #: S610130       Customer #:   48997300  EMI ENGINEERING PTE LTD         
+ P.O.#:   FCL/FPO/2021/026                                                      
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RHP   S61013001 RHP-2D11-NIST                       54     175.59     9481.86  
+ AVUL  S61013002 AVUL-3DA1-LCD-FC                    52     160.61     8351.72  
+ MS    S61013003 MS-111-FC-LCD                      111      88.00     9768.00  
+ 124606-43       A-481                              111       2.41      267.51  
+ 128078-01       SL-2000-P                          108     107.55    11615.40  
+ RHP   S61013006 RHP-2D11-LCD-NIST                  118     199.66    23559.88  
+ MS    S61013007 MS-121-FC-LCD                      126      88.00    11088.00  
+ 124606-43       A-481                              126       2.41      303.66  
+ 628   S61013009 628-75-GH-P1-E1-S1                   8      37.80      302.40  
+ 100570-22       TE-TNS-N063N-00                     18       7.88      141.84  
+ 101655-02       DXW-11-153-3                         6      36.25      217.5 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            77534.22  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               77534.22  
+
+ 10/13/21 09:03:21           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  48997300                               
+      Name: EMI ENGINEERING PTE LTD                                             
+   Address: 100D PASIR PANJANG ROAD                                             
+                                                                                
+                                                                                
+      City: 04-02 MEISSA                                                        
+     State:      Country: SINGAPORE        Zip Code:                            
+ Exp Cn Cd:        Phone: 8029113197                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ MUSTAFA KKAMAL AHMED            T04  ADVANCE PAYMENT                   7IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  48997300                                A                        8            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       EM       N      F        060     E    
+ E-Mail Address: mk.ahmed@felixbd.com                                           
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/13/21 09:03:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S610130            R    17            0/00/00    7/25/21  FCL/FPO/2021/026    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48997300  48997300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/13/21 09:03:50           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S610130            R    17            0/00/00    7/25/21  FCL/FPO/2021/026    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48997300  48997300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/13/21 09:04:06           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S610130            R    17            0/00/00    7/25/21  FCL/FPO/2021/026    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48997300  48997300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/13/21 09:04:22           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S610130            R    17            0/00/00    7/25/21  FCL/FPO/2021/026    
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48997300  48997300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RHP-2D11-NIST                                                Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+ 11/11/20 11:14:58           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 261039    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S489381          R     3     2     S    0/00/00  11/03/20  200009-024          
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 29543800  29543800  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: dking@waypointsys.com               3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  130019-01             4       0        0        4  11/04/20   1        
+   02 C  124570-03             3       0        0        3  11/04/20   1        
+   03 F  RHP   S48938103       3       3        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 11/11/20 11:15:13          Order Display                               (DWOE10)
+                                                                                
+ Order #: S489381       Customer #:   29543800  WAYPOINT SYSTEMS INC            
+ P.O.#:   200009-024                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 130019-01       WD3-LP-D2                            4      23.55       94.20  
+ 124570-03       WWDP-1-LCD                           3     265.20      795.60  
+ RHP   S48938103 RHP-2R11-NIST                        3     244.45      733.35  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1623.15  
+                                                  Shipping/Handling      12.08  
+                                                  Tax                   102.20  
+                                                                    ----------  
+ F12=Previous                                     Total                1737.43  
+
+ 11/11/20 11:15:38           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  29543800                               
+      Name: WAYPOINT SYSTEMS INC                                                
+   Address: 10 MANSELL CT E STE 200                                             
+                                                                                
+                                                                                
+      City: ROSWELL                                                             
+     State: GA   Country:                  Zip Code: 300765023                  
+ Exp Cn Cd:        Phone: 4045693533                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ T5 DATA CENTER T5               T04  ADVANCE PAYMENT                   7B      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  29543800            5050                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N      F        045     M    
+ E-Mail Address: Asegal@waypointsystems.net                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 11:15:52           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S489381            R     3      2     0/00/00   11/03/20  200009-024          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  29543800  29543800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 11:16:07           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S489381            R     3      2     0/00/00   11/03/20  200009-024          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  29543800  29543800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 11:16:23           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S489381            R     3      2     0/00/00   11/03/20  200009-024          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  29543800  29543800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/11/20 11:16:38           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S489381            R     3      2     0/00/00   11/03/20  200009-024          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  29543800  29543800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 WD3-LP-D2, LINE POWERED                                      Y Y Y Y Y Y 
+   200 WATER LEAK DETECTOR WITH                                     Y Y Y Y Y Y 
+   300 DPDT RELAY, NO AUDIBLE ALRM                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

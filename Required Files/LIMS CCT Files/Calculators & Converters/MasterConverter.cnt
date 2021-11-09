@@ -1,0 +1,28 @@
+:Base MasterConverter.HLP
+1 About
+2 Introduction=IDH_Introduction
+2 Version History=IDH_Version_History
+1 How To Use
+2 Getting Started=IDH_Example_Conversion
+2 The Toolbar=IDH_The_Toolbar
+2 The Menus=IDH_The_Menus
+2 Locating a Unit=IDH_Locating_a_Unit
+2 Locating a Category=IDH_Locating_a_Category
+2 Preferences
+3 General=IDH_Preferences_General
+3 Result Format=IDH_Preferences_Result_Format
+3 Fonts=IDH_Preferences_Fonts
+3 Category Order=IDH_Preferences_Category_Order
+2 Advanced Features
+3 Using Expressions=IDH_Using_Expressions
+3 Custom Units=IDH_Custom_Units
+3 Example Custom Unit=IDH_Example_Custom_Unit
+3 Custom Categories=IDH_Custom_Categories
+1 Registering
+2 What is Shareware?=IDH_What_is_Shareware
+2 How to Register=IDH_How_to_Register
+1 Other Information
+2 Metric Prefixes=IDH_Metric_Prefixes
+2 Contacting the Authors=IDH_Contacting_the_Authors
+2 Copyright Notice=IDH_Copyright_Notice
+2 Disclaimer=IDH_Disclaimer

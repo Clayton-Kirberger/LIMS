@@ -1,0 +1,176 @@
+ 10/06/21 10:24:19           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S636020          R    25    20     S    0/00/00   9/23/21  DWY-2021-098        
+    Partial Shipments Allowed  FOB:EXW DWYER FACT                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 39097700  39097700  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: israel.calixto@haften.com.mx        3rd Party Billing#: A19657         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  124224-00             1       0        0        1   9/27/21   1        
+   02 C  101936-41            10       0        0       10   9/27/21   1        
+   03 F  2000  S63602003      10      10        0        0   0/00/00   0        
+   04 F  MSX   S63602004      15      15        0        0   0/00/00   0        
+   05 C  102290-10            10       0        0       10   9/27/21   1        
+   06 C  124606-52            10       0        0       10   9/27/21   1        
+   07 C  101606-00            10       0        0       10   9/27/21   1        
+   08 C  102280-86             1       0        0        1   9/30/21   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/06/21 10:24:34          Order Display                               (DWOE10)
+                                                                                
+ Order #: S636020       Customer #:   39097700  HAFTEN S.A. DE C.V              
+ P.O.#:   DWY-2021-098                                                          
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124224-00       IP-42                                1     310.44      310.44  
+ 101936-41       MSX-W12-PA                          10      45.50      455.00  
+ 2000  S63602003 2003-SF                             10      73.91      739.10  
+ MSX   S63602004 MSX-N12-IN-LCD                      15      66.98     1004.70  
+ 102290-10       605-1                               10     227.76     2277.60  
+ 124606-52       ADPS-03-2-N-C                       10      13.88      138.80  
+ 101606-00       MS-111                              10      48.25      482.50  
+ 102280-86       616W-3M-LCD                          1     274.17      274.17  
+ 108010-00       160-36                               2      69.93      139.86  
+ 124974-00       ULSM-10                              5     447.20     2236.00  
+ 124974-00       ULSM-10                              3     447.20     1341.6 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            20758.54  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               20758.54  
+
+ 10/06/21 10:24:59           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  39097700                               
+      Name: HAFTEN S.A. DE C.V                                                  
+   Address: CALLE BONDOJITO 340                                                 
+            LAS AMERICAS ALCALDIA ALVARO                                        
+            RFC HAF990806UT3                                                    
+      City: CIUDAD DE MEXICO 01120                                              
+     State:      Country: MEXICO           Zip Code:                            
+ Exp Cn Cd:        Phone: 5556381224                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ISRAEL CALIXTO                  T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  39097700                                A                       52            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: israel.calixto@haften.com.mx                                   
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/06/21 10:25:13           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S636020            R    25     20     0/00/00    9/23/21  DWY-2021-098        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/06/21 10:25:28           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S636020            R    25     20     0/00/00    9/23/21  DWY-2021-098        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/06/21 10:25:44           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S636020            R    25     20     0/00/00    9/23/21  DWY-2021-098        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/06/21 10:25:59           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S636020            R    25     20     0/00/00    9/23/21  DWY-2021-098        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 IP-42 I/P TRANSDUCER 4-20MA                                  Y Y Y Y Y Y 
+   200 OUTPUT, 3-15 PSI NEMA 4X                                     Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

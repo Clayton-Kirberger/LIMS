@@ -1,0 +1,176 @@
+  5/20/20 14:53:38           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S393134          R     4           S    0/00/00   4/13/20  6595177             
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit   Credit                                   
+ Number    Number   Cd   Ovr  Action  Hld Date    Ship Via                      
+ 38196300  38196300  E    N   0/00/00  5/18/20 FEDEX GRND BILL RECIPIENT        
+ E-Mail: mgrayer@qualitymill.com             3rd Party Billing#: 325531673      
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 R  124169-38             1       1        0        0   0/00/00   0       1
+   02 R  NISTCAL-FL1           1       1        0        0   0/00/00   0       6
+   03 R  124169-35             1       1        0        0   0/00/00   0       1
+   04 R  NISTCAL-FL1           1       1        0        0   0/00/00   0       6
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  5/20/20 14:53:53          Order Display                               (DWOE10)
+                                                                                
+ Order #: S393134       Customer #:   38196300  QUALITY MILL SUPPLY CO          
+ P.O.#:   6595177                                                               
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124169-38       RSF124V                              1     649.00      649.00  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    1     260.00      260.00  
+ 124169-35       RSF121V                              1     649.00      649.00  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    1     260.00      260.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1818.00  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1818.00  
+
+  5/20/20 14:54:18           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  38196300                               
+      Name: QUALITY MILL SUPPLY CO                                              
+   Address: PO BOX 329                                                          
+            2159 EARLY LN                                                       
+                                                                                
+      City: FRANKLIN                                                            
+     State: IN   Country:                  Zip Code: 461317847                  
+ Exp Cn Cd:        Phone: 3174890600                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ MATTHEW GRAYER                  T01  NET 30 DAYS                       5       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  38196300                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        045     E    
+ E-Mail Address: thayes@qualitymill.com                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  5/20/20 14:54:32           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S393134            R     4            0/00/00    4/13/20  6595177             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38196300  38196300  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 NIST CALIBRATION ON BOTH                                     Y Y Y Y Y Y 
+   200 ITEMS                                                        Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  5/20/20 14:54:48           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S393134            R     4            0/00/00    4/13/20  6595177             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38196300  38196300  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  5/20/20 14:55:04           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S393134            R     4            0/00/00    4/13/20  6595177             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38196300  38196300  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  5/20/20 14:55:19           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S393134            R     4            0/00/00    4/13/20  6595177             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38196300  38196300  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 RSF124V ROTATABLE SCALE                                      Y Y Y Y Y Y 
+   200 FLOWMETER, STAINLESS STEEL,                                  Y Y Y Y Y Y 
+   300 PANEL MOUNT, DUAL SCALE                                      Y Y Y Y Y Y 
+   400 READING 20 SCFM (575 SLPM)                                   Y Y Y Y Y Y 
+   500 AIR  & 4 GPM (15 LPM) WATER                                  Y Y Y Y Y Y 
+   600 WITH VALVE                                                   Y Y Y Y Y Y 
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

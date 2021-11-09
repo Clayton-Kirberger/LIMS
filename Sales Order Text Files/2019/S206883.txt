@@ -1,0 +1,176 @@
+  4/23/19 08:00:44           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:    216215                   Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S206883          R     8     7     S    0/00/00   4/09/19  AQUA-4453           
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 35411700  35411700  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: armando.razo@aquasistemas.com.mx    3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  100551-02            17       0        0       17   4/17/19   1        
+   02 C  TE    S20688302       5       0        0        5   4/11/19   1        
+   03 C  MS    S20688303       1       0        0        1   4/15/19   1        
+   04 F  RHPW  S20688304       4       4        0        0   0/00/00   0        
+   05 C  124398-00            20       0        0       20   4/10/19   1        
+   06 C  124987-26           100       0        0      100   4/10/19   1        
+   07 C  102322-33             5       0        0        5   4/10/19   1        
+   08 C  111134-00             1       0        0        1   4/10/19   1        
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/23/19 08:00:53          Order Display                               (DWOE10)
+                                                                                
+ Order #: S206883       Customer #:   35411700  AQUASISTEMAS INTEGRALES         
+ P.O.#:   AQUA-4453                                                             
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100551-02       O-4B                                17       5.50       93.50  
+ TE    S20688302 TE-IBG-B0444-12                      5       8.50       42.50  
+ MS    S20688303 MS-121-LCD-NIST                      1     200.25      200.25  
+ RHPW  S20688304 RHP-2W4B-LCD-NIST                    4     200.63      802.52  
+ 124398-00       FS-2                                20      25.00      500.00  
+ 124987-26       APT-40-5DN                         100       6.88      688.00  
+ 102322-33       628-10-GH-P1-E1-S1                   5      65.91      329.55  
+ 111134-00       1223-16-W/M                          1      66.30       66.30  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             2722.62  
+                                                  Shipping/Handling     212.23  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                2934.85  
+
+  4/23/19 08:01:03           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  35411700                               
+      Name: AQUASISTEMAS INTEGRALES                                             
+   Address: COAHUILA 898                                                        
+            COLONIA ESPERANZA                                                   
+                                                                                
+      City: MEXICALI BC CP 21140                                                
+     State:      Country: MEXICO           Zip Code:                            
+ Exp Cn Cd:        Phone: 6865567423                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ARMANDO RAZO                    T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  35411700                                A                       52            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: armando.razo@aquasistemas.com.mx                               
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/23/19 08:01:12           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S206883            R     8      7     0/00/00    4/09/19  AQUA-4453           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35411700  35411700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/23/19 08:01:22           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S206883            R     8      7     0/00/00    4/09/19  AQUA-4453           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35411700  35411700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/23/19 08:01:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S206883            R     8      7     0/00/00    4/09/19  AQUA-4453           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35411700  35411700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/23/19 08:01:41           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S206883            R     8      7     0/00/00    4/09/19  AQUA-4453           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35411700  35411700  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 O-4B TEMPERATURE SENSOR,                                     Y Y Y Y Y Y 
+   200 WEATHERPROOF, 10K OHM,                                       Y Y Y Y Y Y 
+   300 TYPE II                                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

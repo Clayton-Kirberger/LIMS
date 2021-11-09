@@ -1,0 +1,176 @@
+  6/01/21 10:40:52           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S584149          R     3     2     S    0/00/00   5/26/21  18843               
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 46587100  46587100  E    Y   0/00/00          UPS 2ND DAY AIR                  
+ E-Mail: CJohnson@ReadyFlo.com               3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 R  124326-07             5       5        0        0   0/00/00   0        
+   02 C  124372-00             5       0        0        5   5/27/21   1        
+   03 C  100560-00             5       0        0        5   5/27/21   1        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  6/01/21 10:41:07          Order Display                               (DWOE10)
+                                                                                
+ Order #: S584149       Customer #:   46587100  READYFLO SYSTEMS                
+ P.O.#:   18843                                                                 
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124326-07       608-07                               5     828.00     4140.00  
+ AV              CERT OF CALIB - 6 POINTS             5     144.00      720.00  
+ 124372-00       MTL7706                              5     480.00     2400.00  
+ 100560-00       A-489                                5       8.00       40.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             7300.00  
+                                                  Shipping/Handling      47.83  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                7347.83  
+
+  6/01/21 10:41:32           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  46587100                               
+      Name: READYFLO SYSTEMS                                                    
+   Address: 625B CORN PRODUCT RD                                                
+                                                                                
+                                                                                
+      City: CORPUS CHRISTI                                                      
+     State: TX   Country:                  Zip Code: 784091511                  
+ Exp Cn Cd:        Phone: 3612898888                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ CINDY JOHNSON                   T01  NET 30 DAYS                       4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  46587100            354501   002007006  A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       ML       N      F        045     M    
+ E-Mail Address: atrevino@readyflo.com                                          
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/01/21 10:41:46           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S584149            R     3      2     0/00/00    5/26/21  18843               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46587100  46587100  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  6/01/21 10:42:01           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S584149            R     3      2     0/00/00    5/26/21  18843               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46587100  46587100  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+  1200 NIST CALIBRATION NEEDED                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/01/21 10:42:17           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S584149            R     3      2     0/00/00    5/26/21  18843               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46587100  46587100  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/01/21 10:42:33           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S584149            R     3      2     0/00/00    5/26/21  18843               
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  46587100  46587100  E                 UPS 2ND DAY AIR                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 608-07 INTRINSICALLY SAFE                                    Y Y Y Y Y Y 
+   200 DIFFERENTIAL PRESSURE                                        Y Y Y Y Y Y 
+   300 TRANSMITTER, RANGE 0-25" WC                                  Y Y Y Y Y Y 
+   400 NEMA 4X, ACCURACY .5% F.S.                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

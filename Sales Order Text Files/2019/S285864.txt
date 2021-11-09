@@ -1,0 +1,176 @@
+  9/19/19 08:27:00           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 228272    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S285864          R    11     8     S    0/00/00   9/11/19  CREDIT CARD S285864 
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 38471800  38471800  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: erik@technicalbalance.tech          3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  100765-26             1       0        0        1   9/13/19   1        
+   02 C  100765-07             1       0        0        1   9/11/19   1        
+   03 C  100765-18             1       0        0        1   9/11/19   1        
+   04 C  100765-04             1       0        0        1   9/11/19   1        
+   05 R  100731-98             1       1        0        0   0/00/00   0        
+   06 C  477B  S28586406       1       0        0        1   9/12/19   1        
+   07 F  100589-01             1       1        0        0   0/00/00   0        
+   08 R  100686-00             1       1        0        0   9/12/19   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/19/19 08:27:15          Order Display                               (DWOE10)
+                                                                                
+ Order #: S285864       Customer #:   38471800  TECHNICAL BALANCE LLC           
+ P.O.#:   CREDIT CARD S285864                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100765-26       SAH-22HC                             1    3400.00     3400.00  
+ 100765-07       A-SAH-12P                            1      60.00       60.00  
+ 100765-18       A-SAH-BK                             1     550.00      550.00  
+ 100765-04       A-SAH-24S                            1     150.00      150.00  
+ 100731-98       AQTIAP-WDPM-002-PKIT                 1    3085.00     3085.00  
+ 477B  S28586406 477B-7-NIST                          1     514.00      514.00  
+ 100589-01       WDPM-005                             1      85.00       85.00  
+ 100686-00       A-WDPM-BRK                           1      10.25       10.25  
+ 100589-51       A-BTG-BOOT                           1      10.50       10.50  
+ 130029-01       A-47X-BOOT                           1      13.00       13.00  
+ 351260-00       A-402A                               1      42.25       42.2   
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             7920.00  
+                                                  Shipping/Handling      77.87  
+                                                  Tax                   559.85  
+                                                                    ----------  
+ F12=Previous                                     Total                8557.72  
+
+  9/19/19 08:27:35           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  38471800                               
+      Name: TECHNICAL BALANCE LLC                                               
+   Address: 1027 HARRISON ST                                                    
+                                                                                
+                                                                                
+      City: INDIANAPOLIS                                                        
+     State: IN   Country:                  Zip Code: 462024024                  
+ Exp Cn Cd:        Phone: 3172960528                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ERIK PFARR                      T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  38471800            1000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: bbuchanan@technicalbalancellc.com                              
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/19/19 08:27:49           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S285864            R    11      8     0/00/00    9/11/19  CREDIT CARD S285864 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/19/19 08:28:04           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S285864            R    11      8     0/00/00    9/11/19  CREDIT CARD S285864 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/19/19 08:28:20           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S285864            R    11      8     0/00/00    9/11/19  CREDIT CARD S285864 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/19/19 08:28:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S285864            R    11      8     0/00/00    9/11/19  CREDIT CARD S285864 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   200 SAH-22HC, SMART AIR HOOD,                                    Y Y Y Y Y Y 
+   300 INCLUDES 2X2 HOOD W/ NIST,                                   Y Y Y Y Y Y 
+   400 HANDHELD TEST INSTRUMENT,                                    Y Y Y Y Y Y 
+   500 3' POLE ASSEMBLY, WITH                                       Y Y Y Y Y Y 
+   600 HARD CASE                                                    Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  9/20/21 09:25:30           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: EDI         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S622326          R     6     5     S    0/00/00   8/23/21  4817134051          
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 26241000  26241000  N    -   0/00/00          FEDEX GRND BILL RECIPIENT        
+ E-Mail: graingersourcing@grainger.com       3rd Party Billing#: 259629560      
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  DPGAWBS62232601       1       0        0        1   8/27/21   1        
+   02 C  DPGAWBS62232602       1       0        0        1   8/27/21   1        
+   03 F  RMB   S62232603       1       1        0        0   0/00/00   0        
+   04 C  VFB   S62232604       1       0        0        1   8/31/21   1        
+   05 C  124339-00             1       0        0        1   8/25/21   1        
+   06 C  124339-01             1       0        0        1   8/25/21   1        
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/20/21 09:25:45          Order Display                               (DWOE10)
+                                                                                
+ Order #: S622326       Customer #:   26241000  GRAINGER SOURCING               
+ P.O.#:   4817134051                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ DPGAWBS62232601 DPGAB-10-NIST                        1     212.40      212.40  
+ DPGAWBS62232602 DPGAB-00-NIST                        1     212.40      212.40  
+ RMB   S62232603 RMB-57-NIST-SSV                      1     274.85      274.85  
+ VFB   S62232604 VFB-55D-NIST-SSV                     1     287.00      287.00  
+ 124339-00       NVII-1B                              1      14.40       14.40  
+ 124339-01       NVII-2B                              1      18.00       18.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1019.05  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1019.05  
+
+  9/20/21 09:26:10           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  26241000                               
+      Name: GRAINGER SOURCING                                                   
+   Address: MW-H11                                                              
+            ACCTS PAYABLE                                                       
+                                                                                
+      City: PALATINE                                                            
+     State: IL   Country:                  Zip Code: 600380000                  
+ Exp Cn Cd:        Phone: 8477936344                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ Grainger Sourcing               T01  NET 30 DAYS                       6C1     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  26241000                     002003006  A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          SP       N      F        045     M    
+ E-Mail Address: No acknowledgement in MRM only portal                          
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/20/21 09:26:24           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S622326            R     6      5     0/00/00    8/23/21  4817134051          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26241000  26241000  N                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/20/21 09:26:40           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S622326            R     6      5     0/00/00    8/23/21  4817134051          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26241000  26241000  N                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/20/21 09:26:56           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S622326            R     6      5     0/00/00    8/23/21  4817134051          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26241000  26241000  N                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/20/21 09:27:11           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S622326            R     6      5     0/00/00    8/23/21  4817134051          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26241000  26241000  N                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 DPGAB-10-NIST                                                Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

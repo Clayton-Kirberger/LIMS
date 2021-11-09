@@ -1,0 +1,176 @@
+  9/04/20 09:21:36           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 253010    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S439347          C     2     2     S    8/12/21   7/23/20  JKS                 
+    Partial Shipments Allowed  FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 47841600  47841600  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: jon@atlantic-testing.com            3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   02 C  100765-26             1       0        0        1   8/05/20   1        
+   03 C  100765-07             1       0        0        1   7/23/20   1        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/04/20 09:21:51          Order Display                               (DWOE10)
+                                                                                
+ Order #: S439347       Customer #:   47841600  ATLANTIC TESTING                
+ P.O.#:   JKS                                                                   
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100765-26       SAH-22HC                             1    3060.00     3060.00  
+ 100765-07       A-SAH-12P                            1      54.00       54.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3114.00  
+                                                  Shipping/Handling     161.99  
+                                                  Tax                   173.63  
+                                                                    ----------  
+ F12=Previous                                     Total                3449.62  
+
+  9/04/20 09:22:16           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  47841600                               
+      Name: ATLANTIC TESTING                                                    
+   Address: 3229 ANDERSON HWY STE 200                                           
+                                                                                
+                                                                                
+      City: POWHATAN                                                            
+     State: VA   Country:                  Zip Code: 231397340                  
+ Exp Cn Cd:        Phone: 8046909800                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ JONATHAN SHEPPARD               T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  47841600            1000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: jon@atlantic-testing.com                                       
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/04/20 09:22:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439347            C     2      2     8/12/21    7/23/20  JKS                 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47841600  47841600  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/04/20 09:22:45           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439347            C     2      2     8/12/21    7/23/20  JKS                 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47841600  47841600  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/04/20 09:23:02           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439347            C     2      2     8/12/21    7/23/20  JKS                 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47841600  47841600  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/04/20 09:23:17           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S439347            C     2      2     8/12/21    7/23/20  JKS                 
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  47841600  47841600  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   200 SAH-22HC, SMART AIR HOOD,                                    Y Y Y Y Y Y 
+   300 INCLUDES 2X2 HOOD W/ NIST,                                   Y Y Y Y Y Y 
+   400 HANDHELD TEST INSTRUMENT,                                    Y Y Y Y Y Y 
+   500 3' POLE ASSEMBLY, WITH                                       Y Y Y Y Y Y 
+   600 HARD CASE                                                    Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

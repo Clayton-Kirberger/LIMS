@@ -1,0 +1,176 @@
+  2/14/19 11:00:48           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S171934          R     5     4     S    0/00/00   2/06/19  DWY-2019-015        
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 39097700  39097700  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: israel.calixto@haften.com.mx        3rd Party Billing#: A19657         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  101633-12             1       0        0        1   2/06/19   1        
+   02 C  116221-30             2       0        0        2   2/06/19   1        
+   03 C  100655-02             1       0        0        1   2/06/19   1        
+   04 C  124606-01             2       0        0        2   2/06/19   1        
+   05 F  RHP   S17193405       2       2        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  2/14/19 11:00:57          Order Display                               (DWOE10)
+                                                                                
+ Order #: S171934       Customer #:   39097700  HAFTEN S.A. DE C.V              
+ P.O.#:   DWY-2019-015                                                          
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 101633-12       628CR-12-GH-P1-E1-S1                 1      50.70       50.70  
+ 116221-30       RMB-52-SSV                           2      47.19       94.38  
+ 100655-02       160F-36                              1     159.39      159.39  
+ 124606-01       ADPS-04-1-N                          2      11.13       22.26  
+ RHP   S17193405 RHP-3O1B-NIST                        2     122.50      245.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              571.73  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 571.73  
+
+  2/14/19 11:01:07           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  39097700                               
+      Name: HAFTEN S.A. DE C.V                                                  
+   Address: CUAUHTEMOC 206                                                      
+            BARRIO SAN PEDRO                                                    
+            RFC HAF990806UT3                                                    
+      City: MEXICO DF 08220                                                     
+     State:      Country: MEXICO           Zip Code:                            
+ Exp Cn Cd:        Phone: 5556381224                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ISRAEL CALIXTO                  T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  39097700            5050                A                       52            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       ML       N      F        060     E    
+ E-Mail Address: israel.calixto@haften.com.mx                                   
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/14/19 11:01:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S171934            R     5      4     0/00/00    2/06/19  DWY-2019-015        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  2/14/19 11:01:26           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S171934            R     5      4     0/00/00    2/06/19  DWY-2019-015        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/14/19 11:01:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S171934            R     5      4     0/00/00    2/06/19  DWY-2019-015        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/14/19 11:01:45           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S171934            R     5      4     0/00/00    2/06/19  DWY-2019-015        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  39097700  39097700  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 628CR-12-GH-P1-E1-S1                                         Y Y Y Y Y Y 
+   200 PRESSURE TRANSMITTER, CERA-                                  Y Y Y Y Y Y 
+   300 MIC SENSOR, RANGE 0-200 PSI                                  Y Y Y Y Y Y 
+   400 GH HOUSING, 1/4" NPT MALE                                    Y Y Y Y Y Y 
+   500 CONNECTION, 3 FT CABLE,                                      Y Y Y Y Y Y 
+   600 4-20MA OUTPUT                                                Y Y Y Y Y Y 
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  5/03/21 08:59:51           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S564763          R     6     5     S    0/00/00   4/15/21  210087              
+    Partial Shipments Allowed  FOB:EXW DWYER FACT                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 32619900  32619900  E    -   0/00/00          UPS PREPAID                      
+ E-Mail: compras@tritecbolivia.com           3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  108037-05             1       0        0        1   4/20/21   1        
+   02 C  108037-03             1       0        0        1   4/20/21   1        
+   03 C  100732-00             1       0        0        1   4/20/21   1        
+   04 R  473B  S56476304       1       1        0        0   0/00/00   0        
+   05 C  100585-00             1       0        0        1   4/16/21   1        
+   06 C  100587-00             1       0        0        1   4/16/21   1        
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  5/03/21 09:00:06          Order Display                               (DWOE10)
+                                                                                
+ Order #: S564763       Customer #:   32619900  TRITEC SRL                      
+ P.O.#:   210087                                                                
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 108037-05       160S-72                              1     210.60      210.60  
+ AT              SPECIAL HANDLING CHARGE                                100.00  
+ 108037-03       160S-48                              1     172.38      172.38  
+ 100732-00       A-160-CASE                           1     141.18      141.18  
+ 473B  S56476304 473B-1-NIST                          1     569.12      569.12  
+ 100585-00       AP1                                  1     170.04      170.04  
+ 100587-00       RP1                                  1     140.40      140.40  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1503.72  
+                                                  Shipping/Handling      68.44  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1572.16  
+
+  5/03/21 09:00:31           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  32619900                               
+      Name: TRITEC SRL                                                          
+   Address: OQUENDO N-452 PISO 4                                                
+                                                                                
+                                                                                
+      City: COCHABAMBA                                                          
+     State:      Country: BOLIVIA          Zip Code:                            
+ Exp Cn Cd:        Phone: 9144256993                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ELIZABETH CONDORI               T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  32619900                                A                        5            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: compras@tritecbolivia.com                                      
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  5/03/21 09:00:45           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S564763            R     6      5     0/00/00    4/15/21  210087              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32619900  32619900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  5/03/21 09:01:00           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S564763            R     6      5     0/00/00    4/15/21  210087              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32619900  32619900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  5/03/21 09:01:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S564763            R     6      5     0/00/00    4/15/21  210087              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32619900  32619900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  5/03/21 09:01:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S564763            R     6      5     0/00/00    4/15/21  210087              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32619900  32619900  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 160S-72 S TYPE PITOT TUBE,                                   Y Y Y Y Y Y 
+    20 72 IN. INSERTION LENGTH,                                     Y Y Y Y Y Y 
+    30 1/8 IN. NPT CONNECTIONS                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

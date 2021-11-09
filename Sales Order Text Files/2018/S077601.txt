@@ -1,0 +1,176 @@
+  8/17/18 10:39:30           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:    196817                   Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S077601          R     6     5     S    0/00/00   8/10/18  TA-18-8434          
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  8206799   8206799  E    -   0/00/00          UPS PREPAID                      
+ E-Mail: g.robayo@tecnicasandinas.com        3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  102032-00            25       0        0       25   8/13/18   1        
+   02 C  DM    S07760102      11       0        0       11   8/15/18   1        
+   03 C  116211-30             1       0        0        1   8/13/18   1        
+   04 F  DM    S07760104       5       5        0        0   0/00/00   0        
+   05 C  100496-00             1       0        0        1   8/13/18   1        
+   06 C  116255-30             1       0        0        1   8/13/18   1        
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  8/17/18 10:39:40          Order Display                               (DWOE10)
+                                                                                
+ Order #: S077601       Customer #:    8206799  TECNICAS ANDINAS INDS. LTDA     
+ P.O.#:   TA-18-8434                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 102032-00       2300-0                              25      50.32     1258.00  
+ DM    S07760102 DM-2112-LCD                         11      81.76      899.36  
+ 116211-30       RMA-33-SSV                           1      35.88       35.88  
+ DM    S07760104 DM-2106-NIST                         5     212.16     1060.80  
+ 100496-00       657-1                                1     224.64      224.64  
+ 116255-30       RMC-121-SSV                          1     109.98      109.98  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3588.66  
+                                                  Shipping/Handling      70.88  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                3659.54  
+
+  8/17/18 10:39:45           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   8206799                               
+      Name: TECNICAS ANDINAS INDS. LTDA                                         
+   Address: CALLE 60 NO 9 A 31 OFIC 305                                         
+                                                                                
+                                                                                
+      City: BOGOTA                                                              
+     State:      Country: COLOMBIA         Zip Code:                            
+ Exp Cn Cd:        Phone: 5717424446                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ GUSTAVO ROBAYO                  T02  NET 60 DAYS                       6IW     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   8206799                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: g.robayo@tecnicasandinas.com                                   
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/17/18 10:39:50           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S077601            R     6      5     0/00/00    8/10/18  TA-18-8434          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8206799   8206799  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  8/17/18 10:39:56           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S077601            R     6      5     0/00/00    8/10/18  TA-18-8434          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8206799   8206799  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/17/18 10:40:01           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S077601            R     6      5     0/00/00    8/10/18  TA-18-8434          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8206799   8206799  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/17/18 10:40:06           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S077601            R     6      5     0/00/00    8/10/18  TA-18-8434          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8206799   8206799  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 2300-0 MAGNEHELIC GAGE,                                      Y Y N N N Y 
+    20 RANGE .25-0-.25 IN W.C.                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

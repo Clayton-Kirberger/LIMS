@@ -1,0 +1,10 @@
+ramaldon;GOAT2018;admin;Robert Maldonado;Associate Metrology Engineer
+r;r;admin;Roger Shumaker;Group Leader / Sr. Elec. Eng. Tech.
+jberry;lespaul63;admin;Jason Berry;Engineering Laboratory Supervisor
+Severt;Severt1Z;user;Steve Evert;Engineering Technician II
+msuarez;CallPark4;user;Marco Suarez;Engineering Technician II
+rmassner;valkyrie;user;Randall Massner;Sr. Electrical Engineering Technician
+d;d;user;David Niezgodzki;Sr. Engineering Technician
+jwoodruff;passdwy1234;user;Jeff Woodruff;Sr. Electrical Engineering Technician
+ckirberger;ckirberger;admin;Clayton Kirberger;Associate Metrology Engineer
+wcross;Chisox14;user;Walter Cross;Calibration Specialist

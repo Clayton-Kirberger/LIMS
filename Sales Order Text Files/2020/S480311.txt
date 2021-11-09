@@ -1,0 +1,176 @@
+ 11/04/20 10:42:42           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S480311          R     4     2     S    0/00/00  10/16/20  3657                
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 22291600  22291600  E    Y   0/00/00          FEDEX SAVER PPD                  
+ E-Mail: morris@etsmedgas.com                3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  173822-00             8       0        0        8  11/02/20   1        
+   02 F  174693-00             1       1        0        0   0/00/00   0        
+   03 C  173821-00             7       0        0        7  11/02/20   1        
+   04 F  174692-00             1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 11/04/20 10:42:57          Order Display                               (DWOE10)
+                                                                                
+ Order #: S480311       Customer #:   22291600  ENVIRONMENTAL TESTING SERVICES  
+ P.O.#:   3657                                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 173822-00       173822-00, SPECIAL SERIES            8      48.50      388.00  
+ AQ              SET-UP CHARGE                                           50.00  
+ 174693-00       174693-00, SPECIAL SERIES            1      48.50       48.50  
+ AQ              SET-UP CHARGE                                           50.00  
+ NT              NET OPTIONS                          1     215.00      215.00  
+ 173821-00       173821-00, SPECIAL SERIES            7      48.50      339.50  
+ AQ              SET-UP CHARGE                                           50.00  
+ 174692-00       174692-00, SPECIAL SERIES            1      48.50       48.50  
+ AQ              SET-UP CHARGE                                           50.00  
+ NT              NET OPTIONS                          1     215.00      215.00  
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1454.50  
+                                                  Shipping/Handling      23.98  
+                                                  Tax                   121.97  
+                                                                    ----------  
+ F12=Previous                                     Total                1600.45  
+
+ 11/04/20 10:43:23           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  22291600                               
+      Name: ENVIRONMENTAL TESTING SERVICES                                      
+   Address: 10908 METRONOME DR                                                  
+                                                                                
+                                                                                
+      City: HOUSTON                                                             
+     State: TX   Country:                  Zip Code: 770432202                  
+ Exp Cn Cd:        Phone: 7139329504                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ CHRISTOPHER MORRIS              T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  22291600            4900                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N      F        045     M    
+ E-Mail Address: jonathan@etsmedgas.com                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/04/20 10:43:37           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S480311            R     4      2     0/00/00   10/16/20  3657                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22291600  22291600  E                 FEDEX SAVER PPD                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 11/04/20 10:43:52           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S480311            R     4      2     0/00/00   10/16/20  3657                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22291600  22291600  E                 FEDEX SAVER PPD                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/04/20 10:44:08           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S480311            R     4      2     0/00/00   10/16/20  3657                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22291600  22291600  E                 FEDEX SAVER PPD                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 11/04/20 10:44:23           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S480311            R     4      2     0/00/00   10/16/20  3657                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  22291600  22291600  E                 FEDEX SAVER PPD                         
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    90 173822-00, SPECIAL SERIES                                    Y Y Y Y Y Y 
+   100 RMB FLOWMETER, SCALE                                         Y Y Y Y Y Y 
+   200 READING .5-8 SCFM AIR                                        Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

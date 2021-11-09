@@ -1,0 +1,176 @@
+  4/24/20 10:45:29           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S395676          C    11    11     S    4/24/21   4/17/20  SHGI-020031/I       
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 31885500  31885500  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: shgi@centrin.net.id                 3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  128032-00             6       0        0        6   4/17/20   1        
+   02 C  A3000 S39567602       3       0        0        3   4/22/20   1        
+   03 C  114045-00            10       0        0       10   4/24/20   1        
+   04 C  102084-00            10       0        0       10   4/17/20   1        
+   05 C  102078-00            10       0        0       10   4/17/20   1        
+   06 C  101606-80            25       0        0       25   4/17/20   1        
+   07 C  100460-00            10       0        0       10   4/17/20   1        
+   08 C  100515-11             5       0        0        5   4/22/20   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/24/20 10:45:44          Order Display                               (DWOE10)
+                                                                                
+ Order #: S395676       Customer #:   31885500  PT SWAHUSADA GUNA INSTRUMENTAS  
+ P.O.#:   SHGI-020031/I                                                         
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 128032-00       WA                                   6      11.90       71.40  
+ A3000 S39567602 A3000-100MM-240VAC                   3     282.17      846.51  
+ 114045-00       530                                 10      67.16      671.60  
+ 102084-00       2000-300MM                          10      46.36      463.60  
+ 102078-00       2000-50MM                           10      46.36      463.60  
+ 101606-80       MS-021-LCD                          25      71.25     1781.25  
+ 100460-00       460                                 10      33.40      334.00  
+ 100515-11       641-12-LED                           5     477.36     2386.80  
+ 100314-00       A-159                                5      22.62      113.10  
+ 124806-10       CCT40-100                            5      18.63       93.15  
+ 100624-00       485B-1                               1     233.22      233.2   
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             7458.23  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                7458.23  
+
+  4/24/20 10:46:09           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  31885500                               
+      Name: PT SWAHUSADA GUNA INSTRUMENTAS                                      
+   Address: KOMPLEK GREEN GARDEN BLOK A-14                                      
+            NO 14                                                               
+                                                                                
+      City: JAKARTA BARAT                                                       
+     State:      Country: INDONESIA        Zip Code: 11520                      
+ Exp Cn Cd:        Phone: 2215810713                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ RENNY                           T02  NET 60 DAYS                       6IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  31885500                                A                        6            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       EM       N      F        060     E    
+ E-Mail Address: shgi@centrin.net.id                                            
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/20 10:46:23           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S395676            C    11     11     4/24/21    4/17/20  SHGI-020031/I       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31885500  31885500  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/24/20 10:46:39           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S395676            C    11     11     4/24/21    4/17/20  SHGI-020031/I       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31885500  31885500  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/20 10:46:55           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S395676            C    11     11     4/24/21    4/17/20  SHGI-020031/I       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31885500  31885500  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/20 10:47:10           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S395676            C    11     11     4/24/21    4/17/20  SHGI-020031/I       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  31885500  31885500  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 WA, WATER LEAK DETECTOR                                      Y Y Y Y Y Y 
+   200 WITH DETACHABLE SENSOR.                                      Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

@@ -1,0 +1,176 @@
+  4/24/18 11:34:57           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S002214          R     7     6     S    0/00/00   3/29/18  18032187            
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 35749300  35749300  E    Y   0/00/00          TRUCK COLLECT INT'L              
+ E-Mail: shirin@kia-systems.com              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   05 C  100542-55            12       0        0       12   4/23/18   1        
+   06 C  119107-01            12       0        0       12   4/23/18   1        
+   09 F  RHP   S00221409      12      12        0        0   0/00/00   0        
+   12 C  BTT   S00221412      12       0        0       12   4/23/18   1        
+   13 C  MS    S00221413      12       0        0       12   4/23/18   1        
+   14 C  RHPEN S00221414      12       0        0       12   4/23/18   1        
+   15 C  BTT   S00221415      12       0        0       12   4/06/18   1        
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/24/18 11:35:06          Order Display                               (DWOE10)
+                                                                                
+ Order #: S002214       Customer #:   35749300  KIA SYSTEMS FZE                 
+ P.O.#:   18032187                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100542-55       TTE-118-W-LCD                       12     383.25     4599.00  
+ 119107-01       V4-SS-2-U                           12     327.22     3926.64  
+ RHP   S00221409 RHP-2D10-LCD-NIST                   12     170.85     2050.20  
+ BTT   S00221412 BTT-O25-1-FC                        12      57.00      684.00  
+ MS    S00221413 MS-121-FC                           12      68.40      820.80  
+ RHPEN S00221414 RHP-2E44-LCD-FC                     12     107.55     1290.60  
+ BTT   S00221415 BTT-D08-1-FC                        12      48.00      576.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            13947.24  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               13947.24    
+
+4/24/18 11:35:11           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  35749300                               
+      Name: KIA SYSTEMS FZE                                                     
+   Address: PO BOX 40423                                                        
+                                                                                
+                                                                                
+      City: AJMAN                                                               
+     State:      Country: U A E            Zip Code:                            
+ Exp Cn Cd:        Phone: 7167445460                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ SHIRIN                          T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  35749300                                A                        9            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: shirin@kia-systems.com                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:35:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S002214            R     7      6     0/00/00    3/29/18  18032187            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35749300  35749300  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 CERTIFICATE OF ORIGIN                                        Y Y Y Y Y Y 
+   200 ATTESTED BY CHAMBER OF                                       Y Y Y Y Y Y 
+   300 COMMERCE                                                     Y Y Y Y Y Y 
+   400 ********************                                         Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:35:21           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S002214            R     7      6     0/00/00    3/29/18  18032187            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35749300  35749300  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:35:26           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S002214            R     7      6     0/00/00    3/29/18  18032187            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35749300  35749300  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/24/18 11:35:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S002214            R     7      6     0/00/00    3/29/18  18032187            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35749300  35749300  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 TTE-118-W-LCD EXPLOSION-                                     Y Y Y Y Y Y 
+   200 PROOF RTD TEMPERATURE                                        Y Y Y Y Y Y 
+   300 TRANSMITTER FOR THERMOWELLS                                  Y Y Y Y Y Y 
+   400 4-20MA OUTPUT, 18" PROBE                                     Y Y Y Y Y Y 
+   500 LENGTH WITH LCD DISPLAY                                      Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

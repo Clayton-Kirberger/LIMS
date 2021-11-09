@@ -1,0 +1,176 @@
+  3/12/20 14:10:17           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S378786          R     6     2     S    0/00/00   3/11/20  PO160022            
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 30855400  30855400  N    -   0/00/00          UPS COLLECT                      
+ E-Mail: purchasing@instrumart.com           3rd Party Billing#: X25976         
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  628   S37878601       2       2        0        0   0/00/00   0       0
+   02 C  124784-00             1       0        0        1   3/12/20   1      57
+   03 C  101668-00             1       0        0        1   3/12/20   1      58
+   04 F  1950G S37878604       1       1        0        0   0/00/00   0       0
+   05 F  128063-03             2       2        0        0   0/00/00   0      17
+   06 F  NISTCAL-PT1           2       2        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  3/12/20 14:10:32          Order Display                               (DWOE10)
+                                                                                
+ Order #: S378786       Customer #:   30855400  INSTRUMART                      
+ P.O.#:   PO160022                                                              
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 628   S37878601 628-10-GH-P1-E3-S2                   2      69.20      138.40  
+ 124784-00       SM-100                               1      97.09       97.09  
+ 101668-00       616KD-00                             1      53.29       53.29  
+ 1950G S37878604 1950G-0-B-240                        1     289.45      289.45  
+ 128063-03       IWP-03                               2     240.90      481.80  
+ AV              CERT OF CALIB - 6 POINTS             2                         
+ NISTCAL-PT1     NIST CAL PR XMTR                     2     139.00      278.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1338.03  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1338.03  
+
+  3/12/20 14:10:52           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  30855400                               
+      Name: INSTRUMART                                                          
+   Address: 35 GREEN MOUNTAIN DR                                                
+                                                                                
+                                                                                
+      City: SOUTH BURLINGTON                                                    
+     State: VT   Country:                  Zip Code: 054037824                  
+ Exp Cn Cd:        Phone: 8028630085                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ZACK LEFFLER                    T01  NET 30 DAYS                       6E      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  30855400                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        045     E    
+ E-Mail Address: purchasing@instrumart.com                                      
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/12/20 14:11:06           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S378786            R     6      2     0/00/00    3/11/20  PO160022            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30855400  30855400  N                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  3/12/20 14:11:21           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S378786            R     6      2     0/00/00    3/11/20  PO160022            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30855400  30855400  N                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/12/20 14:11:37           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S378786            R     6      2     0/00/00    3/11/20  PO160022            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30855400  30855400  N                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/12/20 14:11:52           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S378786            R     6      2     0/00/00    3/11/20  PO160022            
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  30855400  30855400  N                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 628-10-GH-P1-E3-S2                                           Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

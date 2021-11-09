@@ -1,0 +1,176 @@
+  6/24/21 14:34:41           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S590157          R     5     3     S    0/00/00   6/09/21  PO/21-105499        
+    Partial Shipments Allowed  FOB:EXW DWYER FACT                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 27883000  27883000  E    Y   0/00/00          DHL COLLECT INTL                 
+ E-Mail: irene_teoh@processpneumatics.com    3rd Party Billing#: 961277129      
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  102280-86             3       0        0        3   6/10/21   1        
+   02 F  641RM S59015702       1       1        0        0   0/00/00   0        
+   03 C  100314-00             1       0        0        1   6/11/21   1        
+   04 F  657C  S59015704       2       2        0        0   0/00/00   0        
+   05 C  200158-00             2       0        0        2   6/10/21   1        
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  6/24/21 14:34:56          Order Display                               (DWOE10)
+                                                                                
+ Order #: S590157       Customer #:   27883000  P & P PROCESS & PNEUMATICS SDN  
+ P.O.#:   PO/21-105499                                                          
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 102280-86       616W-3M-LCD                          3     274.17      822.51  
+ 641RM S59015702 641RM-12-LED-NIST                    1     741.50      741.50  
+ 100314-00       A-159                                1      24.18       24.18  
+ 657C  S59015704 657C-1-NIST-ST                       2     413.89      827.78  
+ 200158-00       A-158                                2       7.75       15.50  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             2431.47  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                2431.47  
+
+  6/24/21 14:35:21           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  27883000                               
+      Name: P & P PROCESS & PNEUMATICS SDN                                      
+   Address: GST NO 000170917888                                                 
+            17 JALAN PANTAI JERTAK                                              
+            SUNGAI NIBONG                                                       
+      City: PENANG                                                              
+     State:      Country: MALAYSIA         Zip Code: 11900                      
+ Exp Cn Cd:        Phone: 6046598286                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ IRENE TEOH                      T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  27883000                                A                      011            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: irene_teoh@processpneumatics.com                               
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/24/21 14:35:35           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S590157            R     5      3     0/00/00    6/09/21  PO/21-105499        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  6/24/21 14:35:50           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S590157            R     5      3     0/00/00    6/09/21  PO/21-105499        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/24/21 14:36:06           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S590157            R     5      3     0/00/00    6/09/21  PO/21-105499        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/24/21 14:36:21           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S590157            R     5      3     0/00/00    6/09/21  PO/21-105499        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 DHL COLLECT INTL                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 616W-3M-LCD DIFFERENTIAL                                     Y Y Y Y Y Y 
+   200 PRESSURE TRANSMITTER,                                        Y Y Y Y Y Y 
+   300 RANGE 0-2.5 KPA                                              Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

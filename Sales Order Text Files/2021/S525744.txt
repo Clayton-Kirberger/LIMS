@@ -1,0 +1,176 @@
+  2/12/21 11:41:46           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S525744          R    14    10     S    0/00/00   1/26/21  IN55859             
+    Partial Shipments Allowed  FOB:EXW DWYER FACT                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  8193099   8193099  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: michelle@gosair.co.za               3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   02 C  124538-25             1       0        0        1   1/27/21   1        
+   03 C  101606-34             2       0        0        2   1/29/21   1        
+   04 C  100069-00            35       0        0       35   2/05/21   1        
+   05 C  200098-03             2       0        0        2   1/29/21   1        
+   06 F  200098-10            10      10        0        0   0/00/00   0        
+   07 C  116212-30             4       0        0        4   1/29/21   1        
+   08 C  169086-00             3       0        0        3   2/09/21   1        
+   09 C  102414-00             2       0        0        2   2/02/21   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  2/12/21 11:42:01          Order Display                               (DWOE10)
+                                                                                
+ Order #: S525744       Customer #:    8193099  GOSAIR INSTRUMENTS PTY LTD      
+ P.O.#:   IN55859                                                               
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124538-25       LTS-N21G-025                         1     224.80      224.80  
+ 101606-34       MS-312-LCD                           2     118.56      237.12  
+ 100069-00       MARK II M-700PA                     35      25.84      904.40  
+ 200098-03       A-104                                2      51.48      102.96  
+ 200098-10       A-101                               10       5.91       59.10  
+ 116212-30       RMA-34-SSV                           4      37.05      148.20  
+ 169086-00       169086-00, SPECIAL SERIES            3     230.10      690.30  
+ 102414-00       2300-100PA                           2      58.50      117.00  
+ 116277-30       RMA-25-SSV                          10      34.68      346.80  
+ 3000MRS52574411 3300MR-120PA                         5     282.36     1411.80  
+ 100791-00       TDFS2-1-P-06                         1     161.30      161.3 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             6560.20  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                6560.20  
+
+  2/12/21 11:42:26           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   8193099                               
+      Name: GOSAIR INSTRUMENTS PTY LTD                                          
+   Address: PO BOX 12648                                                        
+                                                                                
+                                                                                
+      City: CHLOORKOP                                                           
+     State:      Country: SOUTH AFRICA     Zip Code: 1624                       
+ Exp Cn Cd:        Phone:  118226709                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ MICHELLE RHEEDER                T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   8193099                                A                        2            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: michelle@gosair.co.za                                          
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/12/21 11:42:40           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S525744            R    14     10     0/00/00    1/26/21  IN55859             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8193099   8193099  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  2/12/21 11:42:55           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S525744            R    14     10     0/00/00    1/26/21  IN55859             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8193099   8193099  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/12/21 11:43:11           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S525744            R    14     10     0/00/00    1/26/21  IN55859             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8193099   8193099  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  2/12/21 11:43:26           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S525744            R    14     10     0/00/00    1/26/21  IN55859             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   8193099   8193099  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 LTS-N21G-025                                                 Y Y Y Y Y Y 
+   200 NON HG SWITCH, 6" STEEL                                      Y Y Y Y Y Y 
+   300 STANDARD, 25' CABLE                                          Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

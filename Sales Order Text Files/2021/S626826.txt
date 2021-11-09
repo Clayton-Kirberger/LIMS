@@ -1,0 +1,176 @@
+  9/20/21 11:12:51           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#: 284060    Credit Card Order Ord Srce: Web         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S626826          R     2           S    0/00/00   9/02/21  PR26517-DAVID BJORKM
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 41504800  41504800  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: hokane@triumphgroup.com             3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124088-33             1       1        0        0   0/00/00   0       8
+   02 F  NISTCAL-FL1           1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/20/21 11:13:05          Order Display                               (DWOE10)
+                                                                                
+ Order #: S626826       Customer #:   41504800  TRIUMPH GEAR SYSTEMS            
+ P.O.#:   PR26517-DAVID BJORKM                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124088-33       VA20440                              1     204.00      204.00  
+ NISTCAL-FL1     NISTCAL-FL1, NIST                    1     268.00      268.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              472.00  
+                                                  Shipping/Handling             
+                                                  Tax                    42.72  
+                                                                    ----------  
+ F12=Previous                                     Total                 514.72  
+
+  9/20/21 11:13:31           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  41504800                               
+      Name: TRIUMPH GEAR SYSTEMS                                                
+   Address: 6125 SILVER CREEK DR                                                
+                                                                                
+                                                                                
+      City: PARK CITY                                                           
+     State: UT   Country:                  Zip Code: 840986242                  
+ Exp Cn Cd:        Phone: 3212431655                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DEANNA PASKETT                  T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  41504800            356698   002007006  A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: eracuna@triumphgroup.com                                       
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/20/21 11:13:45           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S626826            R     2            0/00/00    9/02/21  PR26517-DAVID BJORKM
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  41504800  41504800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+     1                               WEB ORDER 284060               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/20/21 11:14:00           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S626826            R     2            0/00/00    9/02/21  PR26517-DAVID BJORKM
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  41504800  41504800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/20/21 11:14:17           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S626826            R     2            0/00/00    9/02/21  PR26517-DAVID BJORKM
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  41504800  41504800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/20/21 11:14:32           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S626826            R     2            0/00/00    9/02/21  PR26517-DAVID BJORKM
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  41504800  41504800  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 VA20440 VARIABLE AREA GLASS                                  Y Y Y Y Y Y 
+   200 FLOWMETER,150MM, 93.93 SCFH                                  Y Y Y Y Y Y 
+   300 AIR, ALUMINUM FRAME, STAIN-                                  Y Y Y Y Y Y 
+   400 LESS STEEL FLOAT, ALUMINUM                                   Y Y Y Y Y Y 
+   500 FITTINGS                                                     Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

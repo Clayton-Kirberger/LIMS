@@ -1,0 +1,176 @@
+ 10/30/18 16:04:58           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S115059          R     7     5     S    0/00/00  10/17/18  A999993897          
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  4997900   4997900  E    Y   0/00/00          FEDEX GROUND PREPAID             
+ E-Mail: jdavison@htlyons.com                3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   02 C  100765-07             1       0        0        1  10/17/18   1        
+   03 C  100765-18             1       0        0        1  10/18/18   1        
+   04 C  100765-03             1       0        0        1  10/17/18   1        
+   05 C  100765-04             1       0        0        1  10/17/18   1        
+   06 R  100731-98             1       1        0        0   0/00/00   0        
+   07 F  100776-07             2       2        0        0   0/00/00   0        
+   08 C  MISC                  1       0        0        1  10/26/18   1        
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/30/18 16:05:06          Order Display                               (DWOE10)
+                                                                                
+ Order #: S115059       Customer #:    4997900  HT LYONS INC                    
+ P.O.#:   A999993897                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 100765-07       A-SAH-12P                            1      51.00       51.00  
+ 100765-18       A-SAH-BK                             1     467.50      467.50  
+ 100765-03       A-SAH-14S                            1     127.50      127.50  
+ 100765-04       A-SAH-24S                            1     127.50      127.50  
+ 100731-98       AQTIAP-WDPM-002-PKIT                 1    2545.75     2545.75  
+ 100776-07       490W-6-HKIT-NIST                     2    2638.40     5276.80  
+ MISC            MISC 7500                            1    2244.00     2244.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            10840.05  
+                                                  Shipping/Handling      67.56  
+                                                  Tax                   654.46  
+                                                                    ----------  
+ F12=Previous                                     Total               11562.07  
+
+ 10/30/18 16:05:12           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   4997900                               
+      Name: HT LYONS INC                                                        
+   Address: 7165 AMBASSADOR DR                                                  
+                                                                                
+                                                                                
+      City: ALLENTOWN                                                           
+     State: PA   Country:                  Zip Code: 181069255                  
+ Exp Cn Cd:        Phone: 6105302600                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ DAVID MEASE JR                  T01  NET 30 DAYS                       5B      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   4997900            5000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       ML       N      F        045     M    
+ E-Mail Address: jpodwats@pplweb.com                                            
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/30/18 16:05:17           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S115059            R     7      5     0/00/00   10/17/18  A999993897          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/30/18 16:05:24           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S115059            R     7      5     0/00/00   10/17/18  A999993897          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/30/18 16:05:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S115059            R     7      5     0/00/00   10/17/18  A999993897          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/30/18 16:05:36           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S115059            R     7      5     0/00/00   10/17/18  A999993897          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   4997900   4997900  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 A-SAH-12P, REPLACEMENT SAH                                   Y Y Y Y Y Y 
+   200 EXTENDABLE POLE, 4.5'TO 12'                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

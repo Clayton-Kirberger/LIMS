@@ -1,0 +1,176 @@
+ 12/09/20 08:58:19           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S502262          R     7     6     S    0/00/00  12/02/20  PO1563074           
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  5549900   5549900  E    Y   0/00/00          FEDEX GRND BILL RECIPIENT        
+ E-Mail: Order.Confirmation@kele.com         3rd Party Billing#: 984169191      
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  124769-08             1       0        0        1  12/03/20   1        
+   02 C  124723-01            25       0        0       25  12/03/20   1        
+   03 F  RHPW  S50226203       4       4        0        0   0/00/00   0        
+   04 C  MS2   S50226204       3       0        0        3  12/07/20   1        
+   05 C  MS2   S50226205       6       0        0        6  12/07/20   1        
+   06 C  120021-00             1       0        0        1  12/04/20   1        
+   07 C  124939-03             1       0        0        1  12/03/20   1        
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 12/09/20 08:58:34          Order Display                               (DWOE10)
+                                                                                
+ Order #: S502262       Customer #:    5549900  KELE & ASSOCIATES               
+ P.O.#:   PO1563074                                                             
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124769-08       3100D-5-FM-1-1-LCD                   1     848.40      848.40  
+ 124723-01       CC1-GY                              25       1.50       37.50  
+ RHPW  S50226203 RHP-2W22-LCD-NIST                    4     218.65      874.60  
+ MS2   S50226204 MS2-W101-LCD-NIST                    3     173.94      521.82  
+ MS2   S50226205 MS2-W102-LCD-NIST                    6     173.94     1043.64  
+ 120021-00       SFI-700-1                            1     272.00      272.00  
+ 124939-03       WMT2-A-C-04                          1     116.00      116.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             3713.96  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                3713.96  
+
+ 12/09/20 08:58:59           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   5549900                               
+      Name: KELE & ASSOCIATES                                                   
+   Address: 3300 BROTHER BLVD                                                   
+                                                                                
+                                                                                
+      City: MEMPHIS                                                             
+     State: TN   Country:                  Zip Code: 381338950                  
+ Exp Cn Cd:        Phone: 9013824300                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ KELLY WHITEHEAD                 T01  NET 30 DAYS                       6C      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   5549900            5050                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        045     E    
+ E-Mail Address: Order.Confirmation@kele.com                                    
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 12/09/20 08:59:13           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S502262            R     7      6     0/00/00   12/02/20  PO1563074           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   5549900   5549900  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 12/09/20 08:59:28           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S502262            R     7      6     0/00/00   12/02/20  PO1563074           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   5549900   5549900  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 12/09/20 08:59:44           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S502262            R     7      6     0/00/00   12/02/20  PO1563074           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   5549900   5549900  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 12/09/20 09:00:00           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S502262            R     7      6     0/00/00   12/02/20  PO1563074           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   5549900   5549900  E                 FEDEX GRND BILL RECIPIENT               
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 3100D-5-FM-1-1-LCD EXPLOS-                                   Y Y Y Y Y Y 
+   200 ION PROOF SMART PRESSURE                                     Y Y Y Y Y Y 
+   300 TRANSMITTER, RANGE 0-100                                     Y Y Y Y Y Y 
+   400 PSI WITH LCD DISPLAY                                         Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

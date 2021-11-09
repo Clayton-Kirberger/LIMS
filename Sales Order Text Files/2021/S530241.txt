@@ -1,0 +1,176 @@
+  3/02/21 10:17:24           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S530241          R    10           S    0/00/00   2/04/21  FP0011416           
+  * No Partial Shipments *     FOB:EXW DWYER FACT                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 48168300  48168300  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: reah.magnaye@skmaircon.com          3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  BTT   S53024101       6       6        0        0   0/00/00   0       0
+   02 F  TTE   S53024102       3       3        0        0   0/00/00   0       3
+   03 F  100395-00             3       3        0        0   0/00/00   0      25
+   05 F  RHP   S53024105      12      12        0        0   0/00/00   0       0
+   06 F  100395-00            12      12        0        0   0/00/00   0      25
+   07 F  124606-20             9       9        0        0   0/00/00   0    3873
+   08 F  124606-43             9       9        0        0   0/00/00   0    4268
+   10 F  MS2   S53024110      12      12        0        0   0/00/00   0      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  3/02/21 10:17:38          Order Display                               (DWOE10)
+                                                                                
+ Order #: S530241       Customer #:   48168300  S K M AIR CONDITIONING LLC      
+ P.O.#:   FP0011416                                                             
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ BTT   S53024101 BTT-D04-1-NIST                       6      63.00      378.00  
+ TTE   S53024102 TTE-204-W-LCD-M20                    3     488.00     1464.00  
+ 100395-00       A-287                                3      10.00       30.00  
+ RHP   S53024105 RHP-2O10-NIST                       12      78.60      943.20  
+ 100395-00       A-287                               12       7.88       94.56  
+ 124606-20       ADPS-08-2-N                          9      13.65      122.85  
+ 124606-43       A-481                                9       2.70       24.30  
+ MS2   S53024110 MS2-W102-LCD-FC                     12      81.84      982.08  
+ 420223-00       A-324                               12       3.08       36.96  
+ BTT   S53024112 BTT-O25-1-FC                        15      72.60     1089.00  
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             5164.95  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                5164.95  
+
+  3/02/21 10:18:04           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  48168300                               
+      Name: S K M AIR CONDITIONING LLC                                          
+   Address: P.O BOX 6004                                                        
+                                                                                
+                                                                                
+      City: SHARJAH                                                             
+     State:      Country: U A E            Zip Code:                            
+ Exp Cn Cd:        Phone: 7165143333                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ REAH MAGNAYE                    T02  NET 60 DAYS                       7IB     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  48168300                                A                      9              
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       EM       N      F        060     E    
+ E-Mail Address: reah.magnaye@skmaircon.com                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/02/21 10:18:18           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S530241            R    10            0/00/00    2/04/21  FP0011416           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48168300  48168300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  3/02/21 10:18:33           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S530241            R    10            0/00/00    2/04/21  FP0011416           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48168300  48168300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/02/21 10:18:49           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S530241            R    10            0/00/00    2/04/21  FP0011416           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48168300  48168300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  3/02/21 10:19:04           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S530241            R    10            0/00/00    2/04/21  FP0011416           
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  48168300  48168300  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 BTT-D04-1-NIST                                               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

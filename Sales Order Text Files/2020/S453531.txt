@@ -1,0 +1,176 @@
+  8/28/20 09:21:22           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S453531          R     4           S    0/00/00   8/21/20  R/20-00733          
+  * No Partial Shipments *     FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 36170400  36170400  E    Y   0/00/00          TRUCK PREPAID                    
+ E-Mail: sico@sicocv.es                      3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  101606-31             8       8        0        0   0/00/00   0      67
+   02 F  124606-20            12      12        0        0   0/00/00   0    4783
+   03 F  RHP   S45353103       1       1        0        0   0/00/00   0       0
+   04 F  BTT   S45353104       1       1        0        0   0/00/00   0       1
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  8/28/20 09:21:37          Order Display                               (DWOE10)
+                                                                                
+ Order #: S453531       Customer #:   36170400  SISTEMAS DE CONTROL CV SL       
+ P.O.#:   R/20-00733                                                            
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 101606-31       MS-121-LCD                           8      66.52      532.16  
+ 124606-20       ADPS-08-2-N                         12      13.65      163.80  
+ RHP   S45353103 RHP-2S11-NIST                        1     233.13      233.13  
+ BTT   S45353104 BTT-D25-1-NIST                       1     153.10      153.10  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1082.19  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1082.19  
+
+  8/28/20 09:22:02           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  36170400                               
+      Name: SISTEMAS DE CONTROL CV SL                                           
+   Address: CALLE RIU VINALOPO N 15-17                                          
+            NAVE C-4 POLG INDL FONPOR                                           
+            QUART DE POBLET                                                     
+      City: VALENCIA                                                            
+     State:      Country: SPAIN            Zip Code: 46930                      
+ Exp Cn Cd:        Phone: 4963953815                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ANTONIO COGOLLOS                T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  36170400                                A                        3            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          EM       N      F        060     E    
+ E-Mail Address: sico@sicocv.es                                                 
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/28/20 09:22:16           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S453531            R     4            0/00/00    8/21/20  R/20-00733          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  36170400  36170400  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  8/28/20 09:22:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S453531            R     4            0/00/00    8/21/20  R/20-00733          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  36170400  36170400  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/28/20 09:22:47           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S453531            R     4            0/00/00    8/21/20  R/20-00733          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  36170400  36170400  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  8/28/20 09:23:02           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S453531            R     4            0/00/00    8/21/20  R/20-00733          
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  36170400  36170400  E                 TRUCK PREPAID                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 MS-121-LCD MAGNESENSE                                        Y Y Y Y Y Y 
+   200 TRANSMITTER, LOW RANGE,                                      Y Y Y Y Y Y 
+   300 4-20MA OUTPUT, WALL MOUNT                                    Y Y Y Y Y Y 
+   400 WITH LCD DISPLAY                                             Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

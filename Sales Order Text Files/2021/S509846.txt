@@ -1,0 +1,176 @@
+  1/29/21 10:33:18           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S509846          R     4     3     S    0/00/00  12/17/20  VERBAL ERIK         
+    Partial Shipments Allowed  FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 38471800  38471800  E    Y   0/00/00          FEDEX GROUND PREPAID             
+ E-Mail: erik@technicalbalance.tech          3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  101932-00             1       1        0        0   0/00/00   0        
+   02 C  100765-26             1       0        0        1  12/29/20   1        
+   03 C  100765-04             1       0        0        1   1/06/21   1        
+   04 C  100765-18             1       0        0        1  12/28/20   1        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  1/29/21 10:33:32          Order Display                               (DWOE10)
+                                                                                
+ Order #: S509846       Customer #:   38471800  TECHNICAL BALANCE LLC           
+ P.O.#:   VERBAL ERIK                                                           
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 101932-00       TABKIT-NIST                          1    4875.00     4875.00  
+ 100765-26       SAH-22HC                             1    3060.00     3060.00  
+ 100765-04       A-SAH-24S                            1     135.00      135.00  
+ 100765-18       A-SAH-BK                             1     585.00      585.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             8655.00  
+                                                  Shipping/Handling     265.61  
+                                                  Tax                   624.44  
+                                                                    ----------  
+ F12=Previous                                     Total                9545.05  
+
+  1/29/21 10:33:58           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  38471800                               
+      Name: TECHNICAL BALANCE LLC                                               
+   Address: 1027 HARRISON ST                                                    
+                                                                                
+                                                                                
+      City: INDIANAPOLIS                                                        
+     State: IN   Country:                  Zip Code: 462024024                  
+ Exp Cn Cd:        Phone: 3172960628                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ ERIK PFARR                      T04  ADVANCE PAYMENT                   4       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  38471800            1000                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       ML       N               045     M    
+ E-Mail Address: mapfarr2751@gmail.com                                          
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/29/21 10:34:12           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509846            R     4      3     0/00/00   12/17/20  VERBAL ERIK         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  1/29/21 10:34:27           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509846            R     4      3     0/00/00   12/17/20  VERBAL ERIK         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/29/21 10:34:43           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509846            R     4      3     0/00/00   12/17/20  VERBAL ERIK         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  1/29/21 10:34:58           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S509846            R     4      3     0/00/00   12/17/20  VERBAL ERIK         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  38471800  38471800  E                 FEDEX GROUND PREPAID                    
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 TABKIT-NIST, COMPLETE NIST                                   Y Y Y Y Y Y 
+   200 CALIBRATED TEST, ADJUST AND                                  Y Y Y Y Y Y 
+   300 BALANCE KIT WITH A HARD                                      Y Y Y Y Y Y 
+   400 CARRYING CASE.                                               Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

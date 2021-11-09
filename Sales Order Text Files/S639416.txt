@@ -1,0 +1,176 @@
+ 10/12/21 08:32:10           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:           Credit Card Order Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S639416          R    12    10     S    0/00/00  10/04/21  489477              
+    Partial Shipments Allowed  FOB:FOB FACTORY-FI                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 26752200  26752200  E    Y   0/00/00          UPS COLLECT                      
+ E-Mail: rbarre@setpointis.com               3rd Party Billing#: 710008         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  VFB   S63941601       1       0        0        1  10/05/21   1        
+   02 C  VFB   S63941602       1       0        0        1  10/05/21   1        
+   03 C  VFB   S63941603       1       0        0        1  10/05/21   1        
+   04 F  RMC   S63941604       1       1        0        0   0/00/00   0        
+   05 F  RMB   S63941605       1       1        0        0   0/00/00   0        
+   06 C  RMB   S63941606       1       0        0        1  10/08/21   1        
+   07 C  RMB   S63941607       1       0        0        1  10/08/21   1        
+   08 C  RMA   S63941608       1       0        0        1  10/08/21   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes   F22=Credit Card Inf
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+ 10/12/21 08:32:25          Order Display                               (DWOE10)
+                                                                                
+ Order #: S639416       Customer #:   26752200  SETPOINT INTEGRATED SOLUTIONS   
+ P.O.#:   489477                                                                
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ VFB   S63941601 VFB-50-NIST                          1     285.00      285.00  
+ VFB   S63941602 VFB-52-NIST                          1     285.00      285.00  
+ VFB   S63941603 VFB-55-NIST                          1     285.00      285.00  
+ RMC   S63941604 RMC-108-SSV-NIST                     1     373.00      373.00  
+ RMB   S63941605 RMB-56-SSV-NIST                      1     293.40      293.40  
+ RMB   S63941606 RMB-52-SSV-NIST                      1     293.40      293.40  
+ RMB   S63941607 RMB-49-SSV-NIST                      1     293.40      293.40  
+ RMA   S63941608 RMA-2-SSV-NIST                       1     281.00      281.00  
+ 116200-30       RMA-2-SSV                            1      44.00       44.00  
+ 116203-30       RMA-5-SSV                            1      44.00       44.00  
+ 116206-30       RMA-8-SSV                            1      44.00       44.0 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             2577.60  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                2577.60  
+
+ 10/12/21 08:32:51           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  26752200                               
+      Name: SETPOINT INTEGRATED SOLUTIONS                                       
+   Address: 19011 HIGHLAND RD                                                   
+                                                                                
+                                                                                
+      City: BATON ROUGE                                                         
+     State: LA   Country:                  Zip Code: 708096118                  
+ Exp Cn Cd:        Phone: 2257533290                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ RAVIN BARRE                     T04  ADVANCE PAYMENT                   6       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  26752200            999977   002007006  A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  Q       EM       N      F        045     M    
+ E-Mail Address: kjohnston@4dmc.com                                             
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/12/21 08:33:05           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S639416            R    12     10     0/00/00   10/04/21  489477              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26752200  26752200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+ 10/12/21 08:33:20           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S639416            R    12     10     0/00/00   10/04/21  489477              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26752200  26752200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+   100 SHOP CONSUMAB LES-REPAIR                                     Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/12/21 08:33:36           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S639416            R    12     10     0/00/00   10/04/21  489477              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26752200  26752200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+ 10/12/21 08:33:52           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S639416            R    12     10     0/00/00   10/04/21  489477              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  26752200  26752200  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 VFB-50-NIST                                                  Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

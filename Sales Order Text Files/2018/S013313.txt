@@ -1,0 +1,176 @@
+  4/27/18 10:46:56           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S013313          R     6     1     S    0/00/00   4/18/18  6657449             
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+  3508400   3508400  E    Y   0/00/00          UPS COLLECT                      
+ E-Mail: Lety.mendietta@rawsonlp.com         3rd Party Billing#: 53WA44         
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  114025-50             5       0        0        5   4/18/18   1        
+   02 F  DH3   S01331302       4       4        0        0   0/00/00   0        
+   04 F  DH3   S01331304       1       1        0        0   0/00/00   0        
+   05 F  DH3   S01331305       4       4        0        0   0/00/00   0        
+   06 F  DH3   S01331306       1       1        0        0   0/00/00   0        
+   07 F  ISDP  S01331307       2       2        0        0   0/00/00   0        
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/27/18 10:47:05          Order Display                               (DWOE10)
+                                                                                
+ Order #: S013313       Customer #:    3508400  INDUSTRIAL CONTROLS DIST LLC    
+ P.O.#:   6657449                                                               
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 114025-50       1831-1-RA-S                          5      92.00      460.00  
+ DH3   S01331302 DH3-002-NIST                         4     395.20     1580.80  
+ DH3   S01331304 DH3-006-NIST                         1     342.40      342.40  
+ DH3   S01331305 DH3-007-NIST                         4     342.40     1369.60  
+ DH3   S01331306 DH3-009-NIST                         1     342.40      342.40  
+ ISDP  S01331307 ISDP-006-NIST                        2     552.80     1105.60  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             5200.80  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                5200.80    
+
+4/27/18 10:47:11           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust   3508400                               
+      Name: INDUSTRIAL CONTROLS DIST LLC                                        
+   Address: PO BOX 924288                                                       
+                                                                                
+                                                                                
+      City: HOUSTON                                                             
+     State: TX   Country:                  Zip Code: 772924288                  
+ Exp Cn Cd:        Phone: 7136841406                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ LETY                            T01  NET 30 DAYS                       6T      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+   3508400            2800                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        045     M    
+ E-Mail Address: Lety.mendietta@rawsonlp.com                                    
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/27/18 10:47:15           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S013313            R     6      1     0/00/00    4/18/18  6657449             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3508400   3508400  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/27/18 10:47:20           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S013313            R     6      1     0/00/00    4/18/18  6657449             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3508400   3508400  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/27/18 10:47:26           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S013313            R     6      1     0/00/00    4/18/18  6657449             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3508400   3508400  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/27/18 10:47:31           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S013313            R     6      1     0/00/00    4/18/18  6657449             
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+   3508400   3508400  E                 UPS COLLECT                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 1831-1-RA-S, MANUAL RESET                                    Y Y Y Y Y Y 
+   200 DPDT LOW DIFF PRESS SWITCH,                                  Y Y Y Y Y Y 
+   300 ACTIVATES ON INCREASE,                                       Y Y Y Y Y Y 
+   400 SILICONE DIA., 2.5-9" WC                                     Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

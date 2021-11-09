@@ -1,0 +1,176 @@
+  9/22/21 08:20:21           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S627876          R     6     3     S    0/00/00   9/07/21  181511              
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 13730400  13730400  E    Y   0/00/00          UPS PREPAID                      
+ E-Mail: Rberndt@westernallied.com           3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  RHP   S62787601       2       2        0        0   0/00/00   0        
+   02 F  RHP   S62787602       3       3        0        0   0/00/00   0        
+   03 F  MSX   S62787603       3       3        0        0   0/00/00   0        
+   04 C  124606-43             3       0        0        3   9/07/21   1        
+   05 C  100234-00             3       0        0        3   9/07/21   1        
+   06 C  101696-00             1       0        0        1   9/07/21   1        
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/22/21 08:20:35          Order Display                               (DWOE10)
+                                                                                
+ Order #: S627876       Customer #:   13730400  WESTERN ALLIED MECHANICAL       
+ P.O.#:   181511                                                                
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ RHP   S62787601 RHP-2D20-NIST                        2     221.00      442.00  
+ RHP   S62787602 RHP-2D2F-NIST                        3     233.40      700.20  
+ MSX   S62787603 MSX-W22-IN-LCD-NIST                  3     242.00      726.00  
+ 124606-43       A-481                                3       3.76       11.28  
+ 100234-00       A-306                                3      47.20      141.60  
+ 101696-00       616KD-06-V                           1      62.00       62.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             2083.08  
+                                                  Shipping/Handling      31.64  
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                2114.72  
+
+  9/22/21 08:21:01           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  13730400                               
+      Name: WESTERN ALLIED MECHANICAL                                           
+   Address: 1180 OBRIEN DR                                                      
+                                                                                
+                                                                                
+      City: MENLO PARK                                                          
+     State: CA   Country:                  Zip Code: 940251411                  
+ Exp Cn Cd:        Phone: 6503260750                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ RYAN BERNDT                     T01  NET 30 DAYS                       7B2     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  13730400            344403   001001003  A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  L       EM       N      F        045     E    
+ E-Mail Address: jfuncke@westernallied.com                                      
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/22/21 08:21:15           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S627876            R     6      3     0/00/00    9/07/21  181511              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13730400  13730400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/22/21 08:21:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S627876            R     6      3     0/00/00    9/07/21  181511              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13730400  13730400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/22/21 08:21:46           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S627876            R     6      3     0/00/00    9/07/21  181511              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13730400  13730400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/22/21 08:22:01           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S627876            R     6      3     0/00/00    9/07/21  181511              
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  13730400  13730400  E                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 RHP-2D20-NIST                                                Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

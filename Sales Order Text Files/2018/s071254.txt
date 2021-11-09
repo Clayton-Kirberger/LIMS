@@ -1,0 +1,176 @@
+  9/12/18 14:49:58           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S071254          R    10     9     S    0/00/00   8/01/18  PO/17-102237        
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 27883000  27883000  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: irene_teoh@processpneumatics.com    3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  DH3   S07125401       1       0        0        1   8/14/18   1        
+   02 C  100626-24             3       0        0        3   8/01/18   1        
+   03 C  100562-85            10       0        0       10   8/03/18   1        
+   04 C  TE    S07125404      10       0        0       10   8/03/18   1        
+   05 C  100562-00            10       0        0       10   8/03/18   1        
+   06 C  100675-20             8       0        0        8   8/03/18   1        
+   07 C  TE    S07125407      25       0        0       25   8/03/18   1        
+   08 C  100570-22            25       0        0       25   8/03/18   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/12/18 14:50:04          Order Display                               (DWOE10)
+                                                                                
+ Order #: S071254       Customer #:   27883000  P & P PROCESS & PNEUMATICS SDN  
+ P.O.#:   PO/17-102237                                                          
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ DH3   S07125401 DH3-003-FC                           1     248.82      248.82  
+ 100626-24       MAFS-24                              3      73.32      219.96  
+ 100562-85       TE-DFG-A0844-00                     10       6.25       62.50  
+ TE    S07125404 TE-IBG-A0844-00                     10       6.25       62.50  
+ 100562-00       TE-WND-A                            10       5.00       50.00  
+ 100675-20       TE-END-A                             8       4.50       36.00  
+ TE    S07125407 TE-ITG-A0644-00                     25       3.50       87.50  
+ 100570-22       TE-TNS-N063N-00                     25       6.75      168.75  
+ 101606-00       MS-111                              22      42.00      924.00  
+ RHP   S07125410 RHP-3S11-NIST                      122     126.00    15372.00  
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            17232.03  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               17232.03    
+
+9/12/18 14:50:10           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  27883000                               
+      Name: P & P PROCESS & PNEUMATICS SDN                                      
+   Address: GST NO 000170917888                                                 
+            17 JALAN PANTAI JERTAK                                              
+            SUNGAI NIBONG                                                       
+      City: PENANG                                                              
+     State:      Country: MALAYSIA         Zip Code: 11900                      
+ Exp Cn Cd:        Phone: 6046598286                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ IRENE TEOH                      T02  NET 60 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  27883000                                A                      011            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: irene_teoh@processpneumatics.com                               
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:50:14           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S071254            R    10      9     0/00/00    8/01/18  PO/17-102237        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:50:20           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S071254            R    10      9     0/00/00    8/01/18  PO/17-102237        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:50:25           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S071254            R    10      9     0/00/00    8/01/18  PO/17-102237        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/12/18 14:50:30           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S071254            R    10      9     0/00/00    8/01/18  PO/17-102237        
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  27883000  27883000  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 DH3-003-FC                                                   Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

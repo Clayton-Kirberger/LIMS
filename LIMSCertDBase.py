@@ -457,7 +457,7 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_number_checker(self):
         self.__init__()
 
-        excel = win32com.client.dynamic.Dispatch("Excel.Application")
+        excel = win32com.client.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 

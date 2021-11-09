@@ -1,0 +1,176 @@
+  7/20/20 14:29:33           Open Sales Order Display                   (S939C2)
+            Hold  Web Order#:                             Ord Srce: RMA         
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S437074          R     5           S    0/00/00   7/20/20  NIST RMA 1948       
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 35028100  35028100  N    -   0/00/00          UPS PREPAID                      
+ E-Mail: kkouts@okamotosandusky.com          3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 F  R*P00 S43707401       1       1        0        0   0/00/00   0        
+   02 F  R*P00 S43707402       1       1        0        0   0/00/00   0        
+   03 F  R*P00 S43707403       1       1        0        0   0/00/00   0        
+   04 F  R*P00 S43707404       1       1        0        0   0/00/00   0        
+   05 F  R*P00 S43707405       1       1        0        0   0/00/00   0        
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  7/20/20 14:29:48          Order Display                               (DWOE10)
+                                                                                
+ Order #: S437074       Customer #:   35028100  OKAMOTO SANDUSKY MFG            
+ P.O.#:   NIST RMA 1948                                                         
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ R*P00 S43707401 R*P00 607-3B NIST                    1     139.00      139.00  
+ R*P00 S43707402 R*P00 607-3B NIST                    1     139.00      139.00  
+ R*P00 S43707403 R*P00 607-3B NIST                    1     139.00      139.00  
+ R*P00 S43707404 R*P00 607-3B NIST                    1     139.00      139.00  
+ R*P00 S43707405 R*P00 607-3B NIST                    1     139.00      139.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal              695.00  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                 695.00  
+
+  7/20/20 14:30:13           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  35028100                               
+      Name: OKAMOTO SANDUSKY MFG                                                
+   Address: 3130 W MONROE ST                                                    
+                                                                                
+                                                                                
+      City: SANDUSKY                                                            
+     State: OH   Country:                  Zip Code: 448701811                  
+ Exp Cn Cd:        Phone: 4196261633                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ KEITH  419 626 1633 X232        T01  NET 30 DAYS                       5       
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  35028100                                A                                     
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                          ML       N               045     M    
+ E-Mail Address: kkouts@okamotosandusky.com                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/20/20 14:30:28           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S437074            R     5            0/00/00    7/20/20  NIST RMA 1948       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35028100  35028100  N                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+   100 RMA 1948                                                     Y Y Y Y Y Y 
+   200 NIST REQUEST - 5 UNITS                                       Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  7/20/20 14:30:43           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S437074            R     5            0/00/00    7/20/20  NIST RMA 1948       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35028100  35028100  N                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/20/20 14:30:59           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S437074            R     5            0/00/00    7/20/20  NIST RMA 1948       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35028100  35028100  N                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  7/20/20 14:31:14           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S437074            R     5            0/00/00    7/20/20  NIST RMA 1948       
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  35028100  35028100  N                 UPS PREPAID                             
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 R*P00 607-3B NIST                                            Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

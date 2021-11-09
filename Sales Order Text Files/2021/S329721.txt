@@ -1,0 +1,176 @@
+  7/28/21 08:26:00           Open Sales Order Display                   (S93901)
+                                                                                
+                                                                                
+    Order Number                                                                
+    S329721                                                                     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Ent = Process      F05 = Closed Order Inquiry                                  
+ F03 = Return       F12 = Previous        F19 = Deleted Order/Item              
+ Sales Order not found - try closed order inquiry                               
+
+  7/28/21 08:26:00           Open Sales Order Display                   (S93901)
+                                                                                
+                                                                                
+    Order Number                                                                
+    X329721                                                                     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Ent = Process      F05 = Closed Order Inquiry                                  
+ F03 = Return       F12 = Previous        F19 = Deleted Order/Item              
+ Sales Order not found - try closed order inquiry                               
+
+  7/28/21 08:26:38                  Sales Inquiry Menu            (SALESINQS )  
+ CORPORATE D/B-SALES WAREHOUSE     ***** Displays  ****                         
+ 935   Grainger/J Deere/Trane Inquiry  801   Specific Ship Day Cust/Mait        
+ 006   Features / Opts Quotes          865   Inventory History                  
+ 117   Special Range File Inquiry      868   Order History                      
+ 180   Single Level Explosion          870   Part Master                        
+ 181   Single Level Where Used         878   PDB Inquiry                        
+ 186   Disply WHS INV (DWY700)         908   Summary Inventory                  
+ 655   Sales Quote Inquiry             939   S. O. Display                      
+ 662   S. O. Search                    940   Part#/Cat# X-REF                   
+ 668   Packed/Shipped                  940X  Obs/Phase Out Inquiry              
+ 670   Cross Reference Display         950   Customer Master Inquiry            
+ 182B  Single Level Bldthr EXP         985   Display Availability               
+ 777   Sales Part Configurator         2066  Sales Codes Display                
+ 653   Price a Single Item             3015  Sales Analysis Inquiry             
+ 860   Pur/Ord by Order #              2078  Cust Special Log Inquiry           
+ 860A  Pur/Ord by Vendor #             2079  Cust Special Log Maintenance       
+ 861   Purchase Order by Part #        R50   Returns P.O. Lookup                
+ 386   P.O./MRO by Requestor           799   Repair Charges Display             
+ 182   Indented Explosion                                                 More..
+ Key Option Or Command                                                          
+ F03 = Exit        F04 = Prompt              F06 = Display Messages             
+ F12 = Previous    F18 = Work With Output    F08 = Customer Lookup by Phone#    
+                                                                                
+
+  7/28/21 08:26:38                  Sales Inquiry Menu            (SALESINQS )  
+ CORPORATE D/B-SALES WAREHOUSE     ***** Displays  ****                         
+ 935   Grainger/J Deere/Trane Inquiry  801   Specific Ship Day Cust/Mait        
+ 006   Features / Opts Quotes          865   Inventory History                  
+ 117   Special Range File Inquiry      868   Order History                      
+ 180   Single Level Explosion          870   Part Master                        
+ 181   Single Level Where Used         878   PDB Inquiry                        
+ 186   Disply WHS INV (DWY700)         908   Summary Inventory                  
+ 655   Sales Quote Inquiry             939   S. O. Display                      
+ 662   S. O. Search                    940   Part#/Cat# X-REF                   
+ 668   Packed/Shipped                  940X  Obs/Phase Out Inquiry              
+ 670   Cross Reference Display         950   Customer Master Inquiry            
+ 182B  Single Level Bldthr EXP         985   Display Availability               
+ 777   Sales Part Configurator         2066  Sales Codes Display                
+ 653   Price a Single Item             3015  Sales Analysis Inquiry             
+ 860   Pur/Ord by Order #              2078  Cust Special Log Inquiry           
+ 860A  Pur/Ord by Vendor #             2079  Cust Special Log Maintenance       
+ 861   Purchase Order by Part #        R50   Returns P.O. Lookup                
+ 386   P.O./MRO by Requestor           799   Repair Charges Display             
+ 182   Indented Explosion                                                 More..
+ Key Option Or Command                                                          
+ F03 = Exit        F04 = Prompt              F06 = Display Messages             
+ F12 = Previous    F18 = Work With Output    F08 = Customer Lookup by Phone#    
+                                                                                
+
+  7/28/21 08:26:38                  Sales Inquiry Menu            (SALESINQS )  
+ CORPORATE D/B-SALES WAREHOUSE     ***** Displays  ****                         
+ 935   Grainger/J Deere/Trane Inquiry  801   Specific Ship Day Cust/Mait        
+ 006   Features / Opts Quotes          865   Inventory History                  
+ 117   Special Range File Inquiry      868   Order History                      
+ 180   Single Level Explosion          870   Part Master                        
+ 181   Single Level Where Used         878   PDB Inquiry                        
+ 186   Disply WHS INV (DWY700)         908   Summary Inventory                  
+ 655   Sales Quote Inquiry             939   S. O. Display                      
+ 662   S. O. Search                    940   Part#/Cat# X-REF                   
+ 668   Packed/Shipped                  940X  Obs/Phase Out Inquiry              
+ 670   Cross Reference Display         950   Customer Master Inquiry            
+ 182B  Single Level Bldthr EXP         985   Display Availability               
+ 777   Sales Part Configurator         2066  Sales Codes Display                
+ 653   Price a Single Item             3015  Sales Analysis Inquiry             
+ 860   Pur/Ord by Order #              2078  Cust Special Log Inquiry           
+ 860A  Pur/Ord by Vendor #             2079  Cust Special Log Maintenance       
+ 861   Purchase Order by Part #        R50   Returns P.O. Lookup                
+ 386   P.O./MRO by Requestor           799   Repair Charges Display             
+ 182   Indented Explosion                                                 More..
+ Key Option Or Command                                                          
+ F03 = Exit        F04 = Prompt              F06 = Display Messages             
+ F12 = Previous    F18 = Work With Output    F08 = Customer Lookup by Phone#    
+                                                                                
+
+  7/28/21 08:26:38                  Sales Inquiry Menu            (SALESINQS )  
+ CORPORATE D/B-SALES WAREHOUSE     ***** Displays  ****                         
+ 935   Grainger/J Deere/Trane Inquiry  801   Specific Ship Day Cust/Mait        
+ 006   Features / Opts Quotes          865   Inventory History                  
+ 117   Special Range File Inquiry      868   Order History                      
+ 180   Single Level Explosion          870   Part Master                        
+ 181   Single Level Where Used         878   PDB Inquiry                        
+ 186   Disply WHS INV (DWY700)         908   Summary Inventory                  
+ 655   Sales Quote Inquiry             939   S. O. Display                      
+ 662   S. O. Search                    940   Part#/Cat# X-REF                   
+ 668   Packed/Shipped                  940X  Obs/Phase Out Inquiry              
+ 670   Cross Reference Display         950   Customer Master Inquiry            
+ 182B  Single Level Bldthr EXP         985   Display Availability               
+ 777   Sales Part Configurator         2066  Sales Codes Display                
+ 653   Price a Single Item             3015  Sales Analysis Inquiry             
+ 860   Pur/Ord by Order #              2078  Cust Special Log Inquiry           
+ 860A  Pur/Ord by Vendor #             2079  Cust Special Log Maintenance       
+ 861   Purchase Order by Part #        R50   Returns P.O. Lookup                
+ 386   P.O./MRO by Requestor           799   Repair Charges Display             
+ 182   Indented Explosion                                                 More..
+ Key Option Or Command                                                          
+ F03 = Exit        F04 = Prompt              F06 = Display Messages             
+ F12 = Previous    F18 = Work With Output    F08 = Customer Lookup by Phone#    
+                                                                                
+
+                          Work with All Spooled Files                           
+                                                                                
+ Type options, press Enter.                                                     
+   1=Send   2=Change   3=Hold   4=Delete   5=Display   6=Release   7=Messages   
+   8=Attributes        9=Work with printing status                              
+                                                                                
+                                                                                
+                              Device or                     Total     Cur       
+ Opt  File        User        Queue       User Data   Sts   Pages    Page  Copy 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV000P  RDY       2             1 
+      QPPGMDMP    RMASSNER    QEZDEBUG                RDY       2             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV001Z  RDY       2             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV0009  RDY       2             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV0009  RDY       2             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV001J  RDY       3             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV001R  RDY       3             1 
+      QPJOBLOG    RMASSNER    QEZJOBLOG   QPADEV001W  RDY       3             1 
+                                                                                
+                                                                         Bottom 
+ Parameters for options 1, 2, 3 or command                                      
+ ===>                                                                           
+ F3=Exit   F10=View 4   F11=View 2   F12=Cancel   F22=Printers   F24=More keys  
+                                                                                
+                                                                                
+
+

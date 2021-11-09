@@ -1,0 +1,176 @@
+                               Sign Off (SIGNOFF)                               
+                                                                                
+ Type choices, press Enter.                                                     
+                                                                                
+ Job log  . . . . . . . . . . . . > S160366       *NOLIST, *LIST                
+ Drop line  . . . . . . . . . . .   *DEVD         *DEVD, *YES, *NO              
+ End connection . . . . . . . . .   *NO           *NO, *YES                     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F3=Exit   F4=Prompt   F5=Refresh   F12=Cancel   F13=How to use this display    
+ F24=More keys                                                                  
+ 'S160366   ' not valid for parameter LOG.                                      
+
+                   Specify Value for Parameter LOG                              
+                                                                                
+ Type choice, press Enter.                                                      
+                                                                                
+                                                                                
+ Job log  . . . . . . . . . . . . > X160366                                     
+                                                                                
+   *NOLIST                                                                      
+   *LIST                                                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F3=Exit   F5=Refresh   F12=Cancel   F13=How to use this display   F24=More keys
+                                                                                
+ 'X160366   ' not valid for parameter LOG.                                      
+
+                               Sign Off (SIGNOFF)                               
+                                                                                
+ Type choices, press Enter.                                                     
+                                                                                
+ Job log  . . . . . . . . . . . . > X160366       *NOLIST, *LIST                
+ Drop line  . . . . . . . . . . .   *DEVD         *DEVD, *YES, *NO              
+ End connection . . . . . . . . .   *NO           *NO, *YES                     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F3=Exit   F4=Prompt   F5=Refresh   F12=Cancel   F13=How to use this display    
+ F24=More keys                                                                  
+ Function key not allowed.                                                    + 
+
+                               Sign Off (SIGNOFF)                               
+ .............................................................................. 
+ :                           Prompt Display - Help                            : 
+ :                                                                            : 
+ :  Prompt Display                                                            : 
+ :                                                                            : 
+ :      Selecting an option on a menu usually results in running a system     : 
+ :      command.  If more information is needed to complete the command, the  : 
+ :      system shows you an entry (prompt) display for the command.  This is  : 
+ :      the same prompt display that is shown if you type the command on a    : 
+ :      command line and press the F4 (Prompt) key.                           : 
+ :                                                                            : 
+ :      A prompt display is like a fill-in-the-blanks form with underlined    : 
+ :      entry fields for you to supply the information (values) needed to     : 
+ :      run the command.  Where possible, a system-supplied default value     : 
+ :      is provided for each field.  You can use the default value already    : 
+ :      shown in the field or type a different value over it.                 : 
+ :                                                                            : 
+ :      If a value is required to successfully run the command, the field is  : 
+ :                                                                   More...  : 
+ :  F3=Exit help   F10=Move to top   F12=Cancel   F13=Information Assistant   : 
+ :  F14=Print help                                                            : 
+ :                                                                            : 
+ :............................................................................: 
+
+                               Sign Off (SIGNOFF)                               
+ .............................................................................. 
+ :                           Prompt Display - Help                            : 
+ :                                                                            : 
+ :  Prompt Display                                                            : 
+ :                                                                            : 
+ :      Selecting an option on a menu usually results in running a system     : 
+ :      command.  If more information is needed to complete the command, the  : 
+ :      system shows you an entry (prompt) display for the command.  This is  : 
+ :      the same prompt display that is shown if you type the command on a    : 
+ :      command line and press the F4 (Prompt) key.                           : 
+ :                                                                            : 
+ :      A prompt display is like a fill-in-the-blanks form with underlined    : 
+ :      entry fields for you to supply the information (values) needed to     : 
+ :      run the command.  Where possible, a system-supplied default value     : 
+ :      is provided for each field.  You can use the default value already    : 
+ :      shown in the field or type a different value over it.                 : 
+ :                                                                            : 
+ :      If a value is required to successfully run the command, the field is  : 
+ :                                                                   More...  : 
+ :  F3=Exit help   F10=Move to top   F12=Cancel   F13=Information Assistant   : 
+ :  F14=Print help                                                            : 
+ :  Requested information has been printed.                                   : 
+ :............................................................................: 
+
+                               Sign Off (SIGNOFF)                               
+ .............................................................................. 
+ :                           Prompt Display - Help                            : 
+ :                                                                            : 
+ :  Prompt Display                                                            : 
+ :                                                                            : 
+ :      Selecting an option on a menu usually results in running a system     : 
+ :      command.  If more information is needed to complete the command, the  : 
+ :      system shows you an entry (prompt) display for the command.  This is  : 
+ :      the same prompt display that is shown if you type the command on a    : 
+ :      command line and press the F4 (Prompt) key.                           : 
+ :                                                                            : 
+ :      A prompt display is like a fill-in-the-blanks form with underlined    : 
+ :      entry fields for you to supply the information (values) needed to     : 
+ :      run the command.  Where possible, a system-supplied default value     : 
+ :      is provided for each field.  You can use the default value already    : 
+ :      shown in the field or type a different value over it.                 : 
+ :                                                                            : 
+ :      If a value is required to successfully run the command, the field is  : 
+ :                                                                   More...  : 
+ :  F3=Exit help   F10=Move to top   F12=Cancel   F13=Information Assistant   : 
+ :  F14=Print help                                                            : 
+ :  Function key not allowed.                                                 : 
+ :............................................................................: 
+
+                               Sign Off (SIGNOFF)                               
+ .............................................................................. 
+ :                           Prompt Display - Help                            : 
+ :                                                                            : 
+ :  Prompt Display                                                            : 
+ :                                                                            : 
+ :      Selecting an option on a menu usually results in running a system     : 
+ :      command.  If more information is needed to complete the command, the  : 
+ :      system shows you an entry (prompt) display for the command.  This is  : 
+ :      the same prompt display that is shown if you type the command on a    : 
+ :      command line and press the F4 (Prompt) key.                           : 
+ :                                                                            : 
+ :      A prompt display is like a fill-in-the-blanks form with underlined    : 
+ :      entry fields for you to supply the information (values) needed to     : 
+ :      run the command.  Where possible, a system-supplied default value     : 
+ :      is provided for each field.  You can use the default value already    : 
+ :      shown in the field or type a different value over it.                 : 
+ :                                                                            : 
+ :      If a value is required to successfully run the command, the field is  : 
+ :                                                                   More...  : 
+ :  F3=Exit help   F10=Move to top   F12=Cancel   F13=Information Assistant   : 
+ :  F14=Print help                                                            : 
+ :  Function key not allowed.                                                 : 
+ :............................................................................: 
+
+

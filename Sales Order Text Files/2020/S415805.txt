@@ -1,0 +1,176 @@
+  6/09/20 09:05:17           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S415805          R    10     6     S    0/00/00   6/03/20  2020PX00603         
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 25704800  25704800  E    Y   0/00/00          TRUCK COLLECT                    
+ E-Mail: yjfjtd@126.com                      3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  116005-00             2       0        0        2   6/04/20   1        
+   02 C  116009-01             1       0        0        1   6/04/20   1        
+   03 F  116043-01            10      10        0        0   0/00/00   0        
+   04 C  116103-00             1       0        0        1   6/04/20   1        
+   05 C  102090-00            15       0        0       15   6/04/20   1        
+   06 F  CLS2  S41580506       5       5        0        0   0/00/00   0        
+   07 C  102985-62            50       0        0       50   6/08/20   1        
+   08 C  102299-00            45       0        0       45   6/08/20   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  6/09/20 09:05:32          Order Display                               (DWOE10)
+                                                                                
+ Order #: S415805       Customer #:   25704800  SHANGHAI JINSHEN INDUSTRY &     
+ P.O.#:   2020PX00603                                                           
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 116005-00       VFA-5-BV                             2      20.63       41.26  
+ 116009-01       VFA-9-SSV                            1      27.50       27.50  
+ 116043-01       VFA-24-SS                           10      19.00      190.00  
+ 116103-00       VFB-55-BV                            1      32.00       32.00  
+ 102090-00       2300-20MM                           15      34.78      521.70  
+ CLS2  S41580506 CLS2-W11RK1-010                      5     216.49     1082.45  
+ 102985-62       DM-2013-LCD                         50      53.46     2673.00  
+ 102299-00       605-1.5KPA                          45     127.35     5730.75  
+ RHPEN S41580509 RHP-2E44-LCD-NIST                    2     203.60      407.20  
+ CLS2  S41580510 CLS2-W11RK1-010                      2     216.49      432.98  
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal            11138.84  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total               11138.84  
+
+  6/09/20 09:05:57           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  25704800                               
+      Name: SHANGHAI JINSHEN INDUSTRY &                                         
+   Address: ROOM 315 BLOCK B#LISHENG PLAZA                                      
+            LANE 65 HUANLONG ROAD                                               
+            PUDONG NEW DISTRICT                                                 
+      City: SHANGHAI                                                            
+     State:      Country: PR CHINA         Zip Code: 200127                     
+ Exp Cn Cd:        Phone: 2158890468                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ YI JIN QIAN                     T02  NET 60 DAYS                       6IP     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  25704800                                A                       86            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: yjfjtd@126.com                                                 
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/09/20 09:06:11           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S415805            R    10      6     0/00/00    6/03/20  2020PX00603         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  25704800  25704800  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  6/09/20 09:06:26           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S415805            R    10      6     0/00/00    6/03/20  2020PX00603         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  25704800  25704800  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/09/20 09:06:42           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S415805            R    10      6     0/00/00    6/03/20  2020PX00603         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  25704800  25704800  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  6/09/20 09:06:57           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S415805            R    10      6     0/00/00    6/03/20  2020PX00603         
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  25704800  25704800  E                 TRUCK COLLECT                           
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+    10 VFA-5-BV FLOWMETER,                                          Y Y N N N Y 
+    20 RANGE 2-20 SCFH AIR                                          Y Y N N N Y 
+    30 WITH BRASS VALVE                                             Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

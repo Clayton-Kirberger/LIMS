@@ -1,0 +1,176 @@
+  9/11/20 08:33:33           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S456927          R    15    14     S    0/00/00   8/28/20  2934                
+    Partial Shipments Allowed  FOB:FOB FACTORY                                  
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 37864100  37864100  E    Y   0/00/00          TRUCK COLLECT INT'L              
+ E-Mail: eduardo@mercato.net.br              3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of        
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp        
+   01 C  TE    S45692701      20       0        0       20   9/02/20   1        
+   02 C  RHPW  S45692702      15       0        0       15   9/04/20   1        
+   03 C  RHP   S45692703      15       0        0       15   9/02/20   1        
+   04 C  RHP   S45692704      15       0        0       15   9/04/20   1        
+   05 C  101670-00            25       0        0       25   8/31/20   1        
+   06 C  124606-22            15       0        0       15   8/31/20   1        
+   07 C  102322-36             2       0        0        2   9/10/20   1        
+   08 C  TE    S45692708       2       0        0        2   9/02/20   1      + 
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  9/11/20 08:33:48          Order Display                               (DWOE10)
+                                                                                
+ Order #: S456927       Customer #:   37864100  MERCATO SMART SOLUCOES LTDA     
+ P.O.#:   2934                                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ TE    S45692701 TE-IBG-A0444-14                     20       7.93      158.60  
+ RHPW  S45692702 RHP-5W4A                            15      43.10      646.50  
+ RHP   S45692703 RHP-5D1A                            15      53.10      796.50  
+ RHP   S45692704 RHP-5D1A                            15      53.10      796.50  
+ 101670-00       616KD-02                            25      36.50      912.50  
+ 124606-22       ADPS-03-2-N                         15      11.38      170.70  
+ 102322-36       628-13-GH-P1-E1-S1                   2      69.42      138.84  
+ TE    S45692708 TE-IBG-A0444-12                      2       8.98       17.96  
+ RHP   S45692709 RHP-5S1A                             1      54.10       54.10  
+ TE    S45692710 TE-ITG-A0444-00                     10       3.80       38.00  
+ 102322-29       628-00-GH-P1-E1-S1                   4      89.70      358.8 + 
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             4960.38  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                4960.38  
+
+  9/11/20 08:34:13           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  37864100                               
+      Name: MERCATO SMART SOLUCOES LTDA                                         
+   Address: CAPISTRANO DE ABREU, 89                                             
+                                                                                
+            RIO GRANDE DO SUL                                                   
+      City: CANOAS                                                              
+     State:      Country: BRAZIL           Zip Code: 92120                      
+ Exp Cn Cd:        Phone: 5130321777                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ EDUARDO PERRONE RICALDE         T03  NET 75 DAYS                       6IX     
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  37864100                                A                       55            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: eduardo@mercato.net.br                                         
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/11/20 08:34:27           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S456927            R    15     14     0/00/00    8/28/20  2934                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  37864100  37864100  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  9/11/20 08:34:42           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S456927            R    15     14     0/00/00    8/28/20  2934                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  37864100  37864100  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/11/20 08:34:58           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S456927            R    15     14     0/00/00    8/28/20  2934                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  37864100  37864100  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  9/11/20 08:35:13           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S456927            R    15     14     0/00/00    8/28/20  2934                
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  37864100  37864100  E                 TRUCK COLLECT INT'L                     
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+     1 TE-IBG-A0444-14                                              Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+

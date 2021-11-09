@@ -1,0 +1,176 @@
+  4/14/21 11:08:03           Open Sales Order Display                   (S939C2)
+  EXPORT    Hold  Web Order#:                             Ord Srce: Email       
+ Sales Ord#  Cd  Stc Total Closed  Sw   Dlt.Date  P.O.Date   Contract Number    
+ S538621          R     2           S    0/00/00   2/23/21  .00051759-322-084860
+  * No Partial Shipments *     FOB:FOB DESTINATIO                               
+ Bill-to   Ship-to  Ack Credt Credit                                            
+ Number    Number   Cd   Ovr  Action              Ship Via                      
+ 32704700  32704700  E    Y   0/00/00          UPS WW EXP SAVER                 
+ E-Mail: akane.kamei@nesstech.co.jp          3rd Party Billing#:                
+      St                 Current    Qty    Qty in    Qty    Date of  #of  Stock 
+  Itm Cd  Part Number    Itm Qty   Sched   Shping  Shipped  Last/Shp Shp  On Hnd
+   01 F  124853-09             1       1        0        0   0/00/00   0       2
+   02 F  NISTCAL-PG2           1       1        0        0   0/00/00   0       0
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F03=Exit           F09=Specific Item    F14=Item Notes      F19=Mfg Sale Notes 
+ F04=Order Total    F10=Item Detail      F15=Footer Notes    F20=C/O Audit Notes
+ F07=Bill-to Cust   F11=Schd Shipments   F17=New Transaction                    
+ F08=Ship-to Cust   F13=Header Notes     F18=PM Item Notes                      
+                                         F05=ACK Note        F06=Ship-to Notes  
+
+  4/14/21 11:08:18          Order Display                               (DWOE10)
+                                                                                
+ Order #: S538621       Customer #:   32704700  NESSTECH INC                    
+ P.O.#:   .00051759-322-084860                                                  
+                                                                                
+ Part #          Catalog # / Description        Quantity     Price      Amount  
+ 124853-09       DCGII-109                            1    1212.80     1212.80  
+ NISTCAL-PG2     NIST CAL PR GAGES UNDER 1%           1     144.00      144.00  
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                    ----------  
+                                                  Subtotal             1356.80  
+                                                  Shipping/Handling             
+                                                  Tax                           
+                                                                    ----------  
+ F12=Previous                                     Total                1356.80  
+
+  4/14/21 11:08:43           Open Sales Order Bill-to Display           (S93906)
+                           Bill-to Cust  32704700                               
+      Name: NESSTECH INC                                                        
+   Address: CHIAKI MIYAMA                                                       
+            1-12-1 AKANEHAMA                                                    
+            NARASHINO-SHI                                                       
+      City: CHIBA                                                               
+     State:      Country: JAPAN            Zip Code: 275-0024                   
+ Exp Cn Cd:        Phone: 1474536555                                  Customer  
+ Customer Billing Contact Name   -------- Terms/Description --------    Type    
+ AKANE KAMEI                     T02  NET 60 DAYS                       6I      
+    A/R       Parent  Std Ind    Cust   Status Supplier Market Market Discount  
+ Bill-to #      Parent   Code     Group   Code  # For Us  Code Segment   %      
+  32704700                                A                        8            
+                                                        Finance Past Due  Stmt  
+                              Cred Hld Inv Copy Fin Chg Chg Cde Grace Pd  Freq  
+                                  D       EM       N      F        060     E    
+ E-Mail Address: akane.kamei@nesstech.co.jp                                     
+                                                                                
+ F02 = Order/Items                                                              
+ F03 = Exit                               F15 = Footer Notes                    
+                                                                                
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/14/21 11:08:57           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S538621            R     2            0/00/00    2/23/21  .00051759-322-084860
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32704700  32704700  E                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Header Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust                       F17 = New Transaction                 
+                                                                                
+
+  4/14/21 11:09:13           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S538621            R     2            0/00/00    2/23/21  .00051759-322-084860
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32704700  32704700  E                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Item Notes                      K C C P L V 
+   100 CUSTOMER REQUESTS A                                          Y Y Y Y Y Y 
+   200 NEW UNIT DATED 2021.                                         Y Y Y Y Y Y 
+   300 ** AND WILL NOT ACCEPT **                                    Y Y Y Y Y Y 
+   400    THE (2) IN STOCK AS THEY                                  Y Y Y Y Y Y 
+   500    ARE DATED 2018.                                           Y Y Y Y Y Y 
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item                    F18 = PM Item Notes 
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/14/21 11:09:29           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S538621            R     2            0/00/00    2/23/21  .00051759-322-084860
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32704700  32704700  E                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               Footer Notes                    K C C P L V 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes  F18 = PM Item Notes 
+ F03 = Exit                                                                     
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+  4/14/21 11:09:44           Open Sales Order Display                   (S939C3)
+                           Items                                                
+  Sales Order No    Stc Total Closed   Dlt/Date   P.O.Date   Contract Number    
+  S538621            R     2            0/00/00    2/23/21  .00051759-322-084860
+                                                                                
+ Bill-to   Ship-to   Ack Paper   Paper                                          
+ Number    Number    Cd  Print    Sw    Ship Via                                
+  32704700  32704700  E                 UPS WW EXP SAVER                        
+                                                                                
+                                                                    A P P S B I 
+                                                                    C I A H O N 
+ Line                               PM Item Notes                   K C C P L V 
+   100 DCGII-109, DIG PRESS GAGE,                                   Y Y Y Y Y Y 
+   200 0-2000 PSIG, 0.05% FS                                        Y Y Y Y Y Y 
+   300 1/2" NPT.                                                    Y Y Y Y Y Y 
+                                                                                
+                                                                                
+                                                                                
+                                                                         Bottom 
+ F02 = Order/Items   F09 = Specific Item  F14 = Item Notes                      
+ F03 = Exit                               F15 = Footer Notes                    
+ F07 = Bill-to Cust                                                             
+ F08 = Ship-to Cust  F13 = Header Notes   F17 = New Transaction                 
+                                                                                
+
+
