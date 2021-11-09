@@ -39,7 +39,7 @@ class AppComplaints:
 
         comp_option_sel = Toplevel()
         comp_option_sel.title("Q.A. - Complaints")
-        comp_option_sel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        comp_option_sel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 305
         height = 135
         screen_width = comp_option_sel.winfo_screenwidth()
@@ -128,7 +128,7 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
         new_complaint_info = Toplevel()
         new_complaint_info.title("New Complaint Creation")
-        new_complaint_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        new_complaint_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 622
         height = 465
         screen_width = new_complaint_info.winfo_screenwidth()
@@ -263,7 +263,7 @@ against the complaint being submitted", relief=SOLID, bd=1, labelanchor="n")
 
         try:
             complaints_database = open(
-                "\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Complaints Log.xlsx",
+                "Required Files\\LIMS Quality Assurance\\LIMS Complaints Log.xlsx",
                 "a")
             if complaints_database.closed is False:
                 complaints_database.close()
@@ -338,7 +338,7 @@ moment and try again.")
 and make sure everything has been sufficiently filled out.")
         else:
             # try:
-            #     ofi_database = open("\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
+            #     ofi_database = open("Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
             #     if ofi_database.closed is False:
             #         ofi_database.close()
 

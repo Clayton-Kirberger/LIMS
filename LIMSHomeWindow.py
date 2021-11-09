@@ -34,7 +34,7 @@ class AppHomeWindow:
         acc = AppCommonCommands()
         Home = Toplevel()
         Home.title("Home")
-        Home.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        Home.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 560
         height = 580
         screen_width = Home.winfo_screenwidth()

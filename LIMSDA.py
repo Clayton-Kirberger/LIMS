@@ -42,7 +42,7 @@ class AppDataAcquisition:
 
         data_acq_parameters = Toplevel()
         data_acq_parameters.title("Data Acquisition - Test Setup")
-        data_acq_parameters.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        data_acq_parameters.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 454
         height = 220
         screen_width = data_acq_parameters.winfo_screenwidth()
@@ -197,7 +197,7 @@ class AppDataAcquisition:
 
         data_acq_dut_info = Toplevel()
         data_acq_dut_info.title("Data Acquisition - DUT Model Information")
-        data_acq_dut_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        data_acq_dut_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 545
         height = 320
         screen_width = data_acq_dut_info.winfo_screenwidth()
@@ -407,7 +407,7 @@ they are filled out in their entirety before trying again.")
 
         da_mte_selection = Toplevel()
         da_mte_selection.title("Data Acquisition - M&TE Selection & Configuration")
-        da_mte_selection.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        da_mte_selection.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 830
         height = 310
         screen_width = da_mte_selection.winfo_screenwidth()
@@ -1295,7 +1295,7 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
 
         da_profile_creation = Toplevel()
         da_profile_creation.title("Data Acquisition - Test Profile")
-        da_profile_creation.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        da_profile_creation.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 620
         height = 360
         screen_width = da_profile_creation.winfo_screenwidth()
@@ -1464,7 +1464,7 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
 
         automated_data_acquisition_window = Toplevel()
         automated_data_acquisition_window.title("Data Acquisition - Automated")
-        automated_data_acquisition_window.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        automated_data_acquisition_window.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 720
         height = 360
         screen_width = automated_data_acquisition_window.winfo_screenwidth()

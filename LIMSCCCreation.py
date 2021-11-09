@@ -41,7 +41,7 @@ class AppCCModule:
 
         ICInfo = Toplevel()
         ICInfo.title("Internal Customer Selection")
-        ICInfo.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        ICInfo.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 495
         height = 235
         screen_width = ICInfo.winfo_screenwidth()

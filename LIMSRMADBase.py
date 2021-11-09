@@ -45,7 +45,7 @@ class AppRMADatabase:
 
         RMASearch = Toplevel()
         RMASearch.title("RMA Evaluation File Search")
-        RMASearch.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        RMASearch.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 345
         height = 380
         screen_width = RMASearch.winfo_screenwidth()

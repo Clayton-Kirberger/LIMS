@@ -42,7 +42,7 @@ class AppCalibrationModule:
 
         CalTypeSel = Toplevel()
         CalTypeSel.title("Customer Selection")
-        CalTypeSel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CalTypeSel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 290
         height = 135
         screen_width = CalTypeSel.winfo_screenwidth()
@@ -132,7 +132,7 @@ calibration work for.")
 
         SOSearch = Toplevel()
         SOSearch.title("Customer Sales Order Information Search")
-        SOSearch.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        SOSearch.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 355
         height = 220
         screen_width = SOSearch.winfo_screenwidth()
@@ -260,7 +260,7 @@ order, and then press the 'Search AS400' button again to initiate the export pro
 
         CalCert = Toplevel()
         CalCert.title("Certificate of Calibration Creation")
-        CalCert.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CalCert.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 960
         height = 515
         screen_width = CalCert.winfo_screenwidth()
@@ -613,7 +613,7 @@ order, and then press the 'Search AS400' button again to initiate the export pro
 
         CertDUTDetails = Toplevel()
         CertDUTDetails.title("Certificate of Calibration Creation")
-        CertDUTDetails.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CertDUTDetails.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 415
         height = 505
         screen_width = CertDUTDetails.winfo_screenwidth()
@@ -1001,7 +1001,7 @@ moment and try again.")
         window.withdraw()
         DUTCalDetails = Toplevel()
         DUTCalDetails.title("DUT Calibration Parameters")
-        DUTCalDetails.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        DUTCalDetails.iconbitmap("Required Images\\DwyerLogo.ico")
 
         if dut_output_type.get() == "Single":
             height = 570
@@ -2059,7 +2059,7 @@ moment and try again.")
 
         CalibrationStandardDetails = Toplevel()
         CalibrationStandardDetails.title("Calibration Reference Standards")
-        CalibrationStandardDetails.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CalibrationStandardDetails.iconbitmap("Required Images\\DwyerLogo.ico")
         height = 420
         width = 1360
         screen_width = CalibrationStandardDetails.winfo_screenwidth()
@@ -2710,7 +2710,7 @@ asset number entry field provided.')
 
         DUTCalibrationWindow = Toplevel()
         DUTCalibrationWindow.title("Calibration Data Input")
-        DUTCalibrationWindow.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        DUTCalibrationWindow.iconbitmap("Required Images\\DwyerLogo.ico")
 
         if dut_output_type.get() == "Single":
             height = 720
@@ -4488,7 +4488,7 @@ Certificate of Calibration for the device under test?")
 
         CertNoteSignOff = Toplevel()
         CertNoteSignOff.title("Certificate of Calibration - Signature Required")
-        CertNoteSignOff.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CertNoteSignOff.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 370
         height = 300
         screen_width = CertNoteSignOff.winfo_screenwidth()
@@ -5039,7 +5039,7 @@ Be sure to review your newly created Certificate of Calibration.")
 
         AdditionalCalCertDUTDetails = Toplevel()
         AdditionalCalCertDUTDetails.title("Additional Certificate of Calibration Creation")
-        AdditionalCalCertDUTDetails.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        AdditionalCalCertDUTDetails.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 545
         height = 285
         screen_width = AdditionalCalCertDUTDetails.winfo_screenwidth()

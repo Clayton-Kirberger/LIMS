@@ -41,7 +41,7 @@ class AppOpportunityForImprovement:
 
         OFIOptionSel = Toplevel()
         OFIOptionSel.title("Q.A. - O.F.I.")
-        OFIOptionSel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        OFIOptionSel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 290
         height = 135
         screen_width = OFIOptionSel.winfo_screenwidth()
@@ -129,7 +129,7 @@ class AppOpportunityForImprovement:
 
         new_ofi_info = Toplevel()
         new_ofi_info.title("New Opportunity for Improvement Creation")
-        new_ofi_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        new_ofi_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 585
         height = 340
         screen_width = new_ofi_info.winfo_screenwidth()
@@ -265,7 +265,7 @@ Improvement", relief=SOLID, bd=1, labelanchor="n")
         self.__init__()
 
         try:
-            ofi_database = open("\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
+            ofi_database = open("Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
             if ofi_database.closed is False:
                 ofi_database.close()
                 from datetime import date
@@ -335,7 +335,7 @@ moment and try again.")
 and make sure all fields have been sufficiently filled out.")
         else:
             # try:
-            #     ofi_database = open("\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
+            #     ofi_database = open("Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
             #     if ofi_database.closed is False:
             #         ofi_database.close()
 

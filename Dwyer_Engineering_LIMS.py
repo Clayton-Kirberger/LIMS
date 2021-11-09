@@ -36,7 +36,7 @@ class LoginWindow(Frame):
         parent.geometry("%dx%d+%d+%d" % (parent.width, parent.height, x, y))
         parent.title(title)
         parent.focus_force()
-        parent.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        parent.iconbitmap("Required Images\\DwyerLogo.ico")
 
         # ============================VARIABLES=================================== #
 
@@ -52,7 +52,7 @@ class LoginWindow(Frame):
 
         # ===========================MAIN LABELS================================== #
 
-        image = PIL.Image.open("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo_Calibration.jpg")
+        image = PIL.Image.open("Required Images\\DwyerLogo_Calibration.jpg")
         photo = ImageTk.PhotoImage(image)
 
         lbl_logo = Label(top, image=photo)
@@ -145,7 +145,7 @@ class LoginWindow(Frame):
         title_array = []
 
         i = 1
-        with open(r"\\BDC5\\Dwyer Engineering LIMS\\Required Files\\Accounts.txt", "r") as f:
+        with open(r"Required Files\\Accounts.txt", "r") as f:
             for line in f:
                 account_information = line.split(';')
                 account_number_array.append(i)

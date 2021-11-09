@@ -41,7 +41,7 @@ class AppCorrectiveActions:
 
         ca_option_sel = Toplevel()
         ca_option_sel.title("Q.A. - C.A.")
-        ca_option_sel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        ca_option_sel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 290
         height = 135
         screen_width = ca_option_sel.winfo_screenwidth()
@@ -129,7 +129,7 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
         new_ca_info = Toplevel()
         new_ca_info.title("New Corrective Action Request Creation")
-        new_ca_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        new_ca_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 582
         height = 440
         screen_width = new_ca_info.winfo_screenwidth()
@@ -251,7 +251,7 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
         try:
             ca_database = open(
-                "\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Corrective Action Request Log.xlsx",
+                "Required Files\\LIMS Quality Assurance\\LIMS Corrective Action Request Log.xlsx",
                 "a")
             if ca_database.closed is False:
                 ca_database.close()
@@ -323,7 +323,7 @@ moment and try again.")
 and make sure everything has been sufficiently filled out.")
         else:
             # try:
-            #     ofi_database = open("\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
+            #     ofi_database = open("Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
             #     if ofi_database.closed is False:
             #         ofi_database.close()
 

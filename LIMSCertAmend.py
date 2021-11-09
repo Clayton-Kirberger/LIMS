@@ -41,7 +41,7 @@ class AppCertificateAmendment:
 
         cert_amend_option_sel = Toplevel()
         cert_amend_option_sel.title("Q.A. - Certificate Amendment")
-        cert_amend_option_sel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        cert_amend_option_sel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 310
         height = 135
         screen_width = cert_amend_option_sel.winfo_screenwidth()
@@ -134,7 +134,7 @@ provided.")
 
         new_cert_amend_info = Toplevel()
         new_cert_amend_info.title("Certificate of Calibration Amendment")
-        new_cert_amend_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        new_cert_amend_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 640
         height = 485
         screen_width = new_cert_amend_info.winfo_screenwidth()

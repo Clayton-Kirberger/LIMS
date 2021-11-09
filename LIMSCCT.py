@@ -43,7 +43,7 @@ class AppCCT:
 
         CalcConvTemp = Toplevel()
         CalcConvTemp.title("Calculators, Converters & Templates")
-        CalcConvTemp.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CalcConvTemp.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 455
         height = 195
         screen_width = CalcConvTemp.winfo_screenwidth()

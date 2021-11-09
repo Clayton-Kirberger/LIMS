@@ -90,7 +90,7 @@ class AppReferenceStandardDatabase:
 
         RefStandardDBase = Toplevel()
         RefStandardDBase.title("Calibration Equipment Database")
-        RefStandardDBase.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        RefStandardDBase.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 1230
         height = 300
         screen_width = RefStandardDBase.winfo_screenwidth()
@@ -384,7 +384,7 @@ Serial Number)",
         btn_past_due_date.config(cursor="arrow")
 
         # File Manipulation
-        f = '\\\\BDC5\\Dwyer Engineering LIMS\\Calibration Standards Reports\\Past Due Report - ' \
+        f = 'Calibration Standards Reports\\Past Due Report - ' \
             + todays_date.replace("/", "-") + '.xlsx'
         wb.SaveAs(f)
         wb.Close(True)
@@ -449,7 +449,7 @@ Serial Number)",
         btn_coming_up_for_cal.config(cursor="arrow")
 
         # File Manipulation
-        f = '\\\\BDC5\\Dwyer Engineering LIMS\\Calibration Standards Reports\\Approaching Cal Date - ' \
+        f = 'Calibration Standards Reports\\Approaching Cal Date - ' \
             + todays_date.replace("/", "-") + '.xlsx'
         wb.SaveAs(f)
         wb.Close(True)

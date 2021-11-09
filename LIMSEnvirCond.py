@@ -45,7 +45,7 @@ class AppEnvironmentalConditions:
 
         EnvConditions = Toplevel()
         EnvConditions.title("Environmental Conditions")
-        EnvConditions.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        EnvConditions.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 420
         height = 335
         screen_width = EnvConditions.winfo_screenwidth()

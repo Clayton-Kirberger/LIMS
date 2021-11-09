@@ -44,7 +44,7 @@ class AppAS400ExecutableHelper:
         pyautogui.typewrite(LIMSVarConfig.as400_password_helper)
         pyautogui.hotkey("Enter")
         time.sleep(2)
-        if pyautogui.locateOnScreen('\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\AS400 Recover Job.png'):
+        if pyautogui.locateOnScreen('Required Images\\AS400 Recover Job.png'):
             pyautogui.typewrite("1")
             pyautogui.hotkey("Enter")
             pyautogui.typewrite("C")
@@ -54,16 +54,16 @@ class AppAS400ExecutableHelper:
             pyautogui.typewrite("I")
             pyautogui.hotkey("Enter")
             self.as400_sales_order_search()
-        elif pyautogui.locateOnScreen('\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\AS400 Display Messages.png'):
+        elif pyautogui.locateOnScreen('Required Images\\AS400 Display Messages.png'):
             pyautogui.hotkey("F3")
             time.sleep(2)
             self.as400_sales_order_search()
         elif pyautogui.locateOnScreen(
-                '\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\AS400 Authorized Facilities Display.png'):
+                'Required Images\\AS400 Authorized Facilities Display.png'):
             pyautogui.hotkey("Enter")
             time.sleep(2)
             self.as400_sales_order_search()
-        elif pyautogui.locateOnScreen('\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\AS400 PACS Main Menu 1.png'):
+        elif pyautogui.locateOnScreen('Required Images\\AS400 PACS Main Menu 1.png'):
             self.as400_sales_order_search()
 
     # -----------------------------------------------------------------------#

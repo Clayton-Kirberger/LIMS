@@ -47,7 +47,7 @@ class AppDataImportModule:
 
         DataImportSelectionWindow = Toplevel()
         DataImportSelectionWindow.title("Data Import System Selection")
-        DataImportSelectionWindow.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        DataImportSelectionWindow.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 310
         height = 200
         screen_width = DataImportSelectionWindow.winfo_screenwidth()
@@ -123,7 +123,7 @@ class AppDataImportModule:
 
         dwtester_data_set_query_window = Toplevel()
         dwtester_data_set_query_window.title("Fluke 2465/8A - Data Set Selection")
-        dwtester_data_set_query_window.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        dwtester_data_set_query_window.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 340
         height = 170
         screen_width = dwtester_data_set_query_window.winfo_screenwidth()
@@ -445,7 +445,7 @@ process, click the 'No' button.")
 
         data_set_query_window = Toplevel()
         data_set_query_window.title("Fluke Molbox - Data Set Selection")
-        data_set_query_window.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        data_set_query_window.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 325
         height = 120
         screen_width = data_set_query_window.winfo_screenwidth()

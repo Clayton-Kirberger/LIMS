@@ -40,7 +40,7 @@ class AppNonConformance:
 
         nc_option_sel = Toplevel()
         nc_option_sel.title("Q.A. - N.C.")
-        nc_option_sel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        nc_option_sel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 290
         height = 135
         screen_width = nc_option_sel.winfo_screenwidth()
@@ -128,7 +128,7 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
         new_nc_info = Toplevel()
         new_nc_info.title("New Nonconforming Work Creation")
-        new_nc_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        new_nc_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 585
         height = 480
         screen_width = new_nc_info.winfo_screenwidth()
@@ -265,7 +265,7 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
         try:
             nc_database = open(
-                "\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Nonconformance Log.xlsx",
+                "Required Files\\LIMS Quality Assurance\\LIMS Nonconformance Log.xlsx",
                 "a")
             if nc_database.closed is False:
                 nc_database.close()
@@ -339,7 +339,7 @@ moment and try again.")
 and make sure everything has been sufficiently filled out.")
         else:
             # try:
-            #     ofi_database = open("\\\\BDC5\\Dwyer Engineering LIMS\\Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
+            #     ofi_database = open("Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
             #     if ofi_database.closed is False:
             #         ofi_database.close()
 

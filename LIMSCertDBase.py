@@ -47,7 +47,7 @@ class AppCertificateDatabase:
 
         CertSearch = Toplevel()
         CertSearch.title("Certificate of Calibration File Search")
-        CertSearch.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        CertSearch.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 325
         height = 350
         screen_width = CertSearch.winfo_screenwidth()

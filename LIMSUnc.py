@@ -41,7 +41,7 @@ class AppUncertainty:
 
         unc_option_sel = Toplevel()
         unc_option_sel.title("E.M.U. & T.U.R. Selection")
-        unc_option_sel.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        unc_option_sel.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 340
         height = 135
         screen_width = unc_option_sel.winfo_screenwidth()
@@ -145,7 +145,7 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
         new_emu_info = Toplevel()
         new_emu_info.title("EMU and TUR Calculator")
-        new_emu_info.iconbitmap("\\\\BDC5\\Dwyer Engineering LIMS\\Required Images\\DwyerLogo.ico")
+        new_emu_info.iconbitmap("Required Images\\DwyerLogo.ico")
         width = 520
         height = 416
         screen_width = new_emu_info.winfo_screenwidth()
