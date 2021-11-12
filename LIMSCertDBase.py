@@ -153,7 +153,6 @@ class AppCertificateDatabase:
 
     # Opens folder for Year of Calibration Certificates Input By User
     def certificate_year_search(self):
-        self.__init__()
 
         certificate_year = certificate_year_val.get()
         if certificate_year.isdigit() and len(certificate_year) == 4:
@@ -165,7 +164,6 @@ class AppCertificateDatabase:
 
     # Opens records sheet for Year of Calibration Certificate Input By User
     def certificate_year_log_search(self):
-        self.__init__()
 
         if certificate_year_log_val.get().isdigit() and len(certificate_year_log_val.get()) == 4:
             f = glob.glob(os.path.join(r"\\BDC5\certdbase\\" + certificate_year_log_val.get() + "\\",
@@ -178,7 +176,6 @@ class AppCertificateDatabase:
 
     # Opens Certificate of Calibration Based on Year and User Input
     def certificate_number_search(self):
-        self.__init__()
 
         if "22DWY00" in certificate_number_val.get():
             try:
@@ -348,7 +345,6 @@ class AppCertificateDatabase:
 
     # Error Message Shown for Invalid Entry
     def invalid_entry_message(self):
-        self.__init__()
         tm.showerror("Invalid Entry", "Please provide a valid certificate number for \
 calibration performed and documented in Michigan City, IN.")
 
@@ -356,7 +352,6 @@ calibration performed and documented in Michigan City, IN.")
 
     # Command to Search for Next Available Cert Number
     def certificate_number_helper(self):
-        self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\2022\\2022 Certificates of calibration.xls')
@@ -381,7 +376,6 @@ calibration performed and documented in Michigan City, IN.")
 
     # Command to Search for Next Available Cert Number
     def certificate_serial_number_helper(self):
-        self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
@@ -451,7 +445,6 @@ calibration performed and documented in Michigan City, IN.")
 
     # Command to Search for Exisiting Certificates
     def certificate_number_checker(self):
-        self.__init__()
 
         excel = win32com.client.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\2022\\2022 Certificates of calibration.xls')
@@ -473,7 +466,6 @@ calibration performed and documented in Michigan City, IN.")
 
     # Command to Search for Exisiting Certificates and Serial Numbers
     def certificate_serial_number_checker(self):
-        self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
@@ -496,7 +488,6 @@ calibration performed and documented in Michigan City, IN.")
 
     # Command to search for existing calibration and provide completed certificate information
     def certificate_number_fill_in(self):
-        self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
@@ -526,7 +517,6 @@ calibration performed and documented in Michigan City, IN.")
 
     # Command to fill in "Failed" field in certdbase
     def certificate_failure(self):
-        self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
