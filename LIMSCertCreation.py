@@ -818,23 +818,24 @@ order, and then press the 'Search AS400' button again to initiate the export pro
         LIMSVarConfig.calibration_due_date_helper = dut_calibration_due_date.get()
 
         try:
-
-            dut_instrument_identification_number = ttk.Entry(device_information_frame,
+            excel_database = open("certdbase\\2022\\2022 Certificates of calibration.xls", "a")
+            if excel_database.closed is False:
+                excel_database.close()
+                dut_instrument_identification_number = ttk.Entry(device_information_frame,
                                                                  textvariable=device_instrument_identification,
                                                                  font=('arial', 12))
-            dut_instrument_identification_number.grid(row=6, column=2)
-            dut_instrument_identification_number.config(width=15)
-            from LIMSCertDBase import AppCertificateDatabase
-            apd = AppCertificateDatabase()
-            print('Running certificate_number_checker')
-            apd.certificate_number_checker()
-            if LIMSVarConfig.certificate_of_calibration_number != "":
-                device_certificate_of_calibration_number.config(text=LIMSVarConfig.certificate_of_calibration_number)
-            else:
-                apd.certificate_number_helper()
-                device_certificate_of_calibration_number.config(text=LIMSVarConfig.certificate_of_calibration_number)
-            btn_import_certificate_number.config(cursor="arrow")
-
+                dut_instrument_identification_number.grid(row=6, column=2)
+                dut_instrument_identification_number.config(width=15)
+                from LIMSCertDBase import AppCertificateDatabase
+                apd = AppCertificateDatabase()
+                print('Running certificate_number_checker')
+                apd.certificate_number_checker()
+                if LIMSVarConfig.certificate_of_calibration_number != "":
+                    device_certificate_of_calibration_number.config(text=LIMSVarConfig.certificate_of_calibration_number)
+                else:
+                    apd.certificate_number_helper()
+                    device_certificate_of_calibration_number.config(text=LIMSVarConfig.certificate_of_calibration_number)
+                btn_import_certificate_number.config(cursor="arrow")
         except IOError as e:
             btn_import_certificate_number.config(cursor="arrow")
             tm.showerror("Database Busy!", "Database is currently busy and in use by another user. Please wait a \
