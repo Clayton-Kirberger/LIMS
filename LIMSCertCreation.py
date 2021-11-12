@@ -818,7 +818,7 @@ order, and then press the 'Search AS400' button again to initiate the export pro
         LIMSVarConfig.calibration_due_date_helper = dut_calibration_due_date.get()
 
         try:
-            excel_database = open("\\\\BDC5\\certdbase\\2022\\2022 Certificates of calibration.xls", "a")
+            excel_database = open("certdbase\\2022\\2022 Certificates of calibration.xls", "a")
             if excel_database.closed is False:
                 excel_database.close()
                 dut_instrument_identification_number = ttk.Entry(device_information_frame,
@@ -828,6 +828,7 @@ order, and then press the 'Search AS400' button again to initiate the export pro
                 dut_instrument_identification_number.config(width=15)
                 from LIMSCertDBase import AppCertificateDatabase
                 apd = AppCertificateDatabase()
+                print('Running certificate_number_checker')
                 apd.certificate_number_checker()
                 if LIMSVarConfig.certificate_of_calibration_number != "":
                     device_certificate_of_calibration_number.config(text=LIMSVarConfig.certificate_of_calibration_number)

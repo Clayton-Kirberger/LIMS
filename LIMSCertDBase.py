@@ -359,26 +359,22 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\2022\\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
 
-        i = 1
-        cell = sheet.Cells(i, 5)
-        for i in range(1, 3000):
+
+        for row in range(1, 3000):
+            cell = sheet.Cells(row, 5)
             if cell.Value is None:
-                x = i  # cell.row
-                y = 5  # cell.column
-                cell = sheet.Cells(x, y - 4)
+                col = 5  # cell.column
+                cell = sheet.Cells(row, col - 4)
                 LIMSVarConfig.certificate_of_calibration_number = str(cell)
-                sheet.Cells(x, 5).Value = LIMSVarConfig.external_customer_name
-                sheet.Cells(x, 6).Value = LIMSVarConfig.external_customer_sales_order_number_helper
-                sheet.Cells(x, 7).Value = LIMSVarConfig.external_customer_rma_number
-                sheet.Cells(x, 9).Value = LIMSVarConfig.calibration_date_helper
-                sheet.Cells(x, 12).Value = "In Progress"
+                sheet.Cells(row, 5).Value = LIMSVarConfig.external_customer_name
+                sheet.Cells(row, 6).Value = LIMSVarConfig.external_customer_sales_order_number_helper
+                sheet.Cells(row, 7).Value = LIMSVarConfig.external_customer_rma_number
+                sheet.Cells(row, 9).Value = LIMSVarConfig.calibration_date_helper
+                sheet.Cells(row, 12).Value = "In Progress"
                 break
-            else:
-                i += 1
-                cell = sheet.Cells(i, 5)
         wkbook.Close(True)
 
     # ----------------------------------------------------------------------- #
@@ -458,8 +454,9 @@ calibration performed and documented in Michigan City, IN.")
         self.__init__()
 
         excel = win32com.client.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\2022\\2022 Certificates of calibration.xls')
         sheet = wkbook.Sheets("Certifications")
+        print('Cert Database opened')
 
         for i in range(1, 3000):
             if (sheet.Cells(i, 5).Value == LIMSVarConfig.external_customer_name and sheet.Cells(i, 6).Value ==
