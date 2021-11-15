@@ -9,6 +9,7 @@ Copyright(c) 2018, Robert Adam Maldonado.
 """
 
 import os
+from datetime import datetime
 
 import LIMSVarConfig
 import tkinter.messagebox as tm
@@ -264,8 +265,8 @@ the original record", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow admin accounts to view existing Certificate of Calibration Amendment Log
     def cert_amend_log_viewer(self):
-
-        lims_cert_amend_log_file = r'\\BDC5\certdbase\2020\2020 Certificates of Calibration - Amendment Log.xlsx'
+        year = datetime.today().year
+        lims_cert_amend_log_file = '\\BDC5\\certdbase\\%s\\%s Certificates of Calibration - Amendment Log.xlsx' %(year, year)
         os.startfile(lims_cert_amend_log_file)
 
     # ----------------------------------------------------------------------------- #
@@ -286,16 +287,15 @@ the original record", relief=SOLID, bd=1, labelanchor="n")
 sure everything has been sufficiently filled out.")
         else:
             try:
-                amend_log = open("\\\\BDC5\\certdbase\\2020\\2020 Certificates of Calibration - Amendment Log.xlsx",
-                                 "a")
+                year = datetime.today().year
+                amend_log = open("\\BDC5\\certdbase\\%s\\%s Certificates of Calibration - Amendment Log.xlsx" %(year, year))
                 if amend_log.closed is False:
                     amend_log.close()
 
                     btn_submit_cert_amend.config(cursor="watch")
 
                     excel = win32com.client.dynamic.Dispatch("Excel.Application")
-                    wkbook = excel.Workbooks.Open(
-                        r'\\BDC5\certdbase\2020\2020 Certificates of Calibration - Amendment Log.xlsx')
+                    wkbook = excel.Workbooks.Open('\\BDC5\\certdbase\\%s\\%s Certificates of Calibration - Amendment Log.xlsx' %(year, year))
                     sheet = wkbook.Sheets("Amended Certifications")
 
 
@@ -327,7 +327,8 @@ moment and try again.")
     def open_amended_certificate(self):
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.cert_amend_original_cert + '.xlsx'
+        year = datetime.today().year
+        f = '\\\\BDC5\\certdbase\\%s\\%s.xlsx' %(year, LIMSVarConfig.cert_amend_original_cert)
         wb = excel.Workbooks.Open(f)
 
         ws = wb.Sheets("Single, Plain, AFAL")
@@ -353,8 +354,7 @@ moment and try again.")
                 else:
                     self.__init__()
 
-        new_f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.cert_amend_original_cert + '-' + \
-                LIMSVarConfig.cert_amend_revision_number + '.xlsx'
+        new_f = '\\BDC5\\certdbase\\%s-%s.xlsx' %(year, LIMSVarConfig.cert_amend_original_cert, LIMSVarConfig.cert_amend_revision_number)
         wb.SaveAs(new_f)
 
         wb.Close(True)

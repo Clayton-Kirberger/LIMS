@@ -12,6 +12,7 @@ import glob
 import os
 import os.path
 import subprocess as sub
+from datetime import datetime
 
 import LIMSVarConfig
 import win32com.client
@@ -354,7 +355,8 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_number_helper(self):
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\2022\\2022 Certificates of calibration.xls')
+        year = datetime.today().year
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
 
@@ -378,7 +380,8 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_serial_number_helper(self):
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
+        year = datetime.today().year
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         # Initialize Location of Serial Number String and Serial Number Values
@@ -447,7 +450,8 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_number_checker(self):
 
         excel = win32com.client.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\2022\\2022 Certificates of calibration.xls')
+        year = datetime.today().year
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
         print('Cert Database opened')
 
@@ -468,7 +472,8 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_serial_number_checker(self):
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
+        year = datetime.today().year
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         for i in range(1, 3000):
@@ -490,7 +495,8 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_number_fill_in(self):
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
+        year = datetime.today().year
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
@@ -519,7 +525,8 @@ calibration performed and documented in Michigan City, IN.")
     def certificate_failure(self):
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
-        wkbook = excel.Workbooks.Open(r'\\BDC5\certdbase\2022\2022 Certificates of calibration.xls')
+        year = datetime.today().year
+        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
