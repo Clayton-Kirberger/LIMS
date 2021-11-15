@@ -217,5 +217,4 @@ class LoginWindowRestoration:
 
     # Function to restore the Login Window. Designed for use in other modules
     def root_window_restore(self):
-        self.__init__()
         LoginWindow(title='Dwyer Instruments, Inc. - Laboratory Information Management System', parent=Toplevel())

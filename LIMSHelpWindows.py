@@ -21,7 +21,6 @@ class AppHelpWindows:
 
     # Function to provide user information about each of the modules available on the Home Window
     def home_help(self):
-        self.__init__()
 
         tm.showinfo("'Home' Window Help", "Each of the buttons provided in the Home Window relate to information \
 that are a major part in the Engineering Laboratory's day to day operations. \n\n\
@@ -44,7 +43,6 @@ operations of the Engineering Laboratory.")
 
     # Function to provide user information about the current window
     def cct_help(self):
-        self.__init__()
 
         tm.showinfo("'Calculators, Converters & Templates' Help", "All files and programs used by \
 laboratory personnel can be found here. Each of the available drop downs provided in \
@@ -62,7 +60,6 @@ submit the files to Roger Shumaker or Robert Maldonado for review and to be adde
 
     # Function to provide user information about the EMU and TUR Calculator Window
     def emu_and_tur_help(self):
-        self.__init__()
 
         tm.showinfo("'EMU and TUR Calculator' Help", "This calculator allows users to accurately calculate Estimated \
 Measurement Uncertainty (EMU) values and Test Uncertainty Ratio (TUR) values by using the most recent, approved \
@@ -79,7 +76,6 @@ from your M&TE used for the calibration/testing.")
 
     # Function to provide user information about the current window
     def environmental_condition_help(self):
-        self.__init__()
 
         tm.showinfo("'Environmental Conditions' Help", "In an effort to maintain laboratory conditions, the \
 environmental conditions of both laboratories in which calibration work is done is under regular \
@@ -94,7 +90,6 @@ work to ensure the environment is suitable for calibration work.")
 
     # Function to provide user information about the data acquisition - test setup window
     def data_acq_test_setup_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Acquisition - Test Setup' Help", "The data acquisition function is designed to allow \
 users to obtain data on instruments without generating a certificate of calibration. The data obtained is intended \
@@ -110,7 +105,6 @@ selected.")
 
     # Function to provide user information about the data acquisition - dut model information window
     def data_acq_dut_info_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Acquisition - DUT Model Information' Help", "This window allows the user to input \
 information about the device(s) and the respective model(s) to be tested during the data acquisition process. \n\n\
@@ -122,7 +116,6 @@ generated.")
 
     # Function to provide user information about the data acquisition - measurement and test equipment window
     def data_acq_mte_selection_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Acquisition - M&TE Selection & Configuration' Help", "All measurement and test equipment \
 that can be used for remote communications for data acquisition are provided in this window. \n\n\
@@ -135,7 +128,6 @@ the equipment, you will then have the opportunity to configure the communication
 
     # Function to provide user information about the data acquisition - test profile window
     def data_acq_profile_creation_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Acquisition - Test Profile' Help", "This window allows the user to input the \
 test parameter information for the type of data acquisition/testing that they would like to perform. Whether the \
@@ -150,7 +142,6 @@ detailing the testing performed.")
 
     # Function to aid user in understanding how to properly use SO Information Search Module
     def sales_order_import_option_help(self):
-        self.__init__()
 
         tm.showinfo("'Customer Sales Order Information Search' Help", "This window allows users to search \
 for a customer sales order and log the information so that the information obtained can be used for \
@@ -174,7 +165,6 @@ the user can simply press the 'Generate Custom Certificate' button to begin that
 
     # Function to aid user in understanding how to properly use Certificate of Calibration Creation Module
     def external_customer_certificate_information_help(self):
-        self.__init__()
 
         tm.showinfo("'Certificate of Calibration Creation' Help", "This window allows the user to import customer \
 sales order information that has been logged through our automation method used on the previous screen. \n\n\
@@ -190,7 +180,6 @@ THE SPACE PROVIDED BELOW, THE USER SHOULD ACCESS AS400 TO READ THROUGH THE COMPL
 
     # Function to aid user in understanding how to properly use DUT Details Module
     def device_instrument_information_description_help(self):
-        self.__init__()
 
         tm.showinfo("'Certificate of Calibration Creation - DUT Details' Help", "In this stage of the calibration \
 process, the user is able to document all of the information relevant to the calibration performed and the device \
@@ -222,7 +211,6 @@ field provided. \n\n\
 
     # Function to aid user in understanding how to properly use DUT Details Module
     def device_under_test_specification_details(self):
-        self.__init__()
 
         tm.showinfo("'DUT Calibration Parameters' Help", "Based on the input of the user from the previous \
 window, this section of the calibration program customizes its options according to the selected output type of \
@@ -253,7 +241,6 @@ clicking, the 'Next' button.")
 
     # Function to aid user in understanding how to properly use DUT Details Module
     def calibration_standard_loading_details(self):
-        self.__init__()
 
         tm.showinfo("'Calibration Reference Standards' Help", "In this stage of the calibration process, the user can \
 import calibration standard information for the instrumentation used during calibration of the device under test. \n\n\
@@ -277,7 +264,6 @@ USED OUTSIDE OF ITS CALIBRATION INTERVAL.")
 
     # Function to aid user in understanding how to properly use DUT Import System Selection Module
     def data_import_selection_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Import System Selection' Help", "Laboratory personnel can import calibration data obtained \
 using one of the provided calibration system options. \n\n\
@@ -290,7 +276,6 @@ If the user decides they would rather manually enter in the data, simply go back
 
     # Function to aid user in understanding how to properly use Data Set Query Module
     def data_set_query_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Set Selection' Help", "Laboratory personnel can report calibration data obtained during \
 initial calibration, after adjustment, etc. \n\n\
@@ -300,7 +285,6 @@ Simply select the data set type from the drop down provided and follow the promp
 
     # Function to aid user in understanding how to properly use Data Set Query Module
     def dwtester_data_set_query_help(self):
-        self.__init__()
 
         tm.showinfo("'Data Set Selection' Help", "Laboratory personnel can report calibration data obtained during \
 initial calibration, after adjustment, etc. \n\n\
@@ -312,7 +296,6 @@ Simply select the data set type from the drop down provided and follow the promp
 
     # Function to aid user in understanding how to properly use DUT Details Module
     def calibration_data_input_help(self):
-        self.__init__()
 
         tm.showinfo("'Calibration Data Input' Help", "Laboratory personnel are to record all data acquired from \
 calibration of their device under test. This includes the data obtained from their device under test as well as their \
@@ -329,7 +312,6 @@ DATA ENTRY IS CORRECT PRIOR TO ADVANCING.")
 
     # Function to aid user in understanding how to properly use DUT Details Module
     def technician_notes_and_signature_help(self):
-        self.__init__()
 
         tm.showinfo("'Customer Notes & User Signature' Help", "Laboratory personnel completing a certificate of \
 calibration are to input any pertinent information regarding the calibration in the notes section. For example, \
@@ -343,7 +325,6 @@ of the user.")
 
     # Function to aid user in understanding how to properly use DUT Details Module
     def additional_certificate_generation_help(self):
-        self.__init__()
 
         tm.showinfo("'Additional Certificate of Calibration Creation' Help", "Laboratory personnel who have \
 multiple units to generate certificates of calibration that are of the exact same model (i.e. with the exact \
@@ -369,7 +350,6 @@ after closing out the window, they will need to go through the entire process ag
 
     # Provides user information about the Calibration Equipment Database window
     def calibration_equipment_database_help(self):
-        self.__init__()
 
         tm.showinfo("'Calibration Equipment Database' Help", "This window allows laboratory personnel to search for \
 equipment that is located at this facility (Dwyer Instruments, Inc. - Headquarters located in Michigan City, IN). \n\n\
@@ -382,7 +362,6 @@ re-calibration can be generated using the buttons provided at the top of the win
 
     # Provides user information about the CertSearch window
     def certificate_database_help(self):
-        self.__init__()
 
         tm.showinfo("'Certificate of Calibration File Search' Help", "Here, laboratory \
 personnel can search for Certificates of Calibration generated through a variety of methods. \n\n\
@@ -402,7 +381,6 @@ functions will not open a desired file.")
 
     # Function to provide user information the RMASearch Window
     def rma_database_help(self):
-        self.__init__()
 
         tm.showinfo("'RMA Database' Help", "To access the laboratories RMA Evaluation summary database/spreadsheet, \
 simply enter a valid laboratory RMA Evaluation year into the available entry box, and click the open button. This \
@@ -426,7 +404,6 @@ The user will then be prompted to provide their Service Management Credentials t
 
     # Function to provide user information about the Certificate Amendment Window
     def certificate_amendment_help(self):
-        self.__init__()
 
         tm.showinfo("'Certificate Amendment' Help", "In an effort to continuously improve the laboratory management \
 system as well as the activities it performs, in the event that a certificate of calibration needs to be amended \
@@ -444,7 +421,6 @@ submit the amended document for review by Laboratory Management as you would for
 
     # Function to provide user information for the Complaints Window
     def complaints_help(self):
-        self.__init__()
 
         tm.showinfo("'New Complaint' Help", "In an effort to continuously improve the laboratory management \
 system as well as the activities it performs, customers of the laboratory (be it internal or external) are \
@@ -459,7 +435,6 @@ response to the complaint filed.")
 
     # Function to provide user information for the CA Window
     def ca_help(self):
-        self.__init__()
 
         tm.showinfo("'Corrective Action Request Creation' Help", "In an effort to improve the laboratory management \
 system as well as the activities it performs, corrective action is taken to eliminate the causes of any existing \
@@ -474,7 +449,6 @@ reviewed for completeness and will need to meet the requirements of being 'fit f
 
     # Function to provide user information for the NC Window
     def nc_help(self):
-        self.__init__()
 
         tm.showinfo("'Nonconforming Work Creation' Help", "In an effort to improve the laboratory management \
 system as well as the activities it performs, instances/events of nonconforming work are to be \
@@ -489,7 +463,6 @@ the reported incident.")
 
     # Function to provide user information for the OFI Window
     def ofi_help(self):
-        self.__init__()
 
         tm.showinfo("'Opportunity for Improvement Creation' Help", "In an effort to improve the laboratory management \
 system as well as the activities it performs, opportunities for improvement are to be \

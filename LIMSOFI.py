@@ -29,7 +29,6 @@ class AppOpportunityForImprovement:
     # This command is designed to allow the user to log opportunities for improvement
     # in relation to work performed in the laboratory
     def opportunity_for_improvement(self, window):
-        self.__init__()
         window.withdraw()
 
         global OFIOptionSel, ofi_option_selection
@@ -112,7 +111,6 @@ class AppOpportunityForImprovement:
     # -----------------------------------------------------------------------#
 
     def new_opportunity_for_improvement(self, window):
-        self.__init__()
         window.withdraw()
 
         global new_ofi_info, description_textbox, rationale_textbox, impact_textbox, data_textbox, \
@@ -252,7 +250,6 @@ Improvement", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow admin accounts to view existing OFI log
     def ofi_log_viewer(self):
-        self.__init__()
 
         lims_ofi_log_file = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS Quality Assurance\LIMS Opportunity for Improvement Log.xlsx'
         os.startfile(lims_ofi_log_file)
@@ -262,7 +259,6 @@ Improvement", relief=SOLID, bd=1, labelanchor="n")
     # Function created to examine existing OFI log. If no OFI exists in log, the first OFI unique identifier will be
     # generated. If an OFI exists in the log, it will loop until a new OFI identifier is generated.
     def ofi_identifier_checker(self):
-        self.__init__()
 
         try:
             ofi_database = open("Required Files\\LIMS Quality Assurance\\LIMS Opportunity for Improvement Log.xlsx", "a")
@@ -322,7 +318,6 @@ moment and try again.")
     # -----------------------------------------------------------------------##
 
     def ofi_submission_request(self):
-        self.__init__()
 
         LIMSVarConfig.ofi_description = description_textbox.get('1.0', 'end-1c')
         LIMSVarConfig.ofi_rationale = rationale_textbox.get('1.0', 'end-1c')
@@ -375,7 +370,6 @@ and make sure all fields have been sufficiently filled out.")
     # -----------------------------------------------------------------------#
 
     def ofi_submission_confirmation(self, window):
-        self.__init__()
 
         from LIMSHomeWindow import AppCommonCommands
         acc = AppCommonCommands()

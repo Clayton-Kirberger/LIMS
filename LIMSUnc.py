@@ -29,7 +29,6 @@ class AppUncertainty:
 
     # This command is designed to open up EMU and TUR calculator.
     def uncertainty(self, window):
-        self.__init__()
         window.withdraw()
 
         global unc_option_sel, unc_option_selection
@@ -116,7 +115,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow users to view existing and current Scope of Accreditation
     def open_scope_of_accreditation(self):
-        self.__init__()
 
         current_scope = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS CCT Files\Reference Documents\DwyerCertScope-V001.pdf'
         os.startfile(current_scope)
@@ -125,7 +123,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow users to calculated EMU and TUR values based on existing uncertainties
     def emu_and_tur_calculator(self, window):
-        self.__init__()
         window.withdraw()
 
         LIMSVarConfig.calculated_emu = ""
@@ -281,7 +278,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to update emu & tur parameter/equipment based on metrology discipline
     def update_emu_tur_parameter(self):
-        self.__init__()
 
         if len(LIMSVarConfig.mass_uncertainty_parameters) < 2:
             btn_update_parameters.config(cursor="watch")
@@ -303,7 +299,6 @@ then press the 'Update Parameters' button.")
 
     # Function created to update emu & tur range based on parameter/equipment selected
     def update_emu_tur_range(self):
-        self.__init__()
 
         LIMSVarConfig.mass_uncertainty_ranges = [" "]
         LIMSVarConfig.mass_uncertainty_units = [" "]
@@ -335,7 +330,6 @@ provided and then press the 'Update Ranges' button.")
 
     # Function created to update reference standard based on range selected
     def update_emu_tur_standard(self):
-        self.__init__()
 
         LIMSVarConfig.mass_reference_standard = " "
 
@@ -359,7 +353,6 @@ then press the 'Apply Range' button.")
 
     # Function created to calculated emu and tur based on user input
     def calculate_emu_tur(self):
-        self.__init__()
 
         s = ttk.Style()
         s.configure('four_to_one.TLabel', background="green")
@@ -413,7 +406,6 @@ information. Fill out the necessary entry fields an try again.")
 
     # Function created to write uncertainty database information to arrays
     def obtain_uncertainty_information(self):
-        self.__init__()
 
         global local_mass_uncertainty_parameters, local_mass_uncertainty_ranges, local_mass_uncertainty_units, \
             local_mass_reference_standard, local_mass_expanded_uncertainty, local_mass_expanded_uncertainty_floor
@@ -507,7 +499,6 @@ information. Fill out the necessary entry fields an try again.")
 
     # Function created to allow admin accounts to view uncertainty database
     def open_uncertainty_database(self):
-        self.__init__()
 
         uncertainty_db = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS CCT Files\Reference Documents\Uncertainty Database.xlsx'
         os.startfile(uncertainty_db)

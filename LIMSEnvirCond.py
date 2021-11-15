@@ -28,7 +28,6 @@ class AppEnvironmentalConditions:
 
     # Environmental Conditions Query Process
     def lab_conditions(self, window):
-        self.__init__()
         window.withdraw()
 
         global EnvConditions, lbl_main_lab_temperature, lbl_main_lab_pressure, lbl_main_lab_humidity, \
@@ -220,7 +219,6 @@ class AppEnvironmentalConditions:
 
     # Acquire Envinromental Conditions from Omega iBTHX-W in Main Lab
     def main_lab_environmental_conditions_query(self):
-        self.__init__()
         create_no_window = 0x08000000
         # Obtain Ambient Temperature in F
         args = '//BDC5/Dwyer Engineering LIMS/Required Files/httpget -r -q -S "*SRTF\r" -C 1 172.20.5.102:2000\n'
@@ -247,7 +245,6 @@ class AppEnvironmentalConditions:
 
     # Command to Update ML Variables for Environmental Conditions Window
     def main_lab_conditions_update(self):
-        self.__init__()
         btn_main_lab_environment_query.config(cursor="watch")
         main_lab_conditions = AppEnvironmentalConditions()
         main_lab_conditions.main_lab_environmental_conditions_query()
@@ -274,7 +271,6 @@ class AppEnvironmentalConditions:
 
     # Command to Check if Temperature and Humidity are within Main Lab Environmental Condition Specifications
     def main_lab_conditions_check(self):
-        self.__init__()
 
         main_lab_temperature = LIMSVarConfig.temperature_0.strip(" F")
         main_lab_humidity = LIMSVarConfig.humidity_0.strip(" %RH")
@@ -297,7 +293,6 @@ class AppEnvironmentalConditions:
 
     # Acquire Envinromental Conditions from Omega iBTHX-W in Flow Lab
     def flow_lab_conditions_query(self):
-        self.__init__()
         create_no_window = 0x08000000
         # Obtain Ambient Temperature in F
         args = '//BDC5/Dwyer Engineering LIMS/Required Files/httpget -r -q -S "*SRTF\r" -C 1 172.20.5.176:2000\n'
@@ -324,7 +319,6 @@ class AppEnvironmentalConditions:
 
     # Command to Update FL Variables for Environmental Conditions Window
     def flow_lab_conditions_update(self):
-        self.__init__()
         btn_flow_lab_environment_query.config(cursor="watch")
         flow_lab_conditions = AppEnvironmentalConditions()
         flow_lab_conditions.flow_lab_conditions_query()
@@ -351,7 +345,6 @@ class AppEnvironmentalConditions:
 
     # Command to Check if Temperature and Humidity are within Flow Lab Environmental Condition Specifications
     def flow_lab_conditions_check(self):
-        self.__init__()
 
         flow_lab_temperature = LIMSVarConfig.temperature_1.strip(" F")
         flow_lab_humidity = LIMSVarConfig.humidity_1.strip(" %RH")

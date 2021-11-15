@@ -21,5 +21,4 @@ class AppProcedures:
 
     # Command Designed to Open Dwyer Procedures
     def procedure_documentation(self):
-        self.__init__()
         sub.Popen(r'explorer /open, "\\PRODFILE\SPI"' + "'s & OP" + "'s" + "")

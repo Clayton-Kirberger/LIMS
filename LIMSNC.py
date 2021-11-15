@@ -28,7 +28,6 @@ class AppNonConformance:
 
     # This command is designed to allow the user to log non-conformances in relation to work performed in the laboratory
     def nonconforming_work(self, window):
-        self.__init__()
         window.withdraw()
 
         global nc_option_sel, nc_option_selection
@@ -111,7 +110,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
     # ----------------------------------------------------------------------------- #
 
     def new_nonconforming_work(self, window):
-        self.__init__()
         window.withdraw()
 
         global new_nc_info, nc_location_selection, nc_risk_selection, nc_personnel_textbox, \
@@ -251,7 +249,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow admin accounts to view existing NC log
     def nc_log_viewer(self):
-        self.__init__()
 
         lims_nc_log_file = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS Quality Assurance\LIMS Nonconformance Log.xlsx'
         os.startfile(lims_nc_log_file)
@@ -261,7 +258,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
     # Function created to examine existing NC log. If no NC exists in log, the first NC unique identifier will be
     # generated. If an NC exists in the log, it will loop until a new NC identifier is generated.
     def nc_identifier_checker(self):
-        self.__init__()
 
         try:
             nc_database = open(
@@ -324,7 +320,6 @@ moment and try again.")
     # -----------------------------------------------------------------------##
 
     def nc_submission_request(self):
-        self.__init__()
 
         LIMSVarConfig.nc_location = nc_location_selection.get()
         LIMSVarConfig.nc_severity = nc_risk_selection.get()
@@ -381,7 +376,6 @@ and make sure everything has been sufficiently filled out.")
     # -----------------------------------------------------------------------#
 
     def nc_submission_confirmation(self, window):
-        self.__init__()
 
         from LIMSHomeWindow import AppCommonCommands
         acc = AppCommonCommands()

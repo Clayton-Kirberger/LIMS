@@ -26,7 +26,6 @@ class AppDataAcquisition:
     # This command is designed to allow the user to perform data acquisition without generating
     # a calibration certificate.
     def data_acquisition_parameters(self, window):
-        self.__init__()
         window.withdraw()
 
         LIMSVarConfig.data_acquisition_dut_output_type = " "
@@ -135,7 +134,6 @@ class AppDataAcquisition:
 
     # Function to update number of model combobox
     def update_data_acq_tso(self):
-        self.__init__()
 
         if test_type.get() == "Manual":
             LIMSVarConfig.data_acquisition_dut_output_type = "Analogue"
@@ -161,7 +159,6 @@ class AppDataAcquisition:
 
     # Function to verify the proper input of the user
     def data_acq_param_check(self):
-        self.__init__()
 
         if test_type.get() == " " or LIMSVarConfig.data_acquisition_dut_output_type == " " \
                 or number_of_models.get() == " " or test_environment.get() == " ":
@@ -176,7 +173,6 @@ class AppDataAcquisition:
 
     # Function designed to allow user to provide a profile for the number of models to be tested
     def data_acq_dut_information(self, window):
-        self.__init__()
         window.withdraw()
 
         global data_acq_dut_info, dut_description_1, dut_model_number_1, dut_date_code_1, mode_of_measure_1, \
@@ -325,7 +321,6 @@ class AppDataAcquisition:
 
     # Function created to updated units of measure list for Data Acquisition - DUT Model Information notebook
     def update_data_acq_units(self):
-        self.__init__()
 
         if mode_of_measure_1.get() == "Flow":
             LIMSVarConfig.data_acquisition_dut_units_of_measure_1 = [" ", "CCM", "CFM", "ft/s", "GPH", "l/s", "l/h",
@@ -372,7 +367,6 @@ from the drop down provided and try again.")
 
     # Function created to process Data Acquisition - DUT Model Information input and advance to equipment selection
     def process_data_acq_dut_information(self):
-        self.__init__()
 
         if dut_description_1.get() == "" or dut_model_number_1.get() == "" or dut_date_code_1.get() == "" or \
                 mode_of_measure_1.get() == "" or units_of_measure_1.get() == "":
@@ -390,7 +384,6 @@ they are filled out in their entirety before trying again.")
 
     # Function to select and configure M&TE for data acquisition by user
     def data_acq_mte_selection(self, window):
-        self.__init__()
         window.withdraw()
 
         global mc6_checkvar, mc2_checkvar, hp34401_checkvar, hp34970a_checkvar, mc_daq_checkvar, pace_5000_checkvar, \
@@ -1239,7 +1232,6 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to enable/disable entry fields based on previous user input
     def process_data_acq_chkbtn(self):
-        self.__init__()
 
         if mc6_checkvar.get() == 1:
             mc6_com_value.configure(state="active")
@@ -1258,7 +1250,6 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
 
     # Function to update serial communications for reference standards selected
     def update_data_acq_serial_comm(self):
-        self.__init__()
 
         if mc6_checkvar.get() == 1:
             LIMSVarConfig.mc6_com_port = mc6_com_value.get()
@@ -1266,8 +1257,6 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
             LIMSVarConfig.mc6_data_bits = mc6_db_selection.get()
             LIMSVarConfig.mc6_parity = mc6_parity_selection.get()
             LIMSVarConfig.mc6_stop_bit = mc6_stopbit_selection.get()
-        else:
-            self.__init__()
 
         self.data_acq_test_profile(da_mte_selection)
 
@@ -1275,7 +1264,6 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
 
     # Function to allow user to create test profile/pattern for data acquisition
     def data_acq_test_profile(self, window):
-        self.__init__()
         window.withdraw()
 
         LIMSVarConfig.data_acquisition_test_step = []
@@ -1452,7 +1440,6 @@ Acquisition", relief=SOLID, bd=1, labelanchor="n")
 
     # Function to allow user to create test profile/pattern for data acquisition
     def perform_data_acquisition(self, window):
-        self.__init__()
         window.withdraw()
 
         from LIMSHomeWindow import AppCommonCommands

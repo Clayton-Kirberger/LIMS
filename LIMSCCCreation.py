@@ -23,7 +23,6 @@ class AppCCModule:
     # ====================CERTIFICATE OF CALIBRATION CREATION=================#
 
     def internal_customer_selection(self, window):
-        self.__init__()
         window.withdraw()
 
         global ICInfo, internal_customer_value, internal_customer_displayed_address, \
@@ -132,7 +131,6 @@ class AppCCModule:
 
     # Load Custom Certificate of Calibration Customer Information
     def load_internal_customer_information_details(self):
-        self.__init__()
 
         LIMSVarConfig.internal_customer_location = internal_customer_value.get()
         if LIMSVarConfig.internal_customer_location == " ":

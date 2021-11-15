@@ -30,7 +30,6 @@ class AppCalibrationModule:
 
     # Calibration Type Selection
     def customer_calibration_type_selection(self, window):
-        self.__init__()
         window.withdraw()
 
         global CalTypeSel, customer_calibration_selection
@@ -111,7 +110,6 @@ calibration work for.")
 
     # Sales Order Information Query Process
     def sales_order_import_option_window(self, window):
-        self.__init__()
         window.withdraw()
 
         global SOSearch, as400_user_val, as400_pass_val, sales_order_val, sales_order
@@ -211,7 +209,6 @@ calibration work for.")
 
     # Open AS400 and Extract Information to .txt File
     def as400_executable(self):
-        self.__init__()
 
         LIMSVarConfig.as400_username_helper = as400_user_val.get()
         LIMSVarConfig.as400_password_helper = as400_pass_val.get()
@@ -238,7 +235,6 @@ order, and then press the 'Search AS400' button again to initiate the export pro
 
     # Allows User to Create New Customer Certificate By Importing Information
     def external_customer_information(self, window):
-        self.__init__()
         window.withdraw()
 
         global CalCert, external_customer_sales_order_number_value, lbl_customer_name_value, \
@@ -521,7 +517,6 @@ order, and then press the 'Search AS400' button again to initiate the export pro
 
     # Import Command from AS400 Text Files
     def external_customer_information_data_load(self):
-        self.__init__()
 
         LIMSVarConfig.external_customer_sales_order_number_helper = external_customer_sales_order_number_value.get()
 
@@ -585,7 +580,6 @@ order, and then press the 'Search AS400' button again to initiate the export pro
 
     # Command to Send User to Equipment Description Section of Cal Certificate
     def device_instrument_description_information(self, window):
-        self.__init__()
         window.withdraw()
 
         global CertDUTDetails, certificate_type, dut_date_received, dut_date_of_calibration, dut_calibration_due_date, \
@@ -799,7 +793,6 @@ order, and then press the 'Search AS400' button again to initiate the export pro
     # Command to Search for Next Available Cert Number
     def import_device_certificate_of_calibration_number(self):
         global dut_instrument_identification_number
-        self.__init__()
 
         btn_import_certificate_number.config(cursor="watch")
         LIMSVarConfig.certificate_of_calibration_number = ""
@@ -846,7 +839,6 @@ moment and try again.")
     # Command to Search for Next Available Cert and Serial Number
     def import_device_certificate_and_serial_number(self):
         global dut_instrument_identification_number
-        self.__init__()
 
         btn_import_cert_serial_number.config(cursor="watch")
         LIMSVarConfig.certificate_of_calibration_number = ""
@@ -896,7 +888,6 @@ moment and try again.")
 
     # Command to ensure that fields have been filled prior to advancing to next window
     def device_certificate_and_information_input_verify(self):
-        self.__init__()
 
         if LIMSVarConfig.device_serial_number == "":
             if certificate_type.get() == "" or dut_date_received.get() == "" or dut_date_of_calibration.get() == "" or \
@@ -922,7 +913,6 @@ moment and try again.")
 
     # Command to Send User to Calibration Details Section of Cal Certificate
     def device_under_test_calibration_specifications(self, window):
-        self.__init__()
 
         # btn_device_specification.config(cursor="watch")
         LIMSVarConfig.certificate_option = certificate_type.get()
@@ -1873,7 +1863,6 @@ moment and try again.")
 
     # Command to Save All Fields Set By User for Certificate of Calibration
     def apply_dut_calibration_specifications(self):
-        self.__init__()
 
         global condition_of_dut, device_under_test_output_type, device_under_test_measurement_type, units_of_measure, \
             device_under_test_minimum, device_under_test_maximum, reference_resolution, \
@@ -2398,7 +2387,6 @@ moment and try again.")
     # Command to Load Calibration Standards from Database
     def load_calibration_standards(self):
         global todays_date
-        self.__init__()
 
         if calibration_standard_1.get() == "":
             tm.showerror("Calibration Standard Import Error", "No calibration standard asset number provided in \
@@ -2655,7 +2643,6 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
     # Command to ensure that fields have been filled prior to advancing to next window
     def calibration_standards_equipment_input_verification(self):
-        self.__init__()
 
         if calibration_standard_1.get() == "" and calibration_standard_2.get() == "" and \
                 calibration_standard_3.get() == "" and calibration_standard_4.get() == "" and \
@@ -2694,7 +2681,6 @@ asset number entry field provided.')
 
     # Command to Send User to Perform Calibration Section of Cal Certificate
     def perform_calibration_on_device_under_test(self, window):
-        self.__init__()
         window.withdraw()
 
         global DUTCalibrationWindow, device_under_test_full_scale_calculated, \
@@ -2937,7 +2923,6 @@ asset number entry field provided.')
     # DUT Calibration Window/Data Acquisition Phase of Calibration
 
     def calculate_calibration_measurement_error(self):
-        self.__init__()
 
         global total_error_band_list, second_total_error_band_list, pass_fail_condition_list, \
             dual_pass_fail_condition_list, transmitter_pass_fail_condition_list, device_under_test_reading_entry, \
@@ -4460,7 +4445,6 @@ asset number entry field provided.')
     # -----------------------------------------------------------------------#
     # Command to Ask User if They are Ready to Generate Certificate of Calibration
     def complete_calibration_process_step_one(self):
-        self.__init__()
 
         certificate_of_calibration_query = tm.askyesno("Complete Calibration", "Would you like to generate a \
 Certificate of Calibration for the device under test?")
@@ -4472,7 +4456,6 @@ Certificate of Calibration for the device under test?")
     # -----------------------------------------------------------------------#
     # Command to Ask User for Notes and to Sign Off on Certificate of Calibration
     def complete_calibration_process_step_two(self, window):
-        self.__init__()
         window.withdraw()
 
         global CertNoteSignOff, technician_notes, personnel_list, personnel_selection, \
@@ -4565,7 +4548,6 @@ Certificate of Calibration for the device under test?")
 
     # Command to Verify Signature/User Has Been Selected for Generating Certificate
     def verify_certificate_signature_input(self):
-        self.__init__()
 
         if personnel_selection.get() == personnel_list[0]:
             tm.showerror("Signature Required", "Please select digital signature from drop down list provided.")
@@ -4588,7 +4570,6 @@ moment and try again.")
 
     # Command to Pull and Store Information Correlated to Digital Signature Selection
     def job_title_and_personnel_signature(self):
-        self.__init__()
 
         if personnel_selection.get() == personnel_list[1]:
             LIMSVarConfig.certificate_technician_job_title = 'Engineering Laboratory Supervisor'
@@ -4627,7 +4608,6 @@ moment and try again.")
     # Certificate Form Window for Review Prior to Printing
     def generate_certificate_of_calibration_report(self):
         global f, ws, ws
-        self.__init__()
 
         LIMSVarConfig.certificate_of_calibration_entry_list = []
 
@@ -5016,7 +4996,6 @@ Be sure to review your newly created Certificate of Calibration.")
 
     # Command to Ask User for Input Regarding Additional DUT Calibration
     def additional_calibration_certificate_creation(self):
-        self.__init__()
 
         global AdditionalCalCertDUTDetails, new_additional_certificate_number, new_additional_serial_number, \
             device_customer_identification_number, customer_device_under_test_instrument_number_2, \
@@ -5155,7 +5134,6 @@ Be sure to review your newly created Certificate of Calibration.")
 
     # Command to Ask User if They Want to Generate Another Certificate of Calibration
     def exit_additional_calibration(self):
-        self.__init__()
 
         exit_additional_calibration_response = tm.askyesno("Exit Calibration Process?", "If you exit now, you will be \
 taken to the main menu. You will have to go through the entire process to generate another certificate. Are you sure \
@@ -5176,7 +5154,6 @@ you want to exit? ")
     # Command to Import Additional Certificate Number
     def import_additional_certificate_number(self):
         global new_additional_serial_number
-        self.__init__()
 
         btn_import_new_certificate_number.config(cursor="watch")
         LIMSVarConfig.certificate_of_calibration_number = ""
@@ -5222,7 +5199,6 @@ moment and try again.")
     # Command to Import Additional Certificate/Serial Number
     def import_additional_certificate_and_serial_number(self):
         global new_additional_serial_number
-        self.__init__()
 
         btn_import_new_certificate_and_serial_number.config(cursor="watch")
         LIMSVarConfig.certificate_of_calibration_number = ""
@@ -5272,7 +5248,6 @@ moment and try again.")
 
     # Command to Verify Signature/User Fields Have Been Filled Out
     def verify_additional_calibration_information_input(self):
-        self.__init__()
 
         from LIMSDataImport import AppDataImportModule
         adim = AppDataImportModule()

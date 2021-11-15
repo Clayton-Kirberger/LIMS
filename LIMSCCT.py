@@ -29,7 +29,6 @@ class AppCCT:
     # Command Designed to Open Conversion Calculators
 
     def conversions_and_calculators(self, window):
-        self.__init__()
         window.withdraw()
 
         global CalcConvTemp, calc_conv_list, template_list, calculator_converter_type, template_drop_down_type
@@ -130,7 +129,6 @@ class AppCCT:
 
     # Open Calculator or Converter File Selected from Drop Down
     def open_calculator_converter(self):
-        self.__init__()
 
         if calculator_converter_type.get() == "RHP Thermistor RTD Calculator":
             calc_conv_file = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS CCT Files\Calculators & Converters\RHP Thermistor RTD Calculator.xls'
@@ -151,7 +149,6 @@ class AppCCT:
 
     # Open Template File Selected from Drop Down
     def open_template(self):
-        self.__init__()
 
         if template_drop_down_type.get() == "Data Acquisition Form":
             template_file = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS CCT Files\Templates\Data Acquisition Form.xls'

@@ -28,7 +28,6 @@ class AppAS400ExecutableHelper:
     # Issue occurs if user password is close to expiring
     # This Needs Work Still
     def as400_executable_helper(self):
-        self.__init__()
 
         time.sleep(1)
         f = "C:\\Program Files (x86)\IBM\Client Access\Emulator\\pcsfe.exe"
@@ -70,7 +69,6 @@ class AppAS400ExecutableHelper:
 
     # Performs Sales Order Search and Writes Information to Scratch Pad
     def as400_sales_order_search(self):
-        self.__init__()
 
         pyautogui.typewrite("750")
         pyautogui.hotkey("Enter")
@@ -234,7 +232,6 @@ class AppAS400ExecutableHelper:
     # This function reads through the sales order file generated, saves values
     # to variables created, and loads them into the Calibration_GUI.py executable
     def customer_information_helper(self):
-        self.__init__()
 
         if os.path.isfile(
                 r"\\BDC5\\Dwyer Engineering LIMS\\Sales Order Text Files" + "\\" +

@@ -29,7 +29,6 @@ class AppCertificateAmendment:
     # This command is designed to allow the user to modify existing certificates, create a new revision of previous
     # existing certificate and provide reasoning for modifying document
     def certificate_of_calibration_amendment(self, window):
-        self.__init__()
         window.withdraw()
 
         global cert_amend_option_selection, cert_amend_option_sel
@@ -114,7 +113,6 @@ provided.")
 
     # Function to handle creating record of amendment and opening amended certificate for changes to be made
     def new_certificate_amendment(self, window):
-        self.__init__()
         window.withdraw()
 
         cal_cert_number = StringVar()
@@ -266,7 +264,6 @@ the original record", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow admin accounts to view existing Certificate of Calibration Amendment Log
     def cert_amend_log_viewer(self):
-        self.__init__()
 
         lims_cert_amend_log_file = r'\\BDC5\certdbase\2020\2020 Certificates of Calibration - Amendment Log.xlsx'
         os.startfile(lims_cert_amend_log_file)
@@ -274,7 +271,6 @@ the original record", relief=SOLID, bd=1, labelanchor="n")
     # ----------------------------------------------------------------------------- #
 
     def cert_amend_request(self):
-        self.__init__()
 
         LIMSVarConfig.cert_amend_original_cert = cert_original_record_value.get()
         LIMSVarConfig.cert_amend_request_personnel = cert_amend_requestor_value.get()
@@ -302,30 +298,24 @@ sure everything has been sufficiently filled out.")
                         r'\\BDC5\certdbase\2020\2020 Certificates of Calibration - Amendment Log.xlsx')
                     sheet = wkbook.Sheets("Amended Certifications")
 
-                    i = 4
-                    cell = sheet.Cells(i, 2)
-                    for i in range(4, 3000):
+
+                    for row in range(4, 3000):
+                        cell = sheet.Cells(row, 2)
                         if cell.Value is None:
-                            x = i
-                            sheet.Cells(x, 2).Value = LIMSVarConfig.cert_amend_original_cert
-                            sheet.Cells(x, 3).Value = LIMSVarConfig.cert_amend_description
-                            sheet.Cells(x, 4).Value = LIMSVarConfig.cert_amend_revision_number
-                            sheet.Cells(x, 5).Value = LIMSVarConfig.date_helper
-                            sheet.Cells(x, 6).Value = LIMSVarConfig.certificate_technician_name
-                            sheet.Cells(x, 7).Value = LIMSVarConfig.cert_amend_request_personnel
-                            sheet.Cells(x, 8).Value = LIMSVarConfig.cert_amend_reason
-                            sheet.Cells(x, 9).Value = LIMSVarConfig.cert_amend_effects
+                            sheet.Cells(row, 2).Value = LIMSVarConfig.cert_amend_original_cert
+                            sheet.Cells(row, 3).Value = LIMSVarConfig.cert_amend_description
+                            sheet.Cells(row, 4).Value = LIMSVarConfig.cert_amend_revision_number
+                            sheet.Cells(row, 5).Value = LIMSVarConfig.date_helper
+                            sheet.Cells(row, 6).Value = LIMSVarConfig.certificate_technician_name
+                            sheet.Cells(row, 7).Value = LIMSVarConfig.cert_amend_request_personnel
+                            sheet.Cells(row, 8).Value = LIMSVarConfig.cert_amend_reason
+                            sheet.Cells(row, 9).Value = LIMSVarConfig.cert_amend_effects
                             break
-                        else:
-                            i += 1
-                            cell = sheet.Cells(i, 2)
+
 
                     wkbook.Close(True)
 
                     self.cert_amend_submission_confirmation(new_cert_amend_info)
-
-                else:
-                    self.__init__()
 
             except IOError as e:
                 tm.showerror("Database Busy!", "Database is currently busy and in use by another user. Please wait a \
@@ -335,7 +325,6 @@ moment and try again.")
 
     # Function designed to open original certificate, save as amended version, and open amended version
     def open_amended_certificate(self):
-        self.__init__()
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         f = '\\\\BDC5\\certdbase\\2020\\' + LIMSVarConfig.cert_amend_original_cert + '.xlsx'
@@ -375,7 +364,7 @@ moment and try again.")
     # ----------------------------------------------------------------------------- #
 
     def cert_amend_submission_confirmation(self, window):
-        self.__init__()
+
 
         from LIMSHomeWindow import AppCommonCommands
         acc = AppCommonCommands()

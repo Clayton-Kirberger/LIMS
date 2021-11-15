@@ -33,7 +33,6 @@ class AppReferenceStandardDatabase:
     # calibration equipment database throughout the calibration process
     def calibration_equipment_database_csv(self):
         global description_width, manufacturer_width, range_width
-        self.__init__()
 
         i = 1
         with open(r'\\BDC5\Dwyer Engineering LIMS\Required Files\Calibration Standards List - 3.txt', 'r') as f:
@@ -249,7 +248,6 @@ Serial Number)",
 
     # Command Designed to Search for Information of Input Calibration Equipment
     def calibration_equipment_search_by_asset(self):
-        self.__init__()
 
         for i in range(0, len(LIMSVarConfig.calibration_equipment_reference_array)):
             if asset_number_search_val.get() != LIMSVarConfig.cal_equip_asset_no[i]:
@@ -291,7 +289,6 @@ Serial Number)",
 
     # Command Designed to Search for Information of Input Calibration Equipment
     def calibration_equipment_search_by_serial(self):
-        self.__init__()
 
         for i in range(0, len(LIMSVarConfig.calibration_equipment_reference_array)):
             if serial_number_search_val.get() != LIMSVarConfig.cal_equip_serial_no[i]:
@@ -334,7 +331,6 @@ Serial Number)",
     # Command Designed to Query Which Instruments Located at Michigan City
     # Are Past the Calibration Due Date
     def generate_past_due_report(self):
-        self.__init__()
 
         btn_past_due_date.config(cursor="watch")
 
@@ -397,7 +393,6 @@ Serial Number)",
     # Command Designed to Query Which Instruments Located at Michigan City
     # Are Approaching Recalibration Date
     def generate_coming_up_for_cal_report(self):
-        self.__init__()
 
         btn_coming_up_for_cal.config(cursor="watch")
 
@@ -461,7 +456,6 @@ Serial Number)",
 
     # This function is intended to clear all labels on exiting so that re-entering will lead to a clean ui
     def clear_labels(self):
-        self.__init__()
 
         LIMSVarConfig.clear_calibration_equip_variables()
 

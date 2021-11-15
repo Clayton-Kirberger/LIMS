@@ -191,7 +191,6 @@ class AppDataImportModule:
 
     # Command to extract calibration data from Fluke 2465/2468A .dat File and store to Arrays for certificate
     def fluke_24658a_data_import(self):
-        self.__init__()
 
         LIMSVarConfig.imported_data_checker = int(0)
         LIMSVarConfig.imported_dut_reading = float()
@@ -500,7 +499,6 @@ process, click the 'No' button.")
 
     # Command to extract calibration data from Fluke Molbox .dat File and store to Arrays for certificate
     def fluke_molbox_data_import(self):
-        self.__init__()
 
         LIMSVarConfig.imported_data_checker = int(0)
         LIMSVarConfig.imported_dut_reading = ""
@@ -671,7 +669,6 @@ process, click the 'No' button.")
     # Command to extract calibration data from Sonic Nozzle File and store to Arrays for certificate
     def sonic_nozzle_data_import(self):
 
-        self.__init__()
 
         sonic_nozzle_search = tkFileDialog.askopenfilename(initialdir="/",
                                                            title="Select Sonic Nozzle Data File",

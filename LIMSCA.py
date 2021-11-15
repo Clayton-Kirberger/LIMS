@@ -29,7 +29,6 @@ class AppCorrectiveActions:
     # This command is designed to allow the user to log corrective actions in relation to work performed in
     # the laboratory
     def corrective_actions(self, window):
-        self.__init__()
         window.withdraw()
 
         global ca_option_sel, ca_option_selection
@@ -112,7 +111,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
     # ----------------------------------------------------------------------------- #
 
     def new_corrective_action(self, window):
-        self.__init__()
         window.withdraw()
 
         global new_ca_info, ca_investigator_selection, ca_risk_selection, ca_description_textbox, ca_notes_textbox, \
@@ -237,7 +235,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow admin accounts to view existing CA log
     def ca_log_viewer(self):
-        self.__init__()
 
         lims_ca_log_file = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS Quality Assurance\LIMS Corrective Action Request Log.xlsx'
         os.startfile(lims_ca_log_file)
@@ -247,7 +244,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
     # Function created to examine existing CA log. If no CA exists in log, the first CA unique identifier will be
     # generated. If an CA exists in the log, it will loop until a new CA identifier is generated.
     def ca_identifier_checker(self):
-        self.__init__()
 
         try:
             ca_database = open(
@@ -310,7 +306,6 @@ moment and try again.")
     # -----------------------------------------------------------------------##
 
     def ca_submission_request(self):
-        self.__init__()
 
         LIMSVarConfig.ca_investigator = ca_investigator_selection.get()
         LIMSVarConfig.ca_severity = ca_risk_selection.get()
@@ -364,7 +359,6 @@ and make sure everything has been sufficiently filled out.")
     # -----------------------------------------------------------------------#
 
     def ca_submission_confirmation(self, window):
-        self.__init__()
 
         from LIMSHomeWindow import AppCommonCommands
         acc = AppCommonCommands()

@@ -27,7 +27,6 @@ class AppComplaints:
 
     # This command is designed to allow the user to log complaints in relation to work performed in the laboratory
     def complaints(self, window):
-        self.__init__()
         window.withdraw()
 
         global comp_option_sel, complaint_option_selection
@@ -110,7 +109,6 @@ list", relief=SOLID, bd=1, labelanchor="n")
     # ----------------------------------------------------------------------------- #
 
     def new_complaint(self, window):
-        self.__init__()
         window.withdraw()
 
         global new_complaint_info, complaint_location_selection, complaint_severity_selection, \
@@ -248,7 +246,6 @@ against the complaint being submitted", relief=SOLID, bd=1, labelanchor="n")
 
     # Function created to allow admin accounts to view existing complaints log
     def complaint_log_viewer(self):
-        self.__init__()
 
         lims_complaint_log_file = r'\\BDC5\Dwyer Engineering LIMS\Required Files\LIMS Quality Assurance\LIMS Complaints Log.xlsx'
         os.startfile(lims_complaint_log_file)
@@ -259,7 +256,6 @@ against the complaint being submitted", relief=SOLID, bd=1, labelanchor="n")
     # unique identifier will be generated. If a Complaint exists in the log, it will loop until a new
     # Complaint identifier is generated.
     def complaint_identifier_checker(self):
-        self.__init__()
 
         try:
             complaints_database = open(
@@ -323,7 +319,6 @@ moment and try again.")
     # -----------------------------------------------------------------------##
 
     def complaint_submission_request(self):
-        self.__init__()
 
         LIMSVarConfig.comp_location = complaint_location_selection.get()
         LIMSVarConfig.comp_severity = complaint_severity_selection.get()
@@ -380,7 +375,6 @@ and make sure everything has been sufficiently filled out.")
     # -----------------------------------------------------------------------#
 
     def complaint_submission_confirmation(self, window):
-        self.__init__()
 
         from LIMSHomeWindow import AppCommonCommands
         acc = AppCommonCommands()

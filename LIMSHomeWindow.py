@@ -169,7 +169,6 @@ class AppHomeWindow:
 
     # Function to provide user information about Dwyer LIMS Software
     def about_lims(self):
-        self.__init__()
 
         tm.showinfo("About LIMS", "Dwyer Instruments, Inc., LIMS (short for Laboratory Information Management System) \
 (v. 1.0.2.0) is a graphical user interface (GUI) that allows personnel in the Engineering Laboratory to perform work, \
@@ -181,7 +180,6 @@ ISO 17025:2017.")
 
     # Function to initiate Calculators and Converters Window
     def calc_and_conv(self, window):
-        self.__init__()
 
         from LIMSCCT import AppCCT
         new_window = AppCCT()
@@ -191,7 +189,6 @@ ISO 17025:2017.")
 
     # Function to initiate EMU and TUR Uncertainty Analysis Window
     def emu_and_tur(self, window):
-        self.__init__()
 
         from LIMSUnc import AppUncertainty
         new_window = AppUncertainty()
@@ -201,7 +198,6 @@ ISO 17025:2017.")
 
     # Function to initiate EMU and TUR Uncertainty Analysis Window
     def spis_and_ops(self, widget):
-        self.__init__()
         widget.config(cursor="watch")
 
         from LIMSSPIsOPs import AppProcedures
@@ -214,7 +210,6 @@ ISO 17025:2017.")
 
     # Function to initiate Environmental Conditions Monitor Window
     def environmental_monitor(self, window):
-        self.__init__()
 
         from LIMSEnvirCond import AppEnvironmentalConditions
         new_window = AppEnvironmentalConditions()
@@ -224,7 +219,6 @@ ISO 17025:2017.")
 
     # Function to initiate Data Acquisition Process Window
     def data_acquisition_module(self, window):
-        self.__init__()
         from LIMSDA import AppDataAcquisition
         new_window = AppDataAcquisition()
         new_window.data_acquisition_parameters(window)
@@ -233,7 +227,6 @@ ISO 17025:2017.")
 
     # Function to initiate Equipment Calibration Process Window
     def certificate_of_calibration(self, window):
-        self.__init__()
 
         btn_coccreation.config(cursor="watch")
         from LIMSCertCreation import AppCalibrationModule
@@ -245,7 +238,6 @@ ISO 17025:2017.")
 
     # Function to initiate Calibration Equipment Database Window
     def calibration_equipment_database(self):
-        self.__init__()
 
         from LIMSRefStd import AppReferenceStandardDatabase
         new_window = AppReferenceStandardDatabase()
@@ -255,7 +247,6 @@ ISO 17025:2017.")
 
     # Function to initiate Certificate of Calibration Database Window
     def calibration_certificate_database(self):
-        self.__init__()
 
         from LIMSCertDBase import AppCertificateDatabase
         new_window = AppCertificateDatabase()
@@ -265,7 +256,6 @@ ISO 17025:2017.")
 
     # Function to initiate RMA Database Window
     def returns_database(self):
-        self.__init__()
 
         from LIMSRMADBase import AppRMADatabase
         new_window = AppRMADatabase()
@@ -275,7 +265,6 @@ ISO 17025:2017.")
 
     # Function to initiate Complaints Window
     def calibration_certificate_amendment(self, window):
-        self.__init__()
 
         from LIMSCertAmend import AppCertificateAmendment
         new_window = AppCertificateAmendment()
@@ -285,7 +274,6 @@ ISO 17025:2017.")
 
     # Function to initiate Complaints Window
     def complaints_documentation(self, window):
-        self.__init__()
 
         from LIMSComplaints import AppComplaints
         new_window = AppComplaints()
@@ -295,7 +283,6 @@ ISO 17025:2017.")
 
     # Function to initiate NonConformance Window
     def corrective_action_documentation(self, window):
-        self.__init__()
 
         from LIMSCA import AppCorrectiveActions
         new_window = AppCorrectiveActions()
@@ -305,7 +292,6 @@ ISO 17025:2017.")
 
     # Function to initiate NonConformance Window
     def nonconformance_documentation(self, window):
-        self.__init__()
 
         from LIMSNC import AppNonConformance
         new_window = AppNonConformance()
@@ -315,7 +301,6 @@ ISO 17025:2017.")
 
     # Function to initiate Opportunity for Improvement Window
     def opp_for_improvement(self, window):
-        self.__init__()
 
         from LIMSOFI import AppOpportunityForImprovement
         new_window = AppOpportunityForImprovement()
@@ -325,7 +310,6 @@ ISO 17025:2017.")
 
     # Function to close the home window. Designed for use in other modules
     def home_window_hide(self):
-        self.__init__()
 
         cmd = AppCommonCommands()
         cmd.hide_window(Home)
@@ -345,16 +329,13 @@ class AppCommonCommands:
     # ==============COMMON COMMANDS  & METHODS USED THROUGHOUT PROGRAM================#
 
     def always_active_style(self, widget):
-        self.__init__()
         widget.config(state="active")
         widget.bind("<Leave>", lambda e: "break")
 
     def all_caps(self, var):
-        self.__init__()
         var.set(var.get().upper())
 
     def obtain_date(self):
-        self.__init__()
 
         from datetime import date
 
@@ -363,7 +344,6 @@ class AppCommonCommands:
 
     def send_email(self, from_addr, to_addr_list, cc_addr_list, subject, message, login, password,
                    smtpserver):
-        self.__init__()
 
         header = 'From: %s\n' % from_addr
         header += 'To: %s\n' % ','.join(to_addr_list)
@@ -379,21 +359,17 @@ class AppCommonCommands:
         return problems
 
     def destroy_window(self, window):
-        self.__init__()
         window.destroy()
 
     def return_home(self, window):
-        self.__init__()
         window.destroy()
         Home.deiconify()
         Home.focus_force()
 
     def hide_window(self, window):
-        self.__init__()
         window.withdraw()
 
     def on_exit(self, window):
-        self.__init__()
         if tm.askyesno("Close Program?", "Do you want to quit the application?") is True:
             window.destroy()
             sys.exit(0)
@@ -401,12 +377,10 @@ class AppCommonCommands:
             pass
 
     def software_close(self, window):
-        self.__init__()
         window.destroy()
         sys.exit(0)
 
     def software_signout(self, window):
-        self.__init__()
         window.destroy()
 
         from Dwyer_Engineering_LIMS import LoginWindowRestoration

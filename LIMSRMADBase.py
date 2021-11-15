@@ -153,7 +153,6 @@ class AppRMADatabase:
 
     # Opens RMA Summary Sheet of Year Entered
     def rma_summary_sheet_year_search(self):
-        self.__init__()
 
         if rma_summary_sheet_year.get().isdigit() is True and len(rma_summary_sheet_year.get()) == 4:
             f = glob.glob(os.path.join(r"\\BDC5\RMA Database\\" + rma_summary_sheet_year.get()+"\\",
@@ -173,7 +172,6 @@ does not contain letters.")
 
     # Opens RMA Evaluation File Folder Input By User
     def rma_year_and_rma_number_search(self):
-        self.__init__()
 
         if rma_evaluation_year.get() != "" and rma_evaluation_year.get().isdigit() is True and \
                 len(rma_evaluation_year.get()) == 4 and rma_number.get() != "" and rma_number.get().isdigit() is True:
@@ -201,6 +199,5 @@ does not contain letters.")
  
     # Connect to Service Management
     def service_management_connection(self):
-        self.__init__()
 
         sub.Popen(r'"C:\\Program Files\\Internet Explorer\\iexplore.exe"http://ibmsoftsol/sc/login.asp?DomainId=DWYER')
