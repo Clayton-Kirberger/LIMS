@@ -11,13 +11,13 @@ Copyright(c) 2018, Robert Adam Maldonado.
 import csv
 import os
 import os.path
-import tkFileDialog
 
 import LIMSVarConfig
 import win32com.client
 from tkinter import *
 from tkinter import messagebox as tm
 from tkinter import ttk
+from tkinter import filedialog
 
 
 class AppDataImportModule:
@@ -214,84 +214,84 @@ class AppDataImportModule:
         if dwtester_data_set_selection.get() == "As Found / As Left" and \
                 dwtester_mode_selection.get() == "Pos., Neg. or Abs.":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your 'As Found'/'As Left' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Found / As Left" and \
                 dwtester_mode_selection.get() == "Bi-Directional":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select the Negative 'As Found'/'As Left' \
 Fluke 2465/8A Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_2 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_2 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select the Positive 'As Found'/'As Left' \
 Fluke 2465/8A Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Found & As Left" and \
                 dwtester_mode_selection.get() == "Pos., Neg. or Abs.":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your 'As Found' Fluke 2465/8A Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_2 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_2 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select Your 'As Left' Fluke 2465/8A Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Found & As Left" and \
                 dwtester_mode_selection.get() == "Bi-Directional":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your Negative 'As Found' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_2 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_2 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select Your Positive 'As Found' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_3 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_3 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select Your Negative 'As Left' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_4 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_4 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select Your Positive 'As Left' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Found Only" and \
                 dwtester_mode_selection.get() == "Pos., Neg. or Abs.":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your 'As Found' Fluke 2465/8A Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Found Only" and \
                 dwtester_mode_selection.get() == "Bi-Directional":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your Negative 'As Found' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_2 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_2 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select Your Positive 'As Found' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Left Only" and \
                 dwtester_mode_selection.get() == "Pos., Neg. or Abs.":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your 'As Left' Fluke 2465/8A Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif dwtester_data_set_selection.get() == "As Left Only" and \
                 dwtester_mode_selection.get() == "Bi-Directional":
 
-            fluke_2465_8a_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search = filedialog.askopenfilename(initialdir="/",
                                                                 title="Select Your Negative 'As Left' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_2465_8a_search_2 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_2465_8a_search_2 = filedialog.askopenfilename(initialdir="/",
                                                                   title="Select Your Positive 'As Left' Fluke 2465/8A \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
@@ -521,29 +521,29 @@ process, click the 'No' button.")
 
         if data_set_selection.get() == "As Found / As Left":
 
-            fluke_molbox_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_molbox_search = filedialog.askopenfilename(initialdir="/",
                                                                title="Select Your 'As Found'/'As Left' Fluke Molbox \
 Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif data_set_selection.get() == "As Found & As Left":
 
-            fluke_molbox_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_molbox_search = filedialog.askopenfilename(initialdir="/",
                                                                title="Select Your 'As Found' Fluke Molbox Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
-            fluke_molbox_search_2 = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_molbox_search_2 = filedialog.askopenfilename(initialdir="/",
                                                                title="Select Your 'As Left' Fluke Molbox Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif data_set_selection.get() == "As Found Only":
 
-            fluke_molbox_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_molbox_search = filedialog.askopenfilename(initialdir="/",
                                                                title="Select Your 'As Found' Fluke Molbox Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
         elif data_set_selection.get() == "As Left Only":
 
-            fluke_molbox_search = tkFileDialog.askopenfilename(initialdir="/",
+            fluke_molbox_search = filedialog.askopenfilename(initialdir="/",
                                                                title="Select Your 'As Left' Fluke Molbox Data \
 File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
 
@@ -670,7 +670,7 @@ process, click the 'No' button.")
     def sonic_nozzle_data_import(self):
 
 
-        sonic_nozzle_search = tkFileDialog.askopenfilename(initialdir="/",
+        sonic_nozzle_search = filedialog.askopenfilename(initialdir="/",
                                                            title="Select Sonic Nozzle Data File",
                                                            filetypes=(("excel files", "*.xls"), ("all files", "*.*")))
 

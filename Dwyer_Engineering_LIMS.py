@@ -178,7 +178,6 @@ class LoginWindow(Frame):
     # Closes Calibration Program
     def lims_exit(self):
         self.parent.destroy()
-        sys.exit(0)
 
     # --------------------------------------------------------------------------------#
 
