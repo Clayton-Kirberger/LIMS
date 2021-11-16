@@ -157,7 +157,7 @@ class AppCertificateDatabase:
 
         certificate_year = certificate_year_val.get()
         if certificate_year.isdigit() and len(certificate_year) == 4:
-            sub.Popen(r'explorer /open, "\\BDC5\certdbase\"' + certificate_year_val.get() + "")
+            sub.Popen(r'explorer /open, "\\\\BDC5\certdbase\"' + certificate_year_val.get() + "")
         else:
             tm.showerror("Invalid Entry", "Please provide a valid year of calibration for desired directory.")
 
@@ -167,7 +167,7 @@ class AppCertificateDatabase:
     def certificate_year_log_search(self):
 
         if certificate_year_log_val.get().isdigit() and len(certificate_year_log_val.get()) == 4:
-            f = glob.glob(os.path.join(r"\\BDC5\certdbase\\" + certificate_year_log_val.get() + "\\",
+            f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\\" + certificate_year_log_val.get() + "\\",
                                        certificate_year_log_val.get() + " Certificates of calibration.*"))[0]
             os.startfile(f)
         else:
@@ -180,161 +180,161 @@ class AppCertificateDatabase:
 
         if "22DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2022\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2022\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "21DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2021\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2021\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "20DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2020\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2020\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "19DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2019\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2019\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "18DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2018\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2018\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "17DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2017\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2017\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "16DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2016\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2016\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "15DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2015\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2015\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "14DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2014\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2014\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "13DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2013\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2013\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "12DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2012\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2012\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "11DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2011\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2011\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "10DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2010\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2010\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "09DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2009\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2009\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "08DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2008\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2008\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "07DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2007\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2007\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "06DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2006\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2006\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "05DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2005\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2005\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "04DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2004\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2004\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "03DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2003\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2003\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "02DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2002\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2002\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "01DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2001\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2001\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
 
         elif "00DWY00" in certificate_number_val.get():
             try:
-                f = glob.glob(os.path.join(r"\\BDC5\certdbase\2000\\", certificate_number_val.get() + ".*"))[0]
+                f = glob.glob(os.path.join(r"\\\\BDC5\certdbase\2000\\", certificate_number_val.get() + ".*"))[0]
                 os.startfile(f)
             except IndexError:
                 self.invalid_entry_message()
@@ -356,7 +356,7 @@ calibration performed and documented in Michigan City, IN.")
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         year = datetime.today().year
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
+        wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
 
@@ -381,7 +381,7 @@ calibration performed and documented in Michigan City, IN.")
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         year = datetime.today().year
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
+        wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         # Initialize Location of Serial Number String and Serial Number Values
@@ -451,7 +451,7 @@ calibration performed and documented in Michigan City, IN.")
 
         excel = win32com.client.Dispatch("Excel.Application")
         year = datetime.today().year
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
+        wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
         print('Cert Database opened')
 
@@ -471,9 +471,9 @@ calibration performed and documented in Michigan City, IN.")
     # Command to Search for Exisiting Certificates and Serial Numbers
     def certificate_serial_number_checker(self):
 
-        excel = win32com.client.dynamic.Dispatch("Excel.Application")
+        excel = win32com.client.Dispatch("Excel.Application")
         year = datetime.today().year
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
+        wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         for i in range(1, 3000):
@@ -496,7 +496,7 @@ calibration performed and documented in Michigan City, IN.")
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         year = datetime.today().year
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
+        wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
@@ -526,7 +526,7 @@ calibration performed and documented in Michigan City, IN.")
 
         excel = win32com.client.dynamic.Dispatch("Excel.Application")
         year = datetime.today().year
-        wkbook = excel.Workbooks.Open('G:\\My Drive\\LIMS\\TrackedFiles\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
+        wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
         i = 1
