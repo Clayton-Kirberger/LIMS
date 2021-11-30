@@ -215,7 +215,7 @@ calibration work for.")
         LIMSVarConfig.as400_password_helper = as400_pass_val.get()
         LIMSVarConfig.as400_sales_order_helper = sales_order_val.get()
 
-        if os.path.isfile(r"\\\\\\BDC5\\Dwyer Engineering LIMS\Sales Order Text Files\\" + sales_order_val.get() + ".txt") \
+        if os.path.isfile("Sales Order Text Files\\" + sales_order_val.get() + ".txt") \
                 is True:
             tm.showinfo("Customer Sales Order Information Search", "This sales order and its information has already \
 been exported to a text file. Please continue to the next step.")
