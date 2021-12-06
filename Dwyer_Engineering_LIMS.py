@@ -60,7 +60,7 @@ class LoginWindow(Frame):
         lbl_logo.pack(fill=BOTH, pady=5)
 
         # Software version - Major.Minor.Maintenance.Build
-        lbl_software_version = ttk.Label(form, text="Version 1.0.2.0", font=('serif', '10'))
+        lbl_software_version = ttk.Label(form, text="Version 2.0", font=('serif', '10'))
         lbl_software_version.grid(row=0, columnspan=2, pady=8)
 
         lbl_username = ttk.Label(form, text="Username:", font=('serif', '10'))

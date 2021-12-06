@@ -208,7 +208,7 @@ class AppAS400ExecutableHelper:
         time.sleep(3)
         pyautogui.hotkey("Alt", "d")
         time.sleep(3)
-        pyautogui.typewrite("\\\BDC5\Dwyer Engineering LIMS\Sales Order Text Files")
+        pyautogui.typewrite("\\\\BDC5\Dwyer Engineering LIMS\Sales Order Text Files")
         pyautogui.hotkey("Enter")
         time.sleep(3)
         pyautogui.hotkey("Alt", "s")

@@ -11,7 +11,7 @@ if sys.platform == "win32":
     base = "Win32GUI"
 
 setup(
-    name = "Dwyer Engineering LIMS",
+    name = "Dwyer Engineering LIMS-32bit",
     version = "2.0",
     description = "Dwyer Engineering LIMS",
     options = {"build_exe": build_exe_options},

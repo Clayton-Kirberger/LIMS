@@ -499,23 +499,20 @@ calibration performed and documented in Michigan City, IN.")
         wkbook = excel.Workbooks.Open('\\\\BDC5\\certdbase\\%s\\%s Certificates of calibration.xls' %(year, year))
         sheet = wkbook.Sheets("Certifications")
 
-        i = 1
-        cell = sheet.Cells(i, 1)
-        for i in range(1, 3000):
+
+        for row in range(1, 3000):
+            cell = sheet.Cells(row, 1)
             if cell.Value == LIMSVarConfig.certificate_of_calibration_number:
-                x = i
-                sheet.Cells(x, 2).Value = LIMSVarConfig.device_identification_number_helper
-                sheet.Cells(x, 3).Value = LIMSVarConfig.device_date_code_helper
-                sheet.Cells(x, 4).Value = LIMSVarConfig.device_model_number_helper
-                sheet.Cells(x, 8).Value = LIMSVarConfig.device_date_received_helper
-                sheet.Cells(x, 9).Value = LIMSVarConfig.calibration_date_helper
-                sheet.Cells(x, 10).Value = LIMSVarConfig.certificate_technician_name
-                sheet.Cells(x, 11).Value = LIMSVarConfig.calibration_time_helper
-                sheet.Cells(x, 12).Value = ""
+                sheet.Cells(row, 2).Value = LIMSVarConfig.device_identification_number_helper
+                sheet.Cells(row, 3).Value = LIMSVarConfig.device_date_code_helper
+                sheet.Cells(row, 4).Value = LIMSVarConfig.device_model_number_helper
+                sheet.Cells(row, 8).Value = LIMSVarConfig.device_date_received_helper
+                sheet.Cells(row, 9).Value = LIMSVarConfig.calibration_date_helper
+                sheet.Cells(row, 10).Value = LIMSVarConfig.certificate_technician_name
+                sheet.Cells(row, 11).Value = LIMSVarConfig.calibration_time_helper
+                sheet.Cells(row, 12).Value = ""
                 break
-            else:
-                i += 1
-                cell = sheet.Cells(i, 1)
+
             
         wkbook.Close(True)
 
