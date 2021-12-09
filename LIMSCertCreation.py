@@ -2399,7 +2399,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_1.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+                    
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2409,11 +2409,11 @@ entry box. Please provide a valid asset number for the calibration equipment use
             standard_serial_number.config(text=LIMSVarConfig.calibration_standard_serial_number)
             standard_calibration_date.config(text=LIMSVarConfig.calibration_standard_equipment_calibration_date)
 
-            now = datetime.datetime.now()
+            now = datetime.now()
             todays_date = now.strftime("%m-%d-%Y").replace("-", "/")
             due_date_1 = LIMSVarConfig.calibration_standard_equipment_due_date
 
-            if datetime.datetime.strptime(due_date_1, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_1, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date.config(text=LIMSVarConfig.calibration_standard_equipment_due_date)
                 standard_calibration_due_date.config(background="systemMenu")
             else:
@@ -2433,7 +2433,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_2.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_2 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_2 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2445,7 +2445,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_2 = LIMSVarConfig.calibration_standard_equipment_due_date_2
 
-            if datetime.datetime.strptime(due_date_2, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_2, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_2.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_2)
                 standard_calibration_due_date_2.config(background="systemMenu")
             else:
@@ -2465,7 +2465,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_3.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_3 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_3 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2477,7 +2477,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_3 = LIMSVarConfig.calibration_standard_equipment_due_date_3
 
-            if datetime.datetime.strptime(due_date_3, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_3, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_3.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_3)
                 standard_calibration_due_date_3.config(background="systemMenu")
             else:
@@ -2497,7 +2497,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_4.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_4 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_4 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2509,7 +2509,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_4 = LIMSVarConfig.calibration_standard_equipment_due_date_4
 
-            if datetime.datetime.strptime(due_date_4, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_4, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_4.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_4)
                 standard_calibration_due_date_4.config(background="systemMenu")
             else:
@@ -2529,7 +2529,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_5.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_5 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_5 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2541,7 +2541,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_5 = LIMSVarConfig.calibration_standard_equipment_due_date_5
 
-            if datetime.datetime.strptime(due_date_5, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_5, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_5.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_5)
                 standard_calibration_due_date_5.config(background="systemMenu")
             else:
@@ -2561,7 +2561,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_6.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_6 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_6 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2573,7 +2573,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_6 = LIMSVarConfig.calibration_standard_equipment_due_date_6
 
-            if datetime.datetime.strptime(due_date_6, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_6, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_6.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_6)
                 standard_calibration_due_date_6.config(background="systemMenu")
             else:
@@ -2593,7 +2593,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_7.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_7 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_7 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2605,7 +2605,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_7 = LIMSVarConfig.calibration_standard_equipment_due_date_7
 
-            if datetime.datetime.strptime(due_date_7, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_7, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_7.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_7)
                 standard_calibration_due_date_7.config(background="systemMenu")
             else:
@@ -2625,7 +2625,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_8.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    i += 1
+
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_8 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_8 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2637,7 +2637,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
 
             due_date_8 = LIMSVarConfig.calibration_standard_equipment_due_date_8
 
-            if datetime.datetime.strptime(due_date_8, '%m/%d/%Y') > datetime.datetime.strptime(todays_date, '%m/%d/%Y'):
+            if datetime.strptime(due_date_8, '%m/%d/%Y') > datetime.strptime(todays_date, '%m/%d/%Y'):
                 standard_calibration_due_date_8.config(text=LIMSVarConfig.calibration_standard_equipment_due_date_8)
                 standard_calibration_due_date_8.config(background="systemMenu")
             else:
