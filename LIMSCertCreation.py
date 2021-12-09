@@ -2399,7 +2399,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_1.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-                    
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2433,7 +2433,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_2.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_2 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_2 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2465,7 +2465,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_3.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_3 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_3 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2497,7 +2497,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_4.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_4 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_4 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2529,7 +2529,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_5.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_5 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_5 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2561,7 +2561,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_6.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_6 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_6 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2593,7 +2593,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_7.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_7 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_7 = LIMSVarConfig.cal_equip_serial_no[i]
@@ -2625,7 +2625,7 @@ entry box. Please provide a valid asset number for the calibration equipment use
         else:
             for i in range(0, len(LIMSVarConfig.cal_equip_item_no)):
                 if calibration_standard_8.get() != LIMSVarConfig.cal_equip_asset_no[i]:
-
+                    pass
                 else:
                     LIMSVarConfig.calibration_standard_equipment_description_8 = LIMSVarConfig.cal_equip_descrip[i]
                     LIMSVarConfig.calibration_standard_serial_number_8 = LIMSVarConfig.cal_equip_serial_no[i]
