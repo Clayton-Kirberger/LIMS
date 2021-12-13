@@ -2725,7 +2725,7 @@ asset number entry field provided.')
         # ......................Full Scale Calculation............................#
 
         if device_under_test_output_type is not None:
-            if device_under_test_minimum < 0 or device_under_test_minimum == 0:
+            if float(device_under_test_minimum) < 0 or float(device_under_test_minimum) == 0:
                 device_under_test_full_scale_calculated = (abs(float(device_under_test_minimum)) +
                                                            float(device_under_test_maximum))
             else:
