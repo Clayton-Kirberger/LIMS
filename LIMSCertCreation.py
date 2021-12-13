@@ -2734,7 +2734,7 @@ asset number entry field provided.')
                                                                  float(device_under_test_minimum))
 
         if device_under_test_output_type == "Dual" or device_under_test_output_type == "Transmitter":
-            if second_device_under_test_minimum <= 0:
+            if float(second_device_under_test_minimum) <= 0:
                 second_device_under_test_full_scale_calculated = (abs(float(second_device_under_test_minimum)) +
                                                                   float(second_device_under_test_maximum))
             else:
