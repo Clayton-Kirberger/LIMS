@@ -302,7 +302,7 @@ Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
         if (dwtester_data_set_selection.get() != "" or dwtester_data_set_selection.get() != " ") and \
                 (dwtester_mode_selection.get() != "" or dwtester_mode_selection.get() != " "):
 
-            with open(fluke_2465_8a_search.strip('.dat') + '.csv', 'wb') as f_2465_output_file:
+            with open(fluke_2465_8a_search.strip('.dat') + '.csv', 'w') as f_2465_output_file:
                 with open(fluke_2465_8a_search) as f_2465_file:
                     lines = f_2465_file.readlines()
                     newlines = []
@@ -354,7 +354,7 @@ Data File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
                     (dwtester_data_set_selection.get() == "As Left" and
                      dwtester_mode_selection.get() == "Bi-Directional"):
 
-                with open(fluke_2465_8a_search_2.strip('.dat') + '.csv', 'wb') as f_2465_output_file_2:
+                with open(fluke_2465_8a_search_2.strip('.dat') + '.csv', 'w') as f_2465_output_file_2:
                     with open(fluke_2465_8a_search_2) as f_2465_file_2:
                         lines_2 = f_2465_file_2.readlines()
                         newlines_2 = []
@@ -554,7 +554,7 @@ File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
         if data_set_selection.get() == "As Found / As Left" or data_set_selection.get() == "As Found Only" or \
                 data_set_selection.get() == "As Found & As Left" or data_set_selection.get() == "As Left Only":
 
-            with open(fluke_molbox_search.strip('.dat') + '.csv', 'wb') as f_m_output_file:
+            with open(fluke_molbox_search.strip('.dat') + '.csv', 'w') as f_m_output_file:
                 with open(fluke_molbox_search) as f_m_file:
                     lines = f_m_file.readlines()
                     newlines = []
@@ -571,7 +571,7 @@ File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
             sheet = work_book.Sheets(asfound_asleft_file)
 
             # Extract Data Collected from Fluke Molbox System
-            for i in range(43, 63):
+            for i in range(85, 115, 2):
                 if sheet.Cells(i, 11).Value is not None:
                     LIMSVarConfig.imported_ref_reading = sheet.Cells(i, 11).Value  # Reference Readings
                     LIMSVarConfig.imported_dut_reading = sheet.Cells(i, 12).Value  # Device Under Test Readings
@@ -581,7 +581,6 @@ File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
                     LIMSVarConfig.imported_total_error_band_list.append(LIMSVarConfig.imported_tolerance_reading)
                     LIMSVarConfig.imported_measured_difference_list.append(LIMSVarConfig.imported_dut_reading -
                                                                            LIMSVarConfig.imported_ref_reading)
-                    i += 1
                 else:
                     break
 
@@ -598,7 +597,7 @@ File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
             work_book.Close(True)
 
             if data_set_selection.get() == "As Found & As Left":
-                with open(fluke_molbox_search_2.strip('.dat') + '.csv', 'wb') as f_m_output_file_2:
+                with open(fluke_molbox_search_2.strip('.dat') + '.csv', 'w') as f_m_output_file_2:
                     with open(fluke_molbox_search_2) as f_m_file_2:
                         lines_2 = f_m_file_2.readlines()
                         newlines_2 = []
@@ -615,7 +614,7 @@ File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
                 sheet = work_book.Sheets(asfound_asleft_file_2)
 
                 # Extract Data Collected from Fluke Molbox System
-                for i in range(43, 63):
+                for i in range(85, 115, 2):
                     if sheet.Cells(i, 11).Value is not None:
                         LIMSVarConfig.second_imported_ref_reading = sheet.Cells(i, 11).Value  # Reference Readings
                         LIMSVarConfig.second_imported_dut_reading = sheet.Cells(i, 12).Value  # Device Under Test Readings
@@ -625,7 +624,6 @@ File", filetypes=(("data files", "*.dat"), ("all files", "*.*")))
                         LIMSVarConfig.second_imported_total_error_band_list.append(LIMSVarConfig.second_imported_tolerance_reading)
                         LIMSVarConfig.second_imported_measured_difference_list.append(LIMSVarConfig.second_imported_dut_reading -
                                                                                LIMSVarConfig.second_imported_ref_reading)
-                        i += 1
                     else:
                         break
 
