@@ -2967,7 +2967,7 @@ asset number entry field provided.')
             second_total_error_band_list = []
 
         if device_under_test_output_type == "Transmitter":
-            if device_under_test_minimum <= 0:
+            if float(device_under_test_minimum) <= 0:
                 target_supply_span = abs(float(device_under_test_minimum)) + float(device_under_test_maximum)
             else:
                 target_supply_span = float(device_under_test_maximum) - float(device_under_test_minimum)
